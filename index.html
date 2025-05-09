@@ -16,9 +16,11 @@
     <link rel="shortcut icon" href="./img/common/favicon.png" />
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>리앤델클리닉</title>
   </head>
   <body>
@@ -121,89 +123,32 @@
 
       <!-- ST: container -->
       <div class="container">
-        <div class="main-wrapper">
-          <div class="main-video">
-            <video autoplay muted loop>
-              <source src="https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/videos/cv6TZ1gsUasKkRW13VLSY7xdVITNLRInzStWdguw.mp4" type="video/mp4" />
-            </video>
-          </div>
+        <div class="main-video">
+          <video autoplay muted loop>
+            <source src="https://d2v80xjmx68n4w.cloudfront.net/members/portfolios/videos/cv6TZ1gsUasKkRW13VLSY7xdVITNLRInzStWdguw.mp4" type="video/mp4" />
+          </video>
+        </div>
 
-          <!-- <div class="main-customer">
-            <div class="inner">
-              <div class="left">
-                <dl>
-                  <dt>TEL</dt>
-                  <dd>02.518.8298</dd>
-                </dl>
-                <dl>
-                  <dt>KAKAOTALK</dt>
-                  <dd>@리앤델의원 <span>(클릭하시면 연결됩니다.)</span></dd>
-                </dl>
-                <dl>
-                  <dt>ADDRESS</dt>
-                  <dd>서울 강남구 선릉로 820, 남한강빌딩 B1층</dd>
-                </dl>
-
-                <div id="daumRoughmapContainer1746790754034" class="root_daum_roughmap root_daum_roughmap_landing map"></div>
-                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-                <script charset="UTF-8">
-                  new daum.roughmap.Lander({
-                    timestamp: "1746790754034",
-                    key: "2nxyy",
-                  }).render();
-                </script>
-              </div>
-              <div class="right">
-                <dl>
-                  <dt>QUICK CONSULTATION</dt>
-                  <dd>
-                    <form>
-                      <div class="form-list">
-                        <div class="flex">
-                          <input type="text" placeholder="이름" required />
-                          <input type="text" placeholder="연락처" required />
-                        </div>
-                        <div class="flex">
-                          <input type="text" placeholder="내용" required />
-                        </div>
-                        <div class="checkbox"><input type="checkbox" id="privacy" required />&nbsp;<label for="privacy">개인정보수집 사용에 동의합니다.</label></div>
-                      </div>
-                      <button type="submit">신청하기</button>
-                    </form>
-                  </dd>
-                </dl>
-                <dl>
-                  <dt>CLINIC HOURS</dt>
-                  <dd class="hours">
-                    <div><span>월&nbsp;&nbsp;,&nbsp;&nbsp;화&nbsp;&nbsp;,&nbsp;&nbsp;수&nbsp;</span><strong>AM 10:00 ~ PM 7:00 </strong></div>
-                    <div><span>금&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;요&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</span><strong>AM 10:00 ~ PM8:30</strong></div>
-                    <div><span>토&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;요&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</span><strong>AM 10:00 ~ PM4:00</strong></div>
-                    <div><span>점&nbsp;&nbsp;심&nbsp;&nbsp;시&nbsp;&nbsp;간</span><strong>PM 01:30 ~ PM2:30</strong></div>
-                  </dd>
-                </dl>
-              </div>
-            </div>
-          </div> -->
-
+        <div class="inner">
           <div class="main-visual">
-            <h2 class="font-minion-pro">Timeless Elegance,<br />Redefined</h2>
+            <h2 class="font-minion-pro font-weight-bold" data-aos="fade-up">Timeless Elegance,<br />Redefined</h2>
           </div>
 
-          <div class="main-section jupiter-info">
+          <div class="jupiter-info">
             <div class="img">
               <!-- <img src="" alt="" /> -->
             </div>
             <div class="txt">
-              <h4 class="font-minion-pro">Jupiter<br />Skin Fusion X</h4>
+              <h4 class="font-minion-pro font-weight-bold" data-aos="fade-down">Jupiter<br />Skin Fusion X</h4>
               <p>
-                X는 크로스, 융합을 의미합니다.<br /><strong>‘Skin Fusion X <span>시술</span>’</strong>은 단일 시술의 한계를 뛰어넘기 위해 만들어졌습니다.<br />안전하고 효과적인 성분과 시술들이
-                합쳐져<br />나만의 시너지 효과를 만들어 낼 수 있도록 만들어진 시술 방법입니다.<br />청담동 주피터가 직접 설계한 피부 X 공식으로 복합적인 시술을 받아보세요.
+                X는 크로스, 융합을 의미합니다.<br /><strong class="font-poppins font-weight-bold">‘Skin Fusion X <span>시술</span>’</strong>은 단일 시술의 한계를 뛰어넘기 위해 만들어졌습니다.<br />안전하고
+                효과적인 성분과 시술들이 합쳐져<br />나만의 시너지 효과를 만들어 낼 수 있도록 만들어진 시술 방법입니다.<br />청담동 주피터가 직접 설계한 피부 X 공식으로 복합적인 시술을 받아보세요.
               </p>
             </div>
           </div>
 
-          <div class="main-section main-swiper jupiter-skin-fusion-swiper">
-            <h4 class="font-minion-pro">Jupiter<br />Skint Fusion X</h4>
+          <div class="main-swiper jupiter-skin-fusion-swiper">
+            <h4 class="font-minion-pro font-weight-bold" data-aos="fade-up">Jupiter<br />Skint Fusion X</h4>
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -247,9 +192,9 @@
             </div>
           </div>
 
-          <div class="main-section main-promotion">
+          <div class="main-promotion">
             <div class="title">
-              <h4 class="font-minion-pro">Re&del Promotion</h4>
+              <h4 class="font-minion-pro font-weight-bold" data-aos="fade-down">Re&del Promotion</h4>
               <p>아름다운 피부를 만드는 리앤델<br />매달, 매일 파격적인 이벤트를 만나보세요.</p>
             </div>
 
@@ -290,8 +235,8 @@
             </ul>
           </div>
 
-          <div class="main-section main-swiper solution-swiper">
-            <h4 class="font-minion-pro">Re&del<br />Solution</h4>
+          <div class="main-swiper solution-swiper">
+            <h4 class="font-minion-pro font-weight-bold" data-aos="fade-up">Re&del<br />Solution</h4>
 
             <div class="info">
               <div class="txt">
@@ -329,6 +274,103 @@
             </div>
           </div>
         </div>
+
+        <div class="main-footer">
+          <div class="inner">
+            <div class="main-customer">
+              <div class="left">
+                <dl>
+                  <dt>TEL</dt>
+                  <dd>02.518.8298</dd>
+                </dl>
+                <dl>
+                  <dt>KAKAOTALK</dt>
+                  <dd>@리앤델의원 <span>(클릭하시면 연결됩니다.)</span></dd>
+                </dl>
+                <dl>
+                  <dt>ADDRESS</dt>
+                  <dd>서울 강남구 선릉로 820, 남한강빌딩 B1층</dd>
+                </dl>
+
+                <div id="daumRoughmapContainer1746790754034" class="root_daum_roughmap root_daum_roughmap_landing map"></div>
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                <script charset="UTF-8">
+                  new daum.roughmap.Lander({
+                    timestamp: "1746790754034",
+                    key: "2nxyy",
+                  }).render();
+                </script>
+              </div>
+
+              <div class="right">
+                <dl class="consultation-wrap">
+                  <dt>QUICK CONSULTATION</dt>
+                  <dd>
+                    <form>
+                      <div class="form-list">
+                        <div class="flex">
+                          <input type="text" placeholder="이름" required />
+                          <input type="text" placeholder="연락처" required />
+                        </div>
+                        <div class="flex">
+                          <input type="text" placeholder="내용" required />
+                        </div>
+                        <div class="checkbox"><input type="checkbox" id="privacy" required />&nbsp;<label for="privacy">개인정보수집 사용에 동의합니다.</label></div>
+                      </div>
+                      <button type="submit">신청하기</button>
+                    </form>
+                  </dd>
+                </dl>
+
+                <dl class="hours-wrap">
+                  <dt>CLINIC HOURS</dt>
+                  <dd>
+                    <ul>
+                      <li>
+                        <div class="day"><span>월</span>,<span>화</span>,<span>수</span></div>
+                        <div class="time"><span>AM</span> <span>10:00</span> ~ <span>PM</span> <span>7:00</span></div>
+                      </li>
+                      <li>
+                        <div class="day"><span>금</span><span>요</span><span>일</span></div>
+                        <div class="time"><span>AM</span> <span>10:00</span> ~ <span>PM</span> <span>8:30</span></div>
+                      </li>
+                      <li>
+                        <div class="day"><span>토</span><span>요</span><span>일</span></div>
+                        <div class="time"><span>AM</span> <span>10:00</span> ~ <span>PM</span> <span>4:00</span></div>
+                      </li>
+                      <li>
+                        <div class="day"><span>점</span><span>심</span><span>시</span><span>간</span></div>
+                        <div class="time"><span>PM</span> <span>01:30</span> ~ <span>PM</span> <span>2:30</span></div>
+                      </li>
+                    </ul>
+                    <p>매주 목요일, 일요일, 공휴일은 휴진입니다.</p>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+
+            <div class="footer">
+              <div class="menu">
+                <a href="">개인정보취급방침</a>
+                <span></span>
+                <a href="">이용약관</a>
+                <span></span>
+                <a href="">비급여수가표</a>
+              </div>
+              <div class="info">
+                <span>상호명 : 리앤델클리닉</span>
+                ·
+                <span>대표자 : 이상준</span>
+                ·
+                <span>사업자등록번호 : 315-06-40416</span>
+                ·
+                <span>대표번호 : 02-518-8278</span>
+                ·
+                <span>예약금 계좌 : 국민은행 602401-04-071155 이상준(리앤델의원)</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- EN: container -->
 
@@ -348,6 +390,10 @@
 
     <script>
       $(document).ready(function () {
+        AOS.init({
+          duration: 1100,
+        });
+
         // 상단 이동
         $(".top-btn").on("click", function () {
           $("html, body").animate({ scrollTop: 0 }, "500");
