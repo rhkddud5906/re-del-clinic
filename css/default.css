@@ -588,7 +588,11 @@ textarea {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+.main-video.active:before {
+  background-color: rgba(33, 40, 60, 0.5);
 }
 
 .main-video video {
@@ -856,7 +860,7 @@ textarea {
   position: absolute;
   inset: 0;
   left: -200px;
-  background-color: rgba(33, 40, 60, 0.6);
+  background-color: rgba(33, 40, 60, 0.95);
 }
 
 .main-footer .footer {

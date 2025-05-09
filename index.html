@@ -394,6 +394,17 @@
           duration: 1100,
         });
 
+        $(window).on("scroll", function () {
+          var scrollTop = $(window).scrollTop(); // 현재 스크롤 위치
+          var elementTop = $(".jupiter-info").offset().top; // 특정 요소의 위쪽 위치
+
+          if (scrollTop + $(window).height() >= elementTop) {
+            $(".main-video").addClass("active");
+          } else {
+            $(".main-video").removeClass("active");
+          }
+        });
+
         // 상단 이동
         $(".top-btn").on("click", function () {
           $("html, body").animate({ scrollTop: 0 }, "500");
