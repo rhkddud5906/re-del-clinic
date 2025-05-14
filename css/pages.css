@@ -1,3 +1,209 @@
+/************** layout **************/
+
+.pages-inner {
+  width: var(--width-layout);
+  margin: 0 auto;
+}
+
+/************** title **************/
+
+.pages-title {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.pages-title h5 {
+  margin-bottom: 26px;
+  font-size: 24px;
+}
+
+.pages-title h3 {
+  font-size: 60px;
+}
+
+.pages-title p {
+  margin-top: 36px;
+}
+
+/************** swiper **************/
+
+.swiper.pages-swiper {
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.pages-swiper .control {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+/* swiper control button */
+.pages-swiper .control-button {
+  display: flex;
+  gap: 10px;
+}
+
+.pages-swiper .control-button div {
+  position: relative;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border: 1px solid var(--color-mediumGray);
+  transition: all 0.3s;
+}
+
+.pages-swiper .control-button div.swiper-button-prev {
+  left: 0;
+}
+
+.pages-swiper .control-button div.swiper-button-next {
+  right: 0;
+}
+
+.pages-swiper .control-button div:hover {
+  background-color: var(--color-mediumGray);
+}
+
+.pages-swiper .control-button div:after {
+  font-size: 13px;
+  color: var(--color-mediumGray);
+}
+
+.pages-swiper .control-button div:hover:after {
+  color: var(--color-white);
+}
+
+/* swiper pagination */
+.pages-swiper .swiper-pagination {
+  position: relative;
+  display: flex;
+  gap: 5px;
+}
+
+.pages-swiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0;
+}
+
+.pages-swiper .swiper-pagination span.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  opacity: 1;
+  background-color: rgba(153, 153, 153, 0.5);
+  transition: all 0.3s;
+}
+
+.pages-swiper .swiper-pagination span.swiper-pagination-bullet-active {
+  width: 20px;
+  background-color: var(--color-mediumGray);
+  border-radius: 5px;
+}
+
+/************** 자주 묻는 질문 **************/
+
+.pages-faq {
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.pages-faq .pages-inner {
+  width: 960px;
+}
+
+.pages-faq .pages-title {
+  color: var(--color-primary);
+}
+
+.pages-faq ul {
+  border-top: 1px solid var(--color-primary);
+}
+
+.pages-faq ul li {
+  border-bottom: 1px solid #ccc;
+}
+
+.pages-faq .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  cursor: pointer;
+}
+
+.pages-faq .question div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.pages-faq .question div strong {
+  padding: 0 40px;
+  font-family: "Poppins";
+}
+.pages-faq .question div span {
+  flex: 1;
+}
+
+.pages-faq .question > span {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 0 40px;
+}
+
+.pages-faq .question > span:before,
+.pages-faq .question > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-black);
+}
+
+.pages-faq .question > span:before {
+  width: 100%;
+  height: 2px;
+}
+
+.pages-faq .question > span:after {
+  width: 2px;
+  height: 100%;
+}
+
+.pages-faq ul li.active .question > span:after {
+  opacity: 0;
+}
+
+.pages-faq .answer {
+  display: none;
+
+  background-color: var(--color-white);
+  padding: 17px 0;
+}
+.pages-faq .answer div {
+  display: flex;
+  align-items: baseline;
+}
+
+.pages-faq .answer div strong {
+  padding: 0 40px;
+  font-family: "Poppins";
+}
+
+.pages-faq .answer div span {
+  flex: 1;
+  padding-right: 40px;
+}
+
+/************** JUPITER X - LIFING **************/
+
 .jupiter-x-lifting-section1 {
   padding: 100px 0;
   background-color: var(--color-primary);
@@ -24,7 +230,7 @@
   left: 0;
   right: 0;
   z-index: -1;
-  height: 278px;
+  height: 342px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,8 +331,23 @@
 }
 
 .jupiter-x-lifting-section3 {
+  position: relative;
   padding: 100px 0;
-  background: var(--color-offWhite) url("../img/pages/lifting/jupiter-x-lifting/section3-bg.jpg") no-repeat top/cover;
+  background-color: var(--color-offWhite);
+}
+
+.jupiter-x-lifting-section3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 685px;
+  background: url("../img/pages/lifting/jupiter-x-lifting/section3-bg.jpg") no-repeat top/cover;
+}
+
+.jupiter-x-lifting-section3 .pages-inner {
+  position: relative;
 }
 
 .jupiter-x-lifting-section3 .pages-title {
@@ -481,195 +702,4 @@
 .jupiter-x-lifting-section6 .swiper .swiper-slide div h5 {
   font-size: 24px;
   margin-bottom: 10px;
-}
-
-.pages-title {
-  margin-bottom: 80px;
-  text-align: center;
-}
-
-.pages-title h5 {
-  margin-bottom: 26px;
-  font-size: 24px;
-}
-
-.pages-title h3 {
-  font-size: 60px;
-}
-
-.pages-title p {
-  margin-top: 36px;
-}
-
-.swiper.pages-swiper {
-  margin: 0;
-  padding-bottom: 60px;
-}
-
-.pages-swiper .control {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 100%;
-}
-
-/* swiper control button */
-.pages-swiper .control-button {
-  display: flex;
-  gap: 10px;
-}
-
-.pages-swiper .control-button div {
-  position: relative;
-  top: 0;
-  width: 40px;
-  height: 40px;
-  margin: 0;
-  border: 1px solid var(--color-mediumGray);
-  transition: all 0.3s;
-}
-
-.pages-swiper .control-button div.swiper-button-prev {
-  left: 0;
-}
-
-.pages-swiper .control-button div.swiper-button-next {
-  right: 0;
-}
-
-.pages-swiper .control-button div:hover {
-  background-color: var(--color-mediumGray);
-}
-
-.pages-swiper .control-button div:after {
-  font-size: 13px;
-  color: var(--color-mediumGray);
-}
-
-.pages-swiper .control-button div:hover:after {
-  color: var(--color-white);
-}
-
-/* swiper pagination */
-.pages-swiper .swiper-pagination {
-  position: relative;
-  display: flex;
-  gap: 5px;
-}
-
-.pages-swiper .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: 0;
-}
-
-.pages-swiper .swiper-pagination span.swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  margin: 0;
-  opacity: 1;
-  background-color: rgba(153, 153, 153, 0.5);
-  transition: all 0.3s;
-}
-
-.pages-swiper .swiper-pagination span.swiper-pagination-bullet-active {
-  width: 20px;
-  background-color: var(--color-mediumGray);
-  border-radius: 5px;
-}
-
-.pages-faq {
-  padding: 120px 0;
-  background-color: var(--color-offWhite);
-}
-
-.pages-faq .pages-inner {
-  width: 960px;
-}
-
-.pages-faq .pages-title {
-  color: var(--color-primary);
-}
-
-.pages-faq ul {
-  border-top: 1px solid var(--color-primary);
-}
-
-.pages-faq ul li {
-  border-bottom: 1px solid #ccc;
-}
-
-.pages-faq .question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 17px 0;
-  cursor: pointer;
-}
-
-.pages-faq .question div {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
-
-.pages-faq .question div strong {
-  padding: 0 40px;
-  font-family: "Poppins";
-}
-.pages-faq .question div span {
-  flex: 1;
-}
-
-.pages-faq .question > span {
-  position: relative;
-  width: 10px;
-  height: 10px;
-  margin: 0 40px;
-}
-
-.pages-faq .question > span:before,
-.pages-faq .question > span:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--color-black);
-}
-
-.pages-faq .question > span:before {
-  width: 100%;
-  height: 2px;
-}
-
-.pages-faq .question > span:after {
-  width: 2px;
-  height: 100%;
-}
-
-.pages-faq ul li.active .question > span:after {
-  opacity: 0;
-}
-
-.pages-faq .answer {
-  display: none;
-
-  background-color: var(--color-white);
-  padding: 17px 0;
-}
-.pages-faq .answer div {
-  display: flex;
-  align-items: baseline;
-}
-
-.pages-faq .answer div strong {
-  padding: 0 40px;
-  font-family: "Poppins";
-}
-
-.pages-faq .answer div span {
-  flex: 1;
-  padding-right: 40px;
 }
