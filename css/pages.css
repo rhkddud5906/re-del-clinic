@@ -136,6 +136,19 @@
 .pages-intro {
   min-height: 100vh;
   background-color: var(--color-offWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/pages/lifting/jupiter-x-lifting/mobile/intro-bg.jpg") no-repeat center/cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .pages-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/pages/lifting/jupiter-x-lifting/mobile/intro-bg.jpg") no-repeat center/cover;
+  }
 }
 
 /************** 자주 묻는 질문 **************/
