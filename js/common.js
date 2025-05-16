@@ -3,6 +3,18 @@ $(document).ready(function () {
     duration: 1100,
   });
 
+  $(".mobile-sitemap-btn").on("click", function () {
+    $(this).toggleClass("active");
+    $(".mobile-header .gnb").fadeToggle();
+  });
+
+  // mobile gnb
+  $(".mobile-header .gnb .depth1 > li").first().find(".depth2").show();
+  $(".mobile-header .gnb .depth1 > li button").on("click", function () {
+    $(".mobile-header .gnb .depth2").hide();
+    $(this).siblings(".depth2").show();
+  });
+
   // 상단 이동
   $(".top-btn").on("click", function () {
     $("html, body").animate({ scrollTop: 0 }, "500");

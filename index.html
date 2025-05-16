@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
     <meta name="title" content="리앤델클리닉" />
     <meta name="description" content="청담 피부과, 리앤델클리닉, 주름 피는 닥터 주피터! 모든 주름 시술은 청담동 주피터에게!" />
     <meta name="keywords" content="리앤델클리닉, 청담피부과, 압구정피부과" />
@@ -27,19 +27,30 @@
   <body>
     <!-- ST: wrapper -->
     <div class="wrapper">
-      <!-- ST: sidebar -->
-      <div class="sidebar main-sidebar">
-        <div class="logo">
-          <a href="/re-del-clinic"><img src="./img/common/logo.png" alt="Re&del Clinic" /></a>
+      <!-- ST: mobile header -->
+      <div class="mobile-header">
+        <div class="top-banner">
+          <a href="">이달의 이벤트 바로가기<img src="./img/common/mobile/top-banner-ico.png" alt="이달의 이벤트 바로가기" /></a>
         </div>
+
+        <div class="header-bar">
+          <a href=""><img src="./img/common/mobile/logo.png" alt="Re&del Clinic" /></a>
+          <button type="button" class="mobile-sitemap-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <!-- ST: gnb -->
         <div class="gnb">
           <ul class="depth1">
             <li>
-              <a href="">RENDEL STORY</a>
+              <button type="button">RENDEL STORY</button>
               <div class="depth2">
                 <ul>
                   <li>
-                    <a href="">주름 하나만 <img src="./img/common/best-icon.png" alt="BEST" /></a>
+                    <a href="">주름 하나만 <img src="./img/common/mobile/best-icon.png" alt="BEST" /></a>
                   </li>
                   <li><a href="">의료진소개</a></li>
                   <li><a href="">장비소개</a></li>
@@ -49,7 +60,7 @@
               </div>
             </li>
             <li>
-              <a href="./pages/lifting/jupiter-x-lifting.html">리프팅</a>
+              <button type="button">리프팅</button>
               <div class="depth2">
                 <ul>
                   <li><a href="./pages/lifting/jupiter-x-lifting.html">Jupiter X-Lifting</a></li>
@@ -62,7 +73,7 @@
               </div>
             </li>
             <li>
-              <a href="">피부</a>
+              <button type="button">피부</button>
               <div class="depth2">
                 <ul>
                   <li><a href="">Jupiter X-Booster</a></li>
@@ -74,7 +85,7 @@
               </div>
             </li>
             <li>
-              <a href="">쁘띠</a>
+              <button type="button">쁘띠</button>
               <div class="depth2">
                 <ul>
                   <li><a href="">Jupiter Face Tune</a></li>
@@ -87,7 +98,7 @@
               </div>
             </li>
             <li>
-              <a href="">피부관리</a>
+              <button type="button">피부관리</button>
               <div class="depth2">
                 <ul>
                   <li><a href="">여드름 관리</a></li>
@@ -97,7 +108,7 @@
               </div>
             </li>
             <li>
-              <a href="">프로모션</a>
+              <button type="button">프로모션</button>
               <div class="depth2">
                 <ul>
                   <li><a href="">프로모션</a></li>
@@ -105,7 +116,7 @@
               </div>
             </li>
             <li>
-              <a href="">온라인예약</a>
+              <button type="button">온라인예약</button>
               <div class="depth2">
                 <ul>
                   <li><a href="">온라인예약</a></li>
@@ -115,9 +126,104 @@
           </ul>
 
           <div class="util">
-            <a href="" class="kakao-btn"><img src="./img/common/kakao-ico.png" alt="카카오톡" />카카오톡 상담</a>
+            <a href="" class="kakao-btn"><img src="./img/common/mobile/kakao-ico.png" alt="카카오톡" />카카오톡 상담</a>
             <a href="" class="request-btn">빠른 상담 신청하기</a>
           </div>
+        </div>
+        <!-- EN: mobile gnb -->
+      </div>
+      <!-- EN: mobile header -->
+
+      <!-- ST: sidebar -->
+      <div class="sidebar main-sidebar">
+        <div class="logo">
+          <a href="/re-del-clinic"><img src="./img/common/logo.png" alt="Re&del Clinic" /></a>
+        </div>
+
+        <ul class="depth1">
+          <li>
+            <a href="">RENDEL STORY</a>
+            <div class="depth2">
+              <ul>
+                <li>
+                  <a href="">주름 하나만 <img src="./img/common/best-icon.png" alt="BEST" /></a>
+                </li>
+                <li><a href="">의료진소개</a></li>
+                <li><a href="">장비소개</a></li>
+                <li><a href="">둘러보기</a></li>
+                <li><a href="">진료안내/오시는길</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="./pages/lifting/jupiter-x-lifting.html">리프팅</a>
+            <div class="depth2">
+              <ul>
+                <li><a href="./pages/lifting/jupiter-x-lifting.html">Jupiter X-Lifting</a></li>
+                <li><a href="">울쎄라</a></li>
+                <li><a href="">써마지</a></li>
+                <li><a href="">포텐자</a></li>
+                <li><a href="">트리코어</a></li>
+                <li><a href="">코레지</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="">피부</a>
+            <div class="depth2">
+              <ul>
+                <li><a href="">Jupiter X-Booster</a></li>
+                <li><a href="">쥬베룩 스킨</a></li>
+                <li><a href="">리쥬란 힐러</a></li>
+                <li><a href="">여드름&흉터</a></li>
+                <li><a href="">제모</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="">쁘띠</a>
+            <div class="depth2">
+              <ul>
+                <li><a href="">Jupiter Face Tune</a></li>
+                <li><a href="">팔자주름</a></li>
+                <li><a href="">목주름</a></li>
+                <li><a href="">쥬베룩 볼륨</a></li>
+                <li><a href="">마이크로 보톡스</a></li>
+                <li><a href="">필러</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="">피부관리</a>
+            <div class="depth2">
+              <ul>
+                <li><a href="">여드름 관리</a></li>
+                <li><a href="">진정관리</a></li>
+                <li><a href="">수액 테라피</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="">프로모션</a>
+            <div class="depth2">
+              <ul>
+                <li><a href="">프로모션</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="">온라인예약</a>
+            <div class="depth2">
+              <ul>
+                <li><a href="">온라인예약</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <div class="util">
+          <a href="" class="kakao-btn"><img src="./img/common/kakao-ico.png" alt="카카오톡" />카카오톡 상담</a>
+          <a href="" class="request-btn">빠른 상담 신청하기</a>
         </div>
       </div>
       <!-- EN: sidebar -->
@@ -142,14 +248,16 @@
             <div class="txt">
               <h3 class="main-title" data-aos="fade-down">Jupiter<br />Skin Fusion X</h3>
               <p>
-                X는 크로스, 융합을 의미합니다.<br /><strong class="font-poppins font-weight-bold">‘Skin Fusion X <span>시술</span>’</strong>은 단일 시술의 한계를 뛰어넘기 위해 만들어졌습니다.<br />안전하고
-                효과적인 성분과 시술들이 합쳐져<br />나만의 시너지 효과를 만들어 낼 수 있도록 만들어진 시술 방법입니다.<br />청담동 주피터가 직접 설계한 피부 X 공식으로 복합적인 시술을 받아보세요.
+                X는 크로스, 융합을 의미합니다.<br /><strong class="font-poppins font-weight-bold">‘Skin Fusion X <span>시술</span>’</strong>은<br class="mobile-view" />
+                단일 시술의 한계를 뛰어넘기 위해 만들어졌습니다.<br />안전하고 효과적인 성분과 시술들이 합쳐져<br class="pc-view" />나만의 시너지 효과를<br class="mobile-view" />
+                만들어 낼 수 있도록 만들어진 시술 방법입니다.<br />청담동 주피터가 직접 설계한 피부 X 공식으로<br class="mobile-view" />
+                복합적인 시술을 받아보세요.
               </p>
             </div>
           </div>
 
           <div class="main-swiper jupiter-skin-fusion-swiper">
-            <h3 class="main-title" data-aos="fade-up">Jupiter<br />Skint Fusion X</h3>
+            <h3 class="main-title" data-aos="fade-up">Jupiter<br />Skin Fusion X</h3>
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -237,7 +345,7 @@
           </div>
 
           <div class="main-swiper solution-swiper">
-            <h3 class="main-title" data-aos="fade-up">Re&del<br />Solution</h3>
+            <h3 class="main-title" data-aos="fade-up">Re&del<br class="pc-view" />Solution</h3>
 
             <div class="info">
               <div class="txt">
@@ -276,9 +384,10 @@
           </div>
         </div>
 
-        <div class="main-footer">
-          <div class="main-inner">
-            <div class="main-customer">
+        <!-- ST: footer -->
+        <div class="footer">
+          <div class="inner">
+            <div class="customer">
               <div class="left">
                 <dl>
                   <dt>TEL</dt>
@@ -350,7 +459,7 @@
               </div>
             </div>
 
-            <div class="footer">
+            <div class="info">
               <div class="menu">
                 <a href="">개인정보취급방침</a>
                 <span></span>
@@ -358,20 +467,15 @@
                 <span></span>
                 <a href="">비급여수가표</a>
               </div>
-              <div class="info">
-                <span>상호명 : 리앤델클리닉</span>
-                ·
-                <span>대표자 : 이상준</span>
-                ·
-                <span>사업자등록번호 : 315-06-40416</span>
-                ·
-                <span>대표번호 : 02-518-8278</span>
-                ·
-                <span>예약금 계좌 : 국민은행 602401-04-071155 이상준(리앤델의원)</span>
-              </div>
+              <p>
+                상호명 : 리앤델클리닉&nbsp;&nbsp;·&nbsp;&nbsp;대표자 : 이상준<br class="mobile-view" /><span class="pc-view">&nbsp;&nbsp;·&nbsp;&nbsp;</span>사업자등록번호 :
+                315-06-40416&nbsp;&nbsp;·&nbsp;&nbsp;대표번호 : 02-518-8278<br class="mobile-view" /><span class="pc-view">&nbsp;&nbsp;·&nbsp;&nbsp;</span>예약금 계좌 : 국민은행 602401-04-071155
+                이상준(리앤델의원)
+              </p>
             </div>
           </div>
         </div>
+        <!-- EN: footer -->
       </div>
       <!-- EN: container -->
 
@@ -402,7 +506,7 @@
           }
         });
 
-        // Jupiter Skint Fusion X swiper
+        // Jupiter Skin Fusion X swiper
         var jupiterSkinFusionSwiper = new Swiper(".jupiter-skin-fusion-swiper .swiper", {
           loop: true,
           pagination: {
@@ -433,8 +537,8 @@
 
         // Re&del Solution swiper
         var solutionSwiper = new Swiper(".solution-swiper .swiper", {
-          slidesPerView: 3,
-          spaceBetween: 20,
+          slidesPerView: "auto",
+          spaceBetween: 10,
           loop: true,
           pagination: {
             el: ".swiper-pagination",
@@ -443,6 +547,12 @@
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
           },
         });
       });

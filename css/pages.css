@@ -105,6 +105,13 @@
   border-radius: 5px;
 }
 
+/************** 상단 영상 **************/
+
+.pages-intro {
+  min-height: 100vh;
+  background-color: var(--color-offWhite);
+}
+
 /************** 자주 묻는 질문 **************/
 
 .pages-faq {
