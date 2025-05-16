@@ -234,6 +234,10 @@
   transition: all 2s ease 0.2s;
 }
 
+.solution-swiper {
+  margin-bottom: 240px;
+}
+
 .solution-swiper .swiper {
   width: 880px;
   margin: 0;
@@ -421,8 +425,12 @@
     padding-top: 170px;
   }
 
+  .solution-swiper {
+    margin-bottom: 80px;
+  }
+
   .solution-swiper .swiper {
-    width: calc(100% + 20px);
+    width: calc(100% + 25px);
     margin: 0;
   }
 
