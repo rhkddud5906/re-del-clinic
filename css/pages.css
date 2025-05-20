@@ -291,7 +291,7 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
 }
 
 .one-wrinkle-intro div {
@@ -404,7 +404,7 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
   color: var(--color-primary);
 }
 
@@ -458,7 +458,7 @@
   .one-wrinkle-intro {
     display: flex;
     justify-content: center;
-    background: #edf0f2 url("../../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
+    background: #edf0f2 url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
   }
 
   .one-wrinkle-intro div {
