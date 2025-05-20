@@ -53,7 +53,7 @@
 .jupiter-info {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 125px;
   margin-top: 280px;
   color: var(--color-white);
 }
