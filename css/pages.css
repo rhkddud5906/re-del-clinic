@@ -249,7 +249,7 @@
 
 @media screen and (max-width: 1200px) {
   .pages-faq {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
   .pages-faq .pages-inner {
@@ -286,10 +286,296 @@
   }
 }
 
+/************** 주름 하나만 **************/
+
+.one-wrinkle-intro {
+  position: relative;
+  min-height: 100vh;
+  background: #edf0f2 url("../../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
+}
+
+.one-wrinkle-intro div {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateY(-50%);
+  margin-right: -650px;
+  text-align: center;
+}
+
+.one-wrinkle-intro div h5 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: var(--color-primary);
+}
+
+.one-wrinkle-intro div h5 span {
+  font-weight: var(--font-weight-Light);
+}
+
+.one-wrinkle-intro div h2 {
+  font-size: 80px;
+  font-family: "Noto Serif";
+  font-style: italic;
+  color: var(--color-primary);
+}
+
+.one-wrinkle-intro div p {
+  position: relative;
+  padding-top: 110px;
+  margin-top: 35px;
+  font-size: 24px;
+  color: #707688;
+}
+
+.one-wrinkle-intro div p:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 79px;
+  background-color: #707688;
+}
+
+.one-wrinkle-section1 {
+  padding: 120px 0;
+}
+
+.one-wrinkle-section1 .pages-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.one-wrinkle-section1 .txt {
+  color: var(--color-primary);
+}
+
+.one-wrinkle-section1 .txt h5 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: "Poppins";
+}
+
+.one-wrinkle-section1 .txt h3 {
+  font-size: 60px;
+}
+
+.one-wrinkle-section1 .txt h3 span {
+  font-family: "Poppins";
+}
+
+.one-wrinkle-section1 .txt p {
+  margin-top: 20px;
+}
+
+.one-wrinkle-section2 {
+  padding: 120px 0;
+  background-color: #f4f4f4;
+  color: var(--color-primary);
+}
+
+.one-wrinkle-section2 ul {
+  display: flex;
+  gap: 4px;
+}
+
+.one-wrinkle-section2 ul li {
+  flex: 1;
+  position: relative;
+  height: 200px;
+  padding: 37px 30px;
+  background-color: var(--color-white);
+}
+
+.one-wrinkle-section2 ul li h5 {
+  font-size: 26px;
+}
+
+.one-wrinkle-section2 ul li p {
+  margin-top: 16px;
+}
+
+.one-wrinkle-section2 ul li img {
+  position: absolute;
+  bottom: 23px;
+  right: 23px;
+}
+
+.one-wrinkle-section3 {
+  background: url("../../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
+  color: var(--color-primary);
+}
+
+.one-wrinkle-section3 .pages-inner {
+  position: relative;
+  padding: 140px 0 140px 100px;
+}
+
+.one-wrinkle-section3 .txt h5 {
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+}
+
+.one-wrinkle-section3 .txt h5 span {
+  font-family: "Poppins";
+  font-weight: var(--font-weight-Bold);
+}
+
+.one-wrinkle-section3 .txt h3 {
+  margin: 20px 0 70px;
+  font-size: 60px;
+}
+
+.one-wrinkle-section3 .txt h3 span {
+  font-weight: var(--font-weight-Light);
+}
+
+.one-wrinkle-section3 .txt h4 {
+  margin: 24px 0 35px;
+  font-size: 36px;
+}
+
+.one-wrinkle-section3 .txt p {
+  font-size: 18px;
+}
+
+.one-wrinkle-section3 img {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+}
+
+.one-wrinkle-section3 .ceo-name {
+  position: absolute;
+  bottom: 50px;
+  right: 110px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+  .one-wrinkle-intro {
+    display: flex;
+    justify-content: center;
+    background: #edf0f2 url("../../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
+  }
+
+  .one-wrinkle-intro div {
+    position: static;
+    transform: none;
+    margin: auto 0 80px 0;
+  }
+
+  .one-wrinkle-intro div h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .one-wrinkle-intro div h2 {
+    font-size: 40px;
+  }
+
+  .one-wrinkle-intro div p {
+    padding-top: 0;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .one-wrinkle-intro div p:before {
+    display: none;
+  }
+
+  .one-wrinkle-section1 {
+    padding: 80px 0;
+  }
+
+  .one-wrinkle-section1 .pages-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .one-wrinkle-section1 .txt h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .one-wrinkle-section1 .txt h3 {
+    font-size: 30px;
+  }
+
+  .one-wrinkle-section2 {
+    padding: 80px 0;
+  }
+
+  .one-wrinkle-section2 ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+  }
+
+  .one-wrinkle-section2 ul li {
+    height: auto;
+    padding: 18px 0 18px 18px;
+  }
+
+  .one-wrinkle-section2 ul li h5 {
+    font-size: 16px;
+  }
+
+  .one-wrinkle-section2 ul li p {
+    margin-top: 8px;
+  }
+
+  .one-wrinkle-section2 ul li img {
+    height: 30px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .one-wrinkle-section3 .pages-inner {
+    padding: 80px 25px;
+  }
+
+  .one-wrinkle-section3 .txt {
+    position: relative;
+    z-index: 1;
+  }
+
+  .one-wrinkle-section3 .txt h5 {
+    font-size: 16px;
+  }
+
+  .one-wrinkle-section3 .txt h3 {
+    margin: 15px 0 20px;
+    font-size: 30px;
+  }
+
+  .one-wrinkle-section3 .txt h4 {
+    margin: 15px 0 18px;
+    font-size: 18px;
+  }
+
+  .one-wrinkle-section3 .txt p {
+    font-size: 14px;
+  }
+
+  .one-wrinkle-section3 img {
+    right: 0;
+    width: 200px;
+  }
+
+  .one-wrinkle-section3 .ceo-name {
+    bottom: 30px;
+    right: 25px;
+    font-size: 14px;
+  }
+}
+
 /************** JUPITER X - LIFING **************/
 
 .jupiter-x-lifting-section1 {
-  padding: 100px 0;
+  padding: 120px 0;
   background-color: var(--color-primary);
 }
 
@@ -304,7 +590,7 @@
 
 .jupiter-x-lifting-section2 {
   position: relative;
-  padding: 100px 0;
+  padding: 120px 0;
 }
 
 .jupiter-x-lifting-section2:before,
@@ -416,7 +702,7 @@
 
 .jupiter-x-lifting-section3 {
   position: relative;
-  padding: 100px 0;
+  padding: 120px 0;
   background-color: var(--color-offWhite);
 }
 
@@ -644,21 +930,17 @@
 }
 
 .jupiter-x-lifting-section4 {
-  padding: 220px 0;
   background: url("../img/pages/lifting/jupiter-x-lifting/section4-bg.jpg") no-repeat top/cover;
 }
 
 .jupiter-x-lifting-section4 .pages-inner {
   position: relative;
-}
-
-.jupiter-x-lifting-section4 .content {
-  padding-left: 180px;
+  padding: 220px 0 220px 100px;
 }
 
 .jupiter-x-lifting-section4 .content h5 {
   font-size: 24px;
-  font-weight: var(--font-weight-Regular);
+  font-weight: var(--font-weight-Light);
   color: #d8be97;
 }
 
@@ -678,13 +960,12 @@
 
 .jupiter-x-lifting-section4 img {
   position: absolute;
-  right: 50%;
-  bottom: -220px;
-  margin-right: -750px;
+  right: 80px;
+  bottom: 0;
 }
 
 .jupiter-x-lifting-section5 {
-  padding: 160px 0 100px;
+  padding: 120px 0;
   background-color: var(--color-primary);
   color: var(--color-white);
 }
@@ -729,7 +1010,7 @@
 }
 
 .jupiter-x-lifting-section5 ul li h5 span {
-  font-weight: var(--font-weight-Regular);
+  font-weight: var(--font-weight-Light);
 }
 
 .jupiter-x-lifting-section5 ul li p {
@@ -738,7 +1019,7 @@
 }
 
 .jupiter-x-lifting-section6 {
-  padding: 120px 0 150px;
+  padding: 120px 0;
   color: var(--color-primary);
 }
 
@@ -753,7 +1034,7 @@
 
 .jupiter-x-lifting-section6 .txt h5 {
   font-size: 24px;
-  font-weight: var(--font-weight-Regular);
+  font-weight: var(--font-weight-Light);
 }
 
 .jupiter-x-lifting-section6 .txt h3 {
@@ -780,11 +1061,11 @@
 
 @media screen and (max-width: 1200px) {
   .jupiter-x-lifting-section1 {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
   .jupiter-x-lifting-section2 {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
   .jupiter-x-lifting-section2:before,
@@ -826,7 +1107,7 @@
   }
 
   .jupiter-x-lifting-section3 {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
   .jupiter-x-lifting-section3:before {
@@ -944,12 +1225,14 @@
   }
 
   .jupiter-x-lifting-section4 {
-    padding: 80px 0;
     background: url("../img/pages/lifting/jupiter-x-lifting/mobile/section4-bg.jpg") no-repeat top/cover;
   }
 
+  .jupiter-x-lifting-section4 .pages-inner {
+    padding: 80px 25px;
+  }
+
   .jupiter-x-lifting-section4 .content {
-    padding-left: 0;
     margin-top: -30px;
   }
 
@@ -964,13 +1247,10 @@
 
   .jupiter-x-lifting-section4 img {
     position: static;
-    right: 0;
-    bottom: 0;
-    margin-right: 0;
   }
 
   .jupiter-x-lifting-section5 {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
   .jupiter-x-lifting-section5 .pages-title {
@@ -1016,7 +1296,7 @@
   }
 
   .jupiter-x-lifting-section6 {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
   .jupiter-x-lifting-section6 .pages-inner {

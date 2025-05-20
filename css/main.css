@@ -3,7 +3,7 @@
 .main-inner {
   width: 1350px;
   margin: 0 auto;
-  padding-bottom: 260px;
+  padding-bottom: 120px;
 }
 
 .main-title {
@@ -348,8 +348,6 @@
 
   .main-swiper h3 {
     position: static;
-    top: 0;
-    z-index: 0;
   }
 
   .main-swiper .swiper {
@@ -464,7 +462,6 @@
 
   .main-promotion .title {
     position: static;
-    top: 0;
   }
 
   .main-promotion .list {
