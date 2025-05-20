@@ -3,6 +3,7 @@
 .main-inner {
   width: 1350px;
   margin: 0 auto;
+  padding-bottom: 260px;
 }
 
 .main-title {
@@ -53,13 +54,22 @@
   display: flex;
   align-items: center;
   gap: 60px;
-  margin-top: 60px;
+  margin-top: 280px;
   color: var(--color-white);
 }
 
-.jupiter-info video {
+.jupiter-info .img {
+  position: relative;
   width: 480px;
   height: 480px;
+  overflow: hidden;
+}
+
+.jupiter-info .img video {
+  position: absolute;
+  top: -145px;
+  left: -460px;
+  width: 1300px;
 }
 
 .jupiter-info .txt p {
@@ -75,7 +85,7 @@
 .main-swiper {
   position: relative;
   width: 1350px;
-  margin-top: 240px;
+  margin-top: 460px;
   color: var(--color-white);
 }
 
@@ -233,10 +243,6 @@
   transition: all 2s ease 0.2s;
 }
 
-.solution-swiper {
-  margin-bottom: 240px;
-}
-
 .solution-swiper .swiper {
   width: 880px;
   margin: 0;
@@ -252,7 +258,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 240px;
+  margin-top: 460px;
 }
 
 .main-promotion .title {
@@ -288,7 +294,7 @@
 @media screen and (max-width: 1200px) {
   .main-inner {
     width: 100%;
-    padding: 0 25px;
+    padding: 0 25px 80px;
   }
 
   .main-title {
@@ -314,13 +320,18 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-    margin-top: 10px;
+    margin-top: 100px;
   }
 
-  .jupiter-info video {
+  .jupiter-info .img {
     width: 280px;
     height: 280px;
     margin: 0 auto;
+  }
+
+  .jupiter-info .img video {
+    top: -233px;
+    left: -568px;
   }
 
   .jupiter-info .txt p {
@@ -331,7 +342,7 @@
   /* 메인 swiper */
   .main-swiper {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 170px;
   }
 
   .main-swiper h3 {
@@ -424,10 +435,6 @@
     padding-top: 170px;
   }
 
-  .solution-swiper {
-    margin-bottom: 80px;
-  }
-
   .solution-swiper .swiper {
     width: calc(100% + 25px);
     margin: 0;
@@ -451,7 +458,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-top: 80px;
+    margin-top: 170px;
   }
 
   .main-promotion .title {
