@@ -792,6 +792,140 @@
   background-image: url("../img/pages/story/equipment-intro/intro-bg.jpg");
 }
 
+.equipment-intro-section1 {
+  padding: 120px 0;
+}
+
+.equipment-intro-gallery-swiper {
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.equipment-intro-gallery-swiper .txt {
+  position: absolute;
+  top: 50%;
+  right: 160px;
+  transform: translateY(-50%);
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.equipment-intro-gallery-swiper .txt h4 {
+  font-size: 36px;
+}
+
+.equipment-intro-gallery-swiper .txt h4 span {
+  color: #a63495;
+}
+
+.equipment-intro-gallery-swiper .txt h5 {
+  margin: 8px 0 6px;
+  font-size: 30px;
+  font-weight: var(--font-weight-Light);
+}
+
+.equipment-intro-gallery-swiper .txt strong {
+  display: block;
+}
+
+.equipment-intro-gallery-swiper .txt > span {
+  display: inline-block;
+  width: 1px;
+  height: 40px;
+  background-color: #878d97;
+  margin: 20px 0;
+}
+
+.equipment-intro-thumbnail-swiper span {
+  position: relative;
+  cursor: pointer;
+}
+
+.equipment-intro-thumbnail-swiper span:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.equipment-intro-thumbnail-swiper .swiper-slide-thumb-active span:before {
+  opacity: 1;
+  border-width: 2px;
+  border-color: var(--color-primary);
+}
+
+.equipment-intro-section1 .thumbnail {
+  position: relative;
+}
+
+.equipment-intro-section1 .thumbnail .swiper-button-next,
+.equipment-intro-section1 .thumbnail .swiper-button-prev {
+  color: #999999;
+}
+
+.equipment-intro-section1 .thumbnail .swiper-button-prev {
+  left: -40px;
+}
+
+.equipment-intro-section1 .thumbnail .swiper-button-next {
+  right: -40px;
+}
+
+.equipment-intro-section1 .thumbnail .swiper-button-next:after,
+.equipment-intro-section1 .thumbnail .swiper-button-prev:after {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .equipment-intro-section1 {
+    padding: 80px 0;
+  }
+
+  .equipment-intro-gallery-swiper {
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
+  }
+
+  .equipment-intro-gallery-swiper .txt {
+    position: static;
+    transform: none;
+    padding: 0 25px 25px 25px;
+  }
+
+  .equipment-intro-gallery-swiper .txt h4 {
+    font-size: 24px;
+  }
+
+  .equipment-intro-gallery-swiper .txt h5 {
+    margin: 4px 0;
+    font-size: 24px;
+  }
+
+  .equipment-intro-gallery-swiper .txt > span {
+    height: 20px;
+    margin: 10px 0;
+  }
+
+  .equipment-intro-thumbnail-swiper span:before {
+    border-radius: 7px;
+  }
+
+  .equipment-intro-section1 .thumbnail .swiper-button-prev {
+    left: -25px;
+  }
+
+  .equipment-intro-section1 .thumbnail .swiper-button-next {
+    right: -25px;
+  }
+
+  .equipment-intro-section1 .thumbnail .swiper-button-next:after,
+  .equipment-intro-section1 .thumbnail .swiper-button-prev:after {
+    font-size: 16px;
+  }
+}
+
 /************** JUPITER X - LIFING **************/
 
 .jupiter-x-lifting-intro {
