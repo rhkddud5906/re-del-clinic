@@ -17,6 +17,11 @@
 .pages-title.v1 {
   margin-bottom: 80px;
   text-align: center;
+  color: var(--color-primary);
+}
+
+.pages-title.white.v1 {
+  color: var(--color-white);
 }
 
 .pages-title.v1 h5 {
@@ -260,10 +265,6 @@
 
 .pages-faq .pages-inner {
   width: 960px;
-}
-
-.pages-faq .pages-title.v1 {
-  color: var(--color-primary);
 }
 
 .pages-faq ul {
@@ -1291,39 +1292,311 @@
   }
 }
 
-/************** JUPITER X - LIFING **************/
+/************** JUPITER **************/
 
-.jupiter-x-lifting-intro {
-  min-height: 100vh;
-  background-color: var(--color-offWhite);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("../img/pages/lifting/jupiter-x-lifting/mobile/intro-bg.jpg")
-    no-repeat center/cover;
-}
-
-.jupiter-x-lifting-section1 {
+.pages-jupiter-info {
   padding: 120px 0;
   background-color: var(--color-primary);
 }
 
-.jupiter-x-lifting-section1 .pages-title.v1 {
-  color: var(--color-white);
-}
-
-.jupiter-x-lifting-section1 .img {
+.pages-jupiter-info .img {
+  position: relative;
   display: flex;
   justify-content: center;
 }
 
-.jupiter-x-lifting-section2 {
+.pages-jupiter-flow-txt {
+  position: absolute;
+  right: -70%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.pages-jupiter-flow-txt span {
+  display: block;
+  line-height: 1;
+  font-family: "Noto Serif";
+  font-size: 200px;
+  font-weight: var(--font-weight-Bold);
+  color: rgba(255, 255, 255, 0.03);
+}
+
+.pages-jupiter-flow-txt span:first-child {
+  margin: -105px 0 0 -115px;
+}
+
+.pages-jupiter-flow-txt span:last-child {
+  margin: 0 -115px -140px 0;
+  text-align: right;
+}
+
+.pages-jupiter-protocol {
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+    top/cover;
+}
+
+.pages-jupiter-protocol .pages-inner {
+  position: relative;
+  padding: 220px 0 220px 100px;
+}
+
+.pages-jupiter-protocol .content h5 {
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+  color: #d8be97;
+}
+
+.pages-jupiter-protocol .content h5 span {
+  display: block;
+  font-family: "Poppins";
+  font-weight: var(--font-weight-Bold);
+}
+
+.pages-jupiter-protocol .content h3 {
+  margin: 20px 0 70px;
+  font-size: 60px;
+  color: var(--color-white);
+}
+
+.pages-jupiter-protocol .content h3 span {
+  font-weight: var(--font-weight-Light);
+}
+
+.pages-jupiter-protocol .content p {
+  color: var(--color-white);
+}
+
+.pages-jupiter-protocol img {
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+}
+
+.pages-jupiter-service {
+  padding: 120px 0;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.pages-jupiter-service ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages-jupiter-service ul li {
+  width: 300px;
+  height: 510px;
+  padding: 35px;
+  background-repeat: no-repeat;
+}
+
+.pages-jupiter-service ul li:first-child {
+  background-image: url("../img/pages/jupiter/jupiter-service-img1.jpg");
+}
+
+.pages-jupiter-service ul li:nth-child(2) {
+  background-image: url("../img/pages/jupiter/jupiter-service-img2.jpg");
+}
+
+.pages-jupiter-service ul li:nth-child(3) {
+  background-image: url("../img/pages/jupiter/jupiter-service-img3.jpg");
+}
+
+.pages-jupiter-service ul li:nth-child(4) {
+  background-image: url("../img/pages/jupiter/jupiter-service-img4.jpg");
+}
+
+.pages-jupiter-service ul li > span {
+  display: block;
+  margin-bottom: 18px;
+  color: rgba(33, 40, 60, 0.5);
+}
+
+.pages-jupiter-service ul li h5 {
+  font-size: 30px;
+  color: var(--color-primary);
+}
+
+.pages-jupiter-service ul li h5 span {
+  font-weight: var(--font-weight-Light);
+}
+
+.pages-jupiter-service ul li p {
+  margin-top: 12px;
+  color: var(--color-primary);
+}
+
+.pages-jupiter-story {
+  padding: 120px 0;
+  color: var(--color-primary);
+}
+
+.pages-jupiter-story .pages-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages-jupiter-story .txt {
+  padding-top: 50px;
+}
+
+.pages-jupiter-story .txt h5 {
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+}
+
+.pages-jupiter-story .txt h3 {
+  margin: 30px 0 20px;
+  font-size: 60px;
+}
+
+.pages-jupiter-story .txt p {
+  margin-bottom: 90px;
+}
+
+.pages-jupiter-story .swiper {
+  width: 650px;
+}
+
+.pages-jupiter-story .swiper .swiper-slide div {
+  margin-top: 30px;
+}
+
+.pages-jupiter-story .swiper .swiper-slide div h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .pages-jupiter-info {
+    padding: 80px 0;
+  }
+
+  .pages-jupiter-protocol {
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+      top/cover;
+  }
+
+  .pages-jupiter-protocol .pages-inner {
+    padding: 80px 25px;
+  }
+
+  .pages-jupiter-protocol .content {
+    margin-top: -30px;
+  }
+
+  .pages-jupiter-protocol .content h5 {
+    font-size: 16px;
+  }
+
+  .pages-jupiter-protocol .content h3 {
+    margin: 15px 0 20px;
+    font-size: 30px;
+  }
+
+  .pages-jupiter-protocol img {
+    position: static;
+  }
+
+  .pages-jupiter-service {
+    padding: 80px 0;
+  }
+
+  .pages-jupiter-service .pages-title.v1 {
+    text-align: left;
+  }
+
+  .pages-jupiter-service .swiper {
+    width: calc(100% + 25px);
+  }
+
+  .pages-jupiter-service .pages-swiper .control {
+    padding-right: 25px;
+  }
+
+  .pages-jupiter-service .swiper-slide {
+    width: 170px;
+  }
+
+  .pages-jupiter-service .swiper-slide div {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .pages-jupiter-service .swiper-slide div > span {
+    display: block;
+    margin-bottom: 10px;
+    color: rgba(33, 40, 60, 0.5);
+  }
+
+  .pages-jupiter-service .swiper-slide div h5 {
+    font-size: 16px;
+    color: var(--color-primary);
+  }
+
+  .pages-jupiter-service .swiper-slide div h5 span {
+    font-weight: var(--font-weight-Light);
+  }
+
+  .pages-jupiter-service .swiper-slide div p {
+    margin-top: 10px;
+    color: var(--color-primary);
+  }
+
+  .pages-jupiter-story {
+    padding: 80px 0;
+  }
+
+  .pages-jupiter-story .pages-inner {
+    flex-direction: column;
+  }
+
+  .pages-jupiter-story .txt {
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .pages-jupiter-story .txt h5 {
+    font-size: 16px;
+  }
+
+  .pages-jupiter-story .txt h3 {
+    margin: 15px 0 20px;
+    font-size: 30px;
+  }
+
+  .pages-jupiter-story .txt p {
+    margin-bottom: 20px;
+  }
+
+  .pages-jupiter-story .swiper {
+    width: 100%;
+  }
+
+  .pages-jupiter-story .swiper .swiper-slide div {
+    margin-top: 14px;
+  }
+
+  .pages-jupiter-story .swiper .swiper-slide div h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+/************** JUPITER X - LIFTING **************/
+
+.jupiter-x-lifting-design {
   position: relative;
   padding: 120px 0;
 }
 
-.jupiter-x-lifting-section2:before,
-.jupiter-x-lifting-section2:after {
+.jupiter-x-lifting-design:before,
+.jupiter-x-lifting-design:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1335,21 +1608,17 @@
   background-size: cover;
 }
 
-.jupiter-x-lifting-section2:before {
+.jupiter-x-lifting-design:before {
   top: 0;
   background-image: url("../img/pages/lifting/jupiter-x-lifting/section2-bg1.jpg");
 }
 
-.jupiter-x-lifting-section2:after {
+.jupiter-x-lifting-design:after {
   bottom: 0;
   background-image: url("../img/pages/lifting/jupiter-x-lifting/section2-bg2.jpg");
 }
 
-.jupiter-x-lifting-section2 .pages-title.v1 {
-  color: var(--color-primary);
-}
-
-.jupiter-x-lifting-section2 .content {
+.jupiter-x-lifting-design .content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1359,23 +1628,23 @@
   margin: 180px auto 100px;
 }
 
-.jupiter-x-lifting-section2 .content:before,
-.jupiter-x-lifting-section2 .content:after {
+.jupiter-x-lifting-design .content:before,
+.jupiter-x-lifting-design .content:after {
   content: "";
   position: absolute;
   border: 6px solid #eeeeee;
   transform: rotate(45deg);
 }
 
-.jupiter-x-lifting-section2 .content:before {
+.jupiter-x-lifting-design .content:before {
   inset: 0;
 }
 
-.jupiter-x-lifting-section2 .content:after {
+.jupiter-x-lifting-design .content:after {
   inset: 70px;
 }
 
-.jupiter-x-lifting-section2 .content > span {
+.jupiter-x-lifting-design .content > span {
   position: absolute;
   letter-spacing: 10px;
   text-align: center;
@@ -1384,7 +1653,7 @@
   color: var(--color-primary);
 }
 
-.jupiter-x-lifting-section2 .content ul {
+.jupiter-x-lifting-design .content ul {
   position: relative;
   z-index: 1;
   display: grid;
@@ -1392,7 +1661,7 @@
   gap: 70px;
 }
 
-.jupiter-x-lifting-section2 .content ul li {
+.jupiter-x-lifting-design .content ul li {
   width: 190px;
   height: 190px;
   padding: 5px;
@@ -1400,7 +1669,7 @@
   color: var(--color-white);
 }
 
-.jupiter-x-lifting-section2 .content ul li div {
+.jupiter-x-lifting-design .content ul li div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1410,56 +1679,52 @@
   border-radius: 100%;
 }
 
-.jupiter-x-lifting-section2 .content ul li:first-child,
-.jupiter-x-lifting-section2 .content ul li:last-child {
+.jupiter-x-lifting-design .content ul li:first-child,
+.jupiter-x-lifting-design .content ul li:last-child {
   background-color: var(--color-primary);
 }
 
-.jupiter-x-lifting-section2 .content ul li:nth-child(2),
-.jupiter-x-lifting-section2 .content ul li:nth-child(3) {
+.jupiter-x-lifting-design .content ul li:nth-child(2),
+.jupiter-x-lifting-design .content ul li:nth-child(3) {
   background-color: var(--color-mediumGray);
 }
 
-.jupiter-x-lifting-section2 .content ul li strong {
+.jupiter-x-lifting-design .content ul li strong {
   font-size: 20px;
   font-family: "Poppins";
 }
 
-.jupiter-x-lifting-section3 {
+.jupiter-x-lifting-synergy {
   position: relative;
   padding: 120px 0;
   background-color: var(--color-offWhite);
 }
 
-.jupiter-x-lifting-section3:before {
+.jupiter-x-lifting-synergy:before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/section3-bg.jpg")
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
     no-repeat top/cover;
 }
 
-.jupiter-x-lifting-section3 .pages-inner {
+.jupiter-x-lifting-synergy .pages-inner {
   position: relative;
 }
 
-.jupiter-x-lifting-section3 .pages-title.v1 {
-  color: var(--color-primary);
-}
-
-.jupiter-x-lifting-section3 .info {
+.jupiter-x-lifting-synergy .info {
   display: flex;
   justify-content: space-between;
 }
 
-.jupiter-x-lifting-section3 .info li {
+.jupiter-x-lifting-synergy .info li {
   position: relative;
 }
 
-.jupiter-x-lifting-section3 .info li div {
+.jupiter-x-lifting-synergy .info li div {
   position: absolute;
   inset: 0;
   display: flex;
@@ -1470,12 +1735,12 @@
   color: var(--color-white);
 }
 
-.jupiter-x-lifting-section3 .info li:nth-child(2) div,
-.jupiter-x-lifting-section3 .info li:nth-child(3) div {
+.jupiter-x-lifting-synergy .info li:nth-child(2) div,
+.jupiter-x-lifting-synergy .info li:nth-child(3) div {
   color: var(--color-primary);
 }
 
-.jupiter-x-lifting-section3 .info li div span {
+.jupiter-x-lifting-synergy .info li div span {
   display: inline-block;
   width: 148px;
   height: 40px;
@@ -1484,53 +1749,53 @@
   border-radius: 30px;
 }
 
-.jupiter-x-lifting-section3 .info li:nth-child(2) div span,
-.jupiter-x-lifting-section3 .info li:nth-child(3) div span {
+.jupiter-x-lifting-synergy .info li:nth-child(2) div span,
+.jupiter-x-lifting-synergy .info li:nth-child(3) div span {
   border-color: var(--color-primary);
 }
 
-.jupiter-x-lifting-section3 .info li div strong {
+.jupiter-x-lifting-synergy .info li div strong {
   display: block;
 }
 
-.jupiter-x-lifting-section3 .info li div strong:nth-child(2) {
+.jupiter-x-lifting-synergy .info li div strong:nth-child(2) {
   margin-top: 88px;
 }
 
-.jupiter-x-lifting-section3 .info li div strong:nth-child(3) {
+.jupiter-x-lifting-synergy .info li div strong:nth-child(3) {
   margin-top: auto;
 }
 
-.jupiter-x-lifting-section3 .guide {
+.jupiter-x-lifting-synergy .guide {
   margin-top: 100px;
   padding: 60px;
   background-color: var(--color-white);
 }
 
-.jupiter-x-lifting-section3 .guide .title {
+.jupiter-x-lifting-synergy .guide .title {
   display: flex;
   margin-bottom: 24px;
 }
 
-.jupiter-x-lifting-section3 .guide .title strong:first-child {
+.jupiter-x-lifting-synergy .guide .title strong:first-child {
   margin-left: 115px;
 }
 
-.jupiter-x-lifting-section3 .guide .title strong:nth-child(2) {
+.jupiter-x-lifting-synergy .guide .title strong:nth-child(2) {
   margin-left: 281px;
 }
 
-.jupiter-x-lifting-section3 .guide .title strong:nth-child(3) {
+.jupiter-x-lifting-synergy .guide .title strong:nth-child(3) {
   margin-left: 357px;
 }
 
-.jupiter-x-lifting-section3 .guide ul {
+.jupiter-x-lifting-synergy .guide ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.jupiter-x-lifting-section3 .guide ul li {
+.jupiter-x-lifting-synergy .guide ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1540,14 +1805,14 @@
   border-radius: 30px;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .type {
+.jupiter-x-lifting-synergy .guide ul li .type {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   width: 230px;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .type span {
+.jupiter-x-lifting-synergy .guide ul li .type span {
   position: relative;
   padding: 7px 20px;
   background-color: var(--color-white);
@@ -1557,7 +1822,7 @@
   border-radius: 20px;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .type span:before {
+.jupiter-x-lifting-synergy .guide ul li .type span:before {
   content: "";
   position: absolute;
   top: -6px;
@@ -1566,43 +1831,43 @@
   height: 20px;
   border-radius: 100%;
   background: #d8be97
-    url("../img/pages/lifting/jupiter-x-lifting/section3-ico.png") no-repeat
+    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
     center;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .line {
+.jupiter-x-lifting-synergy .guide ul li .line {
   position: relative;
   width: 130px;
   height: 15px;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .line:before,
-.jupiter-x-lifting-section3 .guide ul li .line:after {
+.jupiter-x-lifting-synergy .guide ul li .line:before,
+.jupiter-x-lifting-synergy .guide ul li .line:after {
   content: "";
   position: absolute;
   height: 1px;
   background-color: var(--color-mediumGray);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .line:before {
+.jupiter-x-lifting-synergy .guide ul li .line:before {
   left: 0;
   bottom: 0;
   width: 100%;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .line:after {
+.jupiter-x-lifting-synergy .guide ul li .line:after {
   right: -2px;
   bottom: 7px;
   width: 21px;
   transform: rotate(42deg);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture {
+.jupiter-x-lifting-synergy .guide ul li .mixture {
   position: relative;
   display: flex;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture:before {
+.jupiter-x-lifting-synergy .guide ul li .mixture:before {
   content: "+";
   position: absolute;
   top: 50%;
@@ -1615,7 +1880,7 @@
   color: var(--color-white);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture span {
+.jupiter-x-lifting-synergy .guide ul li .mixture span {
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -1625,27 +1890,27 @@
   font-weight: var(--font-weight-Bold);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture span:last-child {
+.jupiter-x-lifting-synergy .guide ul li .mixture span:last-child {
   margin-left: -20px;
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture span.thermage {
+.jupiter-x-lifting-synergy .guide ul li .mixture span.thermage {
   background-color: rgba(183, 54, 144, 0.8);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture span.ulthera {
+.jupiter-x-lifting-synergy .guide ul li .mixture span.ulthera {
   background-color: rgba(252, 179, 57, 0.8);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture span.tricore {
+.jupiter-x-lifting-synergy .guide ul li .mixture span.tricore {
   background-color: rgba(141, 202, 224, 0.8);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .mixture span.potenza {
+.jupiter-x-lifting-synergy .guide ul li .mixture span.potenza {
   background-color: rgba(35, 184, 186, 0.8);
 }
 
-.jupiter-x-lifting-section3 .guide ul li .effect span {
+.jupiter-x-lifting-synergy .guide ul li .effect span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1657,201 +1922,58 @@
   color: var(--color-white);
 }
 
-.jupiter-x-lifting-section4 {
-  background: url("../img/pages/lifting/jupiter-x-lifting/section4-bg.jpg")
-    no-repeat top/cover;
-}
-
-.jupiter-x-lifting-section4 .pages-inner {
-  position: relative;
-  padding: 220px 0 220px 100px;
-}
-
-.jupiter-x-lifting-section4 .content h5 {
-  font-size: 24px;
-  font-weight: var(--font-weight-Light);
-  color: #d8be97;
-}
-
-.jupiter-x-lifting-section4 .content h3 {
-  margin: 20px 0 70px;
-  font-size: 60px;
-  color: var(--color-white);
-}
-
-.jupiter-x-lifting-section4 .content h3 span {
-  font-weight: var(--font-weight-Light);
-}
-
-.jupiter-x-lifting-section4 .content p {
-  color: var(--color-white);
-}
-
-.jupiter-x-lifting-section4 img {
-  position: absolute;
-  right: 80px;
-  bottom: 0;
-}
-
-.jupiter-x-lifting-section5 {
-  padding: 120px 0;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-}
-
-.jupiter-x-lifting-section5 ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-.jupiter-x-lifting-section5 ul li {
-  width: 300px;
-  height: 510px;
-  padding: 35px;
-  background-repeat: no-repeat;
-}
-
-.jupiter-x-lifting-section5 ul li:first-child {
-  background-image: url("../img/pages/lifting/jupiter-x-lifting/section5-img1.jpg");
-}
-
-.jupiter-x-lifting-section5 ul li:nth-child(2) {
-  background-image: url("../img/pages/lifting/jupiter-x-lifting/section5-img2.jpg");
-}
-
-.jupiter-x-lifting-section5 ul li:nth-child(3) {
-  background-image: url("../img/pages/lifting/jupiter-x-lifting/section5-img3.jpg");
-}
-
-.jupiter-x-lifting-section5 ul li:nth-child(4) {
-  background-image: url("../img/pages/lifting/jupiter-x-lifting/section5-img4.jpg");
-}
-
-.jupiter-x-lifting-section5 ul li > span {
-  display: block;
-  margin-bottom: 18px;
-  color: rgba(33, 40, 60, 0.5);
-}
-
-.jupiter-x-lifting-section5 ul li h5 {
-  font-size: 30px;
-  color: var(--color-primary);
-}
-
-.jupiter-x-lifting-section5 ul li h5 span {
-  font-weight: var(--font-weight-Light);
-}
-
-.jupiter-x-lifting-section5 ul li p {
-  margin-top: 12px;
-  color: var(--color-primary);
-}
-
-.jupiter-x-lifting-section6 {
-  padding: 120px 0;
-  color: var(--color-primary);
-}
-
-.jupiter-x-lifting-section6 .pages-inner {
-  display: flex;
-  justify-content: space-between;
-}
-
-.jupiter-x-lifting-section6 .txt {
-  padding-top: 50px;
-}
-
-.jupiter-x-lifting-section6 .txt h5 {
-  font-size: 24px;
-  font-weight: var(--font-weight-Light);
-}
-
-.jupiter-x-lifting-section6 .txt h3 {
-  margin: 30px 0 20px;
-  font-size: 60px;
-}
-
-.jupiter-x-lifting-section6 .txt p {
-  margin-bottom: 90px;
-}
-
-.jupiter-x-lifting-section6 .swiper {
-  width: 650px;
-}
-
-.jupiter-x-lifting-section6 .swiper .swiper-slide div {
-  margin-top: 30px;
-}
-
-.jupiter-x-lifting-section6 .swiper .swiper-slide div h5 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
 @media screen and (max-width: 1200px) {
-  .jupiter-x-lifting-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url("../img/pages/lifting/jupiter-x-lifting/mobile/intro-bg.jpg")
-      no-repeat center/cover;
-  }
-
-  .jupiter-x-lifting-section1 {
+  .jupiter-x-lifting-design {
     padding: 80px 0;
   }
 
-  .jupiter-x-lifting-section2 {
-    padding: 80px 0;
-  }
-
-  .jupiter-x-lifting-section2:before,
-  .jupiter-x-lifting-section2:after {
+  .jupiter-x-lifting-design:before,
+  .jupiter-x-lifting-design:after {
     height: 170px;
   }
 
-  .jupiter-x-lifting-section2 .content {
+  .jupiter-x-lifting-design .content {
     width: 295px;
     height: 295px;
     margin: 110px auto 60px;
   }
 
-  .jupiter-x-lifting-section2 .content:before,
-  .jupiter-x-lifting-section2 .content:after {
+  .jupiter-x-lifting-design .content:before,
+  .jupiter-x-lifting-design .content:after {
     border: 3px solid #eeeeee;
   }
 
-  .jupiter-x-lifting-section2 .content:after {
+  .jupiter-x-lifting-design .content:after {
     inset: 40px;
   }
 
-  .jupiter-x-lifting-section2 .content > span {
+  .jupiter-x-lifting-design .content > span {
     font-size: 17px;
   }
 
-  .jupiter-x-lifting-section2 .content ul {
+  .jupiter-x-lifting-design .content ul {
     gap: 50px;
   }
 
-  .jupiter-x-lifting-section2 .content ul li {
+  .jupiter-x-lifting-design .content ul li {
     width: 130px;
     height: 130px;
   }
 
-  .jupiter-x-lifting-section2 .content ul li strong,
-  .jupiter-x-lifting-section2 .content ul li p {
+  .jupiter-x-lifting-design .content ul li strong,
+  .jupiter-x-lifting-design .content ul li p {
     font-size: 16px;
   }
 
-  .jupiter-x-lifting-section3 {
+  .jupiter-x-lifting-synergy {
     padding: 80px 0;
   }
 
-  .jupiter-x-lifting-section3:before {
+  .jupiter-x-lifting-synergy:before {
     height: 190px;
   }
 
-  .jupiter-x-lifting-section3 .info {
+  .jupiter-x-lifting-synergy .info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -1859,70 +1981,70 @@
     margin: 0 auto;
   }
 
-  .jupiter-x-lifting-section3 .info li div {
+  .jupiter-x-lifting-synergy .info li div {
     padding: 15px 0;
   }
 
-  .jupiter-x-lifting-section3 .info li div span {
+  .jupiter-x-lifting-synergy .info li div span {
     width: 110px;
     height: 28px;
     line-height: 26px;
   }
 
-  .jupiter-x-lifting-section3 .info li div strong:nth-child(2) {
+  .jupiter-x-lifting-synergy .info li div strong:nth-child(2) {
     margin-top: 23%;
   }
 
-  .jupiter-x-lifting-section3 .guide {
+  .jupiter-x-lifting-synergy .guide {
     margin: 50px -12.5px 0;
     padding: 25px 12.5px;
   }
 
-  .jupiter-x-lifting-section3 .guide .title {
+  .jupiter-x-lifting-synergy .guide .title {
     justify-content: space-between;
     margin-bottom: 10px;
     padding: 0 10px;
   }
 
-  .jupiter-x-lifting-section3 .guide .title strong:first-child {
+  .jupiter-x-lifting-synergy .guide .title strong:first-child {
     margin-left: 0;
   }
 
-  .jupiter-x-lifting-section3 .guide .title strong:nth-child(2) {
+  .jupiter-x-lifting-synergy .guide .title strong:nth-child(2) {
     margin-left: 0;
   }
 
-  .jupiter-x-lifting-section3 .guide .title strong:nth-child(3) {
+  .jupiter-x-lifting-synergy .guide .title strong:nth-child(3) {
     width: 115px;
     text-align: center;
     margin-left: 0;
   }
 
-  .jupiter-x-lifting-section3 .guide ul {
+  .jupiter-x-lifting-synergy .guide ul {
     gap: 10px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li {
+  .jupiter-x-lifting-synergy .guide ul li {
     justify-content: space-between;
     height: auto;
     padding: 10px;
     border-radius: 15px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .type {
+  .jupiter-x-lifting-synergy .guide ul li .type {
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
     width: 70px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .type span {
+  .jupiter-x-lifting-synergy .guide ul li .type span {
     padding: 3px 10px;
     border-radius: 15px;
     font-size: 12px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .type span:before {
+  .jupiter-x-lifting-synergy .guide ul li .type span:before {
     top: -5px;
     left: -5px;
     width: 14px;
@@ -1930,145 +2052,63 @@
     background-size: 6px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .line {
+  .jupiter-x-lifting-synergy .guide ul li .line {
     display: none;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .mixture span {
+  .jupiter-x-lifting-synergy .guide ul li .mixture span {
     width: 70px;
     height: 70px;
     line-height: 70px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .mixture span:last-child {
+  .jupiter-x-lifting-synergy .guide ul li .mixture span:last-child {
     margin-left: -13px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .mobile-view {
+  .jupiter-x-lifting-synergy .guide ul li .mobile-view {
     width: 115px;
     text-align: center;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .mobile-view .effect {
+  .jupiter-x-lifting-synergy .guide ul li .mobile-view .effect {
     display: inline-flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  .jupiter-x-lifting-section3 .guide ul li .effect span {
+  .jupiter-x-lifting-synergy .guide ul li .effect span {
     width: auto;
     height: auto;
     font-size: 12px;
   }
+}
 
-  .jupiter-x-lifting-section4 {
-    background: url("../img/pages/lifting/jupiter-x-lifting/mobile/section4-bg.jpg")
-      no-repeat top/cover;
+/************** JUPITER X - LIFTING **************/
+
+.jupiter-x-booster-solution {
+  margin: 120px 0;
+}
+
+.jupiter-x-booster-list {
+  padding: 120px 0;
+  background-color: #f5f5f5;
+}
+
+.jupiter-x-booster-mixture {
+  margin: 120px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .jupiter-x-booster-solution {
+    margin: 80px 0;
   }
 
-  .jupiter-x-lifting-section4 .pages-inner {
-    padding: 80px 25px;
-  }
-
-  .jupiter-x-lifting-section4 .content {
-    margin-top: -30px;
-  }
-
-  .jupiter-x-lifting-section4 .content h5 {
-    font-size: 16px;
-  }
-
-  .jupiter-x-lifting-section4 .content h3 {
-    margin: 15px 0 20px;
-    font-size: 30px;
-  }
-
-  .jupiter-x-lifting-section4 img {
-    position: static;
-  }
-
-  .jupiter-x-lifting-section5 {
+  .jupiter-x-booster-list {
     padding: 80px 0;
   }
 
-  .jupiter-x-lifting-section5 .pages-title.v1 {
-    text-align: left;
-  }
-
-  .jupiter-x-lifting-section5 .swiper {
-    width: calc(100% + 25px);
-  }
-
-  .jupiter-x-lifting-section5 .pages-swiper .control {
-    padding-right: 25px;
-  }
-
-  .jupiter-x-lifting-section5 .swiper-slide {
-    width: 170px;
-  }
-
-  .jupiter-x-lifting-section5 .swiper-slide div {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-
-  .jupiter-x-lifting-section5 .swiper-slide div > span {
-    display: block;
-    margin-bottom: 10px;
-    color: rgba(33, 40, 60, 0.5);
-  }
-
-  .jupiter-x-lifting-section5 .swiper-slide div h5 {
-    font-size: 16px;
-    color: var(--color-primary);
-  }
-
-  .jupiter-x-lifting-section5 .swiper-slide div h5 span {
-    font-weight: var(--font-weight-Light);
-  }
-
-  .jupiter-x-lifting-section5 .swiper-slide div p {
-    margin-top: 10px;
-    color: var(--color-primary);
-  }
-
-  .jupiter-x-lifting-section6 {
-    padding: 80px 0;
-  }
-
-  .jupiter-x-lifting-section6 .pages-inner {
-    flex-direction: column;
-  }
-
-  .jupiter-x-lifting-section6 .txt {
-    padding-top: 0;
-    margin-bottom: 20px;
-  }
-
-  .jupiter-x-lifting-section6 .txt h5 {
-    font-size: 16px;
-  }
-
-  .jupiter-x-lifting-section6 .txt h3 {
-    margin: 15px 0 20px;
-    font-size: 30px;
-  }
-
-  .jupiter-x-lifting-section6 .txt p {
-    margin-bottom: 20px;
-  }
-
-  .jupiter-x-lifting-section6 .swiper {
-    width: 100%;
-  }
-
-  .jupiter-x-lifting-section6 .swiper .swiper-slide div {
-    margin-top: 14px;
-  }
-
-  .jupiter-x-lifting-section6 .swiper .swiper-slide div h5 {
-    font-size: 16px;
-    margin-bottom: 10px;
+  .jupiter-x-booster-mixture {
+    margin: 80px 0;
   }
 }
