@@ -171,28 +171,32 @@ textarea {
   font-family: "Pretendard";
   font-weight: 700;
   font-display: swap;
-  src: local("Pretendard Bold"), url("./font/Pretendard-Bold.woff2") format("woff2");
+  src: local("Pretendard Bold"),
+    url("./font/Pretendard-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 600;
   font-display: swap;
-  src: local("Pretendard SemiBold"), url("./font/Pretendard-SemiBold.woff2") format("woff2");
+  src: local("Pretendard SemiBold"),
+    url("./font/Pretendard-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 500;
   font-display: swap;
-  src: local("Pretendard Medium"), url("./font/Pretendard-Medium.woff2") format("woff2");
+  src: local("Pretendard Medium"),
+    url("./font/Pretendard-Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 300;
   font-display: swap;
-  src: local("Pretendard Light"), url("./font/Pretendard-Light.woff2") format("woff2");
+  src: local("Pretendard Light"),
+    url("./font/Pretendard-Light.woff2") format("woff2");
 }
 
 .mobile-view {
@@ -254,7 +258,7 @@ textarea {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 4;
+  z-index: 22;
   max-width: 768px;
   margin: 0 auto;
   display: none;
@@ -337,7 +341,7 @@ textarea {
   position: fixed;
   inset: 0;
   top: 108px;
-  z-index: 4;
+  z-index: 22;
   max-width: 768px;
   margin: 0 auto;
   background-color: #d4ccc1;
@@ -602,7 +606,7 @@ textarea {
   position: fixed;
   bottom: 36px;
   right: 70px;
-  z-index: 3;
+  z-index: 21;
   width: 60px;
   height: 60px;
   background-color: var(--color-white);
@@ -770,12 +774,8 @@ textarea {
   width: 34px;
 }
 
-.footer .customer .right .hours-wrap ul li div.time span:nth-child(2) {
-  width: 55px;
-}
-
-.footer .customer .right .hours-wrap ul li div.time span:last-child {
-  width: 46px;
+.footer .customer .right .hours-wrap ul li div.time span:nth-child(even) {
+  width: 60px;
 }
 
 .footer .customer .right .hours-wrap p {
@@ -896,12 +896,8 @@ textarea {
     width: 25px;
   }
 
-  .footer .customer .right .hours-wrap ul li div.time span:nth-child(2) {
-    width: 42px;
-  }
-
-  .footer .customer .right .hours-wrap ul li div.time span:last-child {
-    width: 35px;
+  .footer .customer .right .hours-wrap ul li div.time span:nth-child(even) {
+    width: 45px;
   }
 
   .footer .customer .right .hours-wrap p {
