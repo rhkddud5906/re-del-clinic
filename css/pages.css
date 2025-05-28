@@ -2130,19 +2130,10 @@
 }
 
 .jupiter-x-booster-solution .txt {
-  text-align: center;
-}
-
-.jupiter-x-booster-solution .txt span {
-  width: 1px;
-  height: 90px;
-  background-color: var(--color-primary);
-}
-
-.jupiter-x-booster-solution .txt {
   position: relative;
   padding-top: 120px;
   margin-top: 84px;
+  text-align: center;
   font-size: 30px;
 }
 
@@ -2161,8 +2152,151 @@
   background-color: #f5f5f5;
 }
 
+.jupiter-x-booster-list ol {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+}
+
+.jupiter-x-booster-list ol li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jupiter-x-booster-list ol li .txt {
+  color: var(--color-primary);
+}
+
+.jupiter-x-booster-list ol li:nth-child(odd) .txt {
+  padding-right: 60px;
+}
+
+.jupiter-x-booster-list ol li:nth-child(even) .txt {
+  padding-left: 60px;
+}
+
+.jupiter-x-booster-list ol li .txt > strong {
+  color: #9dbcd4;
+}
+
+.jupiter-x-booster-list ol li .txt h5 {
+  margin: 12px 0 20px;
+  font-size: 24px;
+}
+
 .jupiter-x-booster-mixture {
   margin: 120px 0;
+}
+
+.jupiter-x-booster-mixture ul {
+  display: flex;
+  justify-content: center;
+}
+
+.jupiter-x-booster-mixture ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.jupiter-x-booster-mixture ul li strong {
+  color: var(--color-primary);
+}
+
+.jupiter-x-booster-mixture ul li div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.jupiter-x-booster-mixture ul li.composition div {
+  padding: 0 40px;
+}
+
+.jupiter-x-booster-mixture ul li.composition div::before,
+.jupiter-x-booster-mixture ul li.composition div::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  background-color: #a7c3d8;
+}
+
+.jupiter-x-booster-mixture ul li.composition div::before {
+  left: 0;
+}
+
+.jupiter-x-booster-mixture ul li.composition div::after {
+  right: 0;
+}
+
+.jupiter-x-booster-mixture ul li.composition div:nth-child(2)::before,
+.jupiter-x-booster-mixture ul li.composition div:nth-child(2)::after,
+.jupiter-x-booster-mixture ul li.composition div:nth-child(5)::before,
+.jupiter-x-booster-mixture ul li.composition div:nth-child(5)::after {
+  width: 105px;
+}
+
+.jupiter-x-booster-mixture ul li.composition div:nth-child(3)::before,
+.jupiter-x-booster-mixture ul li.composition div:nth-child(3)::after,
+.jupiter-x-booster-mixture ul li.composition div:nth-child(6)::before,
+.jupiter-x-booster-mixture ul li.composition div:nth-child(6)::after {
+  width: 40px;
+}
+
+.jupiter-x-booster-mixture ul li.composition div:nth-child(4)::before {
+  width: 105px;
+}
+
+.jupiter-x-booster-mixture ul li.composition div:nth-child(4)::after {
+  width: 170px;
+  right: -65px;
+}
+
+.jupiter-x-booster-mixture ul li div span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  font-weight: var(--font-weight-Bold);
+}
+
+.jupiter-x-booster-mixture ul li div span:not(:first-child) {
+  margin-left: -20px;
+}
+
+.jupiter-x-booster-mixture ul li.mixture div span {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 24px;
+}
+
+.jupiter-x-booster-mixture ul li.composition div span {
+  border: 1px solid #a7c3d8;
+  color: var(--color-primary);
+}
+
+.jupiter-x-booster-mixture ul li.effect div span {
+  background-color: rgba(157, 188, 212, 0.9);
+  color: var(--color-white);
+}
+
+.jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  left: 3.5px;
+  transform: translateY(-50%);
+  font-family: "Poppins";
+  font-weight: var(--font-weight-Bold);
+  color: #a7c3d8;
 }
 
 @media screen and (max-width: 1200px) {
@@ -2170,11 +2304,142 @@
     margin: 80px 0;
   }
 
+  .jupiter-x-booster-solution .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .jupiter-x-booster-solution .content li {
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+  }
+
+  .jupiter-x-booster-solution .content li div {
+    gap: 10px;
+  }
+
+  .jupiter-x-booster-solution .content li div span img {
+    width: 14px;
+  }
+
+  .jupiter-x-booster-solution .txt {
+    padding-top: 60px;
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .jupiter-x-booster-solution .txt:before {
+    height: 45px;
+  }
+
   .jupiter-x-booster-list {
     padding: 80px 0;
   }
 
+  .jupiter-x-booster-list ol {
+    width: auto;
+    gap: 60px;
+  }
+
+  .jupiter-x-booster-list ol li {
+    gap: 30px;
+  }
+
+  .jupiter-x-booster-list ol li:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .jupiter-x-booster-list ol li:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .jupiter-x-booster-list ol li .txt {
+    text-align: center;
+  }
+
+  .jupiter-x-booster-list ol li:nth-child(odd) .txt {
+    padding-right: 0;
+  }
+
+  .jupiter-x-booster-list ol li:nth-child(even) .txt {
+    padding-left: 0;
+  }
+
+  .jupiter-x-booster-list ol li .txt > strong {
+    font-size: 12px;
+  }
+
+  .jupiter-x-booster-list ol li .txt h5 {
+    margin: 6px 0 16px;
+    font-size: 18px;
+  }
+
   .jupiter-x-booster-mixture {
     margin: 80px 0;
+  }
+
+  .jupiter-x-booster-mixture ul li {
+    flex: 0 0 25%;
+    gap: 10px;
+  }
+
+  .jupiter-x-booster-mixture ul li:last-child {
+    flex: 1;
+  }
+
+  .jupiter-x-booster-mixture ul li strong {
+    font-size: 18px;
+  }
+
+  .jupiter-x-booster-mixture ul li div {
+    height: 100px;
+    gap: 4px;
+  }
+
+  .jupiter-x-booster-mixture ul li.composition div {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .jupiter-x-booster-mixture ul li.composition div::before,
+  .jupiter-x-booster-mixture ul li.composition div::after {
+    display: none;
+  }
+
+  .jupiter-x-booster-mixture ul li div span {
+    flex: 1;
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .jupiter-x-booster-mixture ul li div span:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .jupiter-x-booster-mixture ul li.mixture div span {
+    font-size: 16px;
+  }
+
+  .jupiter-x-booster-mixture ul li.effect div span {
+    background-color: #a7c3d8;
+  }
+
+  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
+    top: -10px;
+    left: 0;
+    right: 0;
+    transform: none;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: #a7c3d8;
+    font-size: 12px;
+    color: var(--color-white);
   }
 }
