@@ -17,7 +17,6 @@
 .pages-title.v1 {
   margin-bottom: 80px;
   text-align: center;
-  color: var(--color-primary);
 }
 
 .pages-title.white.v1 {
@@ -39,7 +38,6 @@
 
 .pages-title.v2 {
   margin-bottom: 40px;
-  color: var(--color-primary);
 }
 
 .pages-title.v2 h4 {
@@ -164,6 +162,7 @@
 /************** 상단 비주얼 **************/
 
 .pages-intro {
+  position: relative;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -488,7 +487,6 @@
 .one-wrinkle-intro .txt h5 {
   margin-bottom: 10px;
   font-size: 30px;
-  color: var(--color-primary);
 }
 
 .one-wrinkle-intro .txt h5 span {
@@ -499,7 +497,6 @@
   font-size: 80px;
   font-family: "Noto Serif";
   font-style: italic;
-  color: var(--color-primary);
 }
 
 .one-wrinkle-intro .txt p {
@@ -542,10 +539,6 @@
   align-items: center;
 }
 
-.one-wrinkle-section1 .txt {
-  color: var(--color-primary);
-}
-
 .one-wrinkle-section1 .txt h5 {
   margin-bottom: 30px;
   padding-left: 3px;
@@ -568,7 +561,6 @@
 .one-wrinkle-section2 {
   padding: 120px 0;
   background-color: #f4f4f4;
-  color: var(--color-primary);
 }
 
 .one-wrinkle-section2 ul {
@@ -600,7 +592,6 @@
 
 .one-wrinkle-section3 {
   background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
-  color: var(--color-primary);
 }
 
 .one-wrinkle-section3 .pages-inner {
@@ -825,7 +816,6 @@
 .medical-staff-section1 dl dd {
   width: 594px;
   padding: 50px;
-  color: var(--color-primary);
 }
 
 .medical-staff-section1 dl dd div {
@@ -969,7 +959,6 @@
   right: 160px;
   transform: translateY(-50%);
   text-align: center;
-  color: var(--color-primary);
 }
 
 .equipment-intro-gallery-swiper .txt h4 {
@@ -1105,7 +1094,6 @@
   display: flex;
   align-items: flex-start;
   margin-bottom: 46px;
-  color: var(--color-primary);
 }
 
 .contact-section1 .content .left dl dt {
@@ -1225,10 +1213,6 @@
   border-radius: 20px;
   font-weight: var(--font-weight-Bold);
   color: #eba900;
-}
-
-.contact-section1 .content .right .txt p {
-  color: var(--color-primary);
 }
 
 .contact-section2 {
@@ -1419,7 +1403,6 @@
 .pages-jupiter-service {
   padding: 120px 0;
   background-color: var(--color-primary);
-  color: var(--color-white);
 }
 
 .pages-jupiter-service .content {
@@ -1462,7 +1445,6 @@
 
 .pages-jupiter-service ul li h5 {
   font-size: 30px;
-  color: var(--color-primary);
 }
 
 .pages-jupiter-service ul li h5 span {
@@ -1471,12 +1453,10 @@
 
 .pages-jupiter-service ul li p {
   margin-top: 12px;
-  color: var(--color-primary);
 }
 
 .pages-jupiter-story {
   padding: 120px 0;
-  color: var(--color-primary);
 }
 
 .pages-jupiter-story .pages-inner {
@@ -1617,7 +1597,6 @@
 
   .pages-jupiter-service .swiper-slide div h5 {
     font-size: 16px;
-    color: var(--color-primary);
   }
 
   .pages-jupiter-service .swiper-slide div h5 span {
@@ -1626,7 +1605,6 @@
 
   .pages-jupiter-service .swiper-slide div p {
     margin-top: 10px;
-    color: var(--color-primary);
   }
 
   .pages-jupiter-story {
@@ -1759,7 +1737,6 @@
   text-align: center;
   font-size: 24px;
   font-family: "Noto Serif";
-  color: var(--color-primary);
 }
 
 .jupiter-x-lifting-design .content ul {
@@ -1925,7 +1902,6 @@
   padding: 7px 20px;
   background-color: var(--color-white);
   border: 1px solid #ddd;
-  color: var(--color-primary);
   font-weight: var(--font-weight-Bold);
   border-radius: 20px;
 }
@@ -2276,10 +2252,6 @@
   align-items: center;
 }
 
-.jupiter-x-booster-list ol li .txt {
-  color: var(--color-primary);
-}
-
 .jupiter-x-booster-list ol li:nth-child(odd) .txt {
   padding-right: 60px;
 }
@@ -2311,10 +2283,6 @@
   flex-direction: column;
   gap: 30px;
   text-align: center;
-}
-
-.jupiter-x-booster-mixture ul li strong {
-  color: var(--color-primary);
 }
 
 .jupiter-x-booster-mixture ul li div {
@@ -2390,7 +2358,6 @@
 
 .jupiter-x-booster-mixture ul li.composition div span {
   border: 1px solid #a7c3d8;
-  color: var(--color-primary);
 }
 
 .jupiter-x-booster-mixture ul li.effect div span {
@@ -2549,4 +2516,160 @@
     font-size: 12px;
     color: var(--color-white);
   }
+}
+
+/************** 온라인예약 **************/
+
+.reservation-intro {
+  background-image: url("../img/pages/reservation/intro-bg.jpg");
+}
+
+.reservation-section {
+  margin: 120px 0;
+}
+
+.reservation-section .noti {
+  display: flex;
+  gap: 170px;
+  padding: 35px 60px;
+  margin-bottom: 100px;
+  background-color: #f5f5f5;
+}
+
+.reservation-section .noti h4 {
+  font-size: 30px;
+}
+
+.reservation-section .noti ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.reservation-section .privacy {
+}
+
+.reservation-section .privacy .txt {
+  display: flex;
+  gap: 170px;
+  padding: 35px 60px;
+  border: 1px solid #e4e4e4;
+}
+
+.reservation-section .privacy .txt h4 {
+  font-size: 30px;
+}
+
+.reservation-section .privacy .txt h4 span {
+  color: #eb741d;
+}
+
+.reservation-section .privacy .txt div {
+  flex: 1;
+  font-size: 16px;
+}
+
+.reservation-section .privacy .txt div h5 {
+  font-size: 18px;
+}
+
+.reservation-section .privacy .txt div p {
+  margin: 20px 0 15px;
+  color: #666;
+}
+
+.reservation-section .privacy .txt div table {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.reservation-section .privacy .txt div table th {
+  padding: 12px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.reservation-section .privacy .txt div table td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+  color: #666;
+}
+
+.reservation-section .privacy .agree {
+  position: relative;
+  display: inline-flex;
+  margin-top: 15px;
+}
+
+.reservation-section .privacy .agree input {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  appearance: none;
+  background-color: var(--color-white);
+  border: 1px solid #ddd;
+}
+
+.reservation-section .privacy .agree input:checked {
+  border-color: var(--color-primary);
+  background: var(--color-primary) url("../img/pages/reservation/privacy-ico.png") no-repeat center/14px;
+}
+
+.reservation-section .privacy .agree label {
+  flex: 1;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.reservation-section .form-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 85px;
+}
+
+.reservation-section .form-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 50px;
+  font-weight: var(--font-weight-Bold);
+}
+
+.reservation-section .form-btn button[type="reset"] {
+  background-color: #f5f5f5;
+}
+
+.reservation-section .form-btn button[type="submit"] {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.reservation-section .form-list {
+}
+
+.reservation-section .form-list dl {
+}
+
+.reservation-section .form-list dl dt {
+}
+
+.reservation-section .form-list dl dt span {
+}
+
+.reservation-section .form-list dl dt h4 {
+}
+
+.reservation-section .form-list dl dd {
+}
+
+.reservation-section .form-list dl dd.form1 {
+}
+
+.reservation-section .form-list dl dd .form-box {
 }
