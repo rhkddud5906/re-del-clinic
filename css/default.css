@@ -927,7 +927,6 @@ textarea {
 
 .wrapper {
   min-width: 1920px;
-  overflow: hidden;
 }
 
 .container {
@@ -939,6 +938,7 @@ textarea {
     min-width: 360px;
     max-width: 768px;
     margin: 0 auto;
+    overflow: hidden;
   }
 
   .container {

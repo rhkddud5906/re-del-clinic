@@ -485,7 +485,8 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg")
+    no-repeat top/cover;
 }
 
 .one-wrinkle-intro .txt {
@@ -599,7 +600,8 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat
+    top/cover;
   color: var(--color-primary);
 }
 
@@ -654,7 +656,9 @@
   .one-wrinkle-intro {
     display: flex;
     justify-content: center;
-    background: #edf0f2 url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
+    background: #edf0f2
+      url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat
+      top/cover;
   }
 
   .one-wrinkle-intro .txt {
@@ -1047,7 +1051,8 @@
   .equipment-intro-gallery-swiper {
     margin-bottom: 20px;
     border-radius: 7px;
-    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg")
+      no-repeat center/cover;
   }
 
   .equipment-intro-gallery-swiper .txt {
@@ -1156,11 +1161,25 @@
   letter-spacing: 2px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(odd) {
   width: 34px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(even) {
   width: 60px;
 }
 
@@ -1291,11 +1310,25 @@
     gap: 2px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(odd) {
     width: 25px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(even) {
     width: 45px;
   }
 
@@ -1366,7 +1399,8 @@
 }
 
 .pages-jupiter-protocol {
-  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+    top/cover;
 }
 
 .pages-jupiter-protocol .pages-inner {
@@ -1549,7 +1583,8 @@
   }
 
   .pages-jupiter-protocol {
-    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+      top/cover;
   }
 
   .pages-jupiter-protocol .pages-inner {
@@ -1808,7 +1843,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
+    no-repeat top/cover;
 }
 
 .jupiter-x-lifting-synergy .pages-inner {
@@ -1930,7 +1966,9 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #d8be97 url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat center;
+  background: #d8be97
+    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
+    center;
 }
 
 .jupiter-x-lifting-synergy .guide ul li .line {
@@ -2103,6 +2141,7 @@
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 10px;
     padding: 0 10px;
+    font-size: 16px;
   }
 
   .jupiter-x-lifting-synergy .guide .title strong:first-child {
@@ -2117,7 +2156,7 @@
 
   .jupiter-x-lifting-synergy .guide .title strong:nth-child(2) span {
     display: inline-block;
-    width: 127px;
+    width: 139px;
   }
 
   .jupiter-x-lifting-synergy .guide ul {
@@ -2163,9 +2202,9 @@
   }
 
   .jupiter-x-lifting-synergy .guide ul li .mixture span {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
   }
 
   .jupiter-x-lifting-synergy .guide ul li .mixture span:last-child {
@@ -2469,10 +2508,6 @@
     padding-left: 0;
   }
 
-  .jupiter-x-booster-list ol li .txt > strong {
-    font-size: 12px;
-  }
-
   .jupiter-x-booster-list ol li .txt h5 {
     margin: 6px 0 16px;
     font-size: 18px;
@@ -2492,11 +2527,11 @@
   }
 
   .jupiter-x-booster-mixture ul li strong {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .jupiter-x-booster-mixture ul li div {
-    height: 100px;
+    height: 85px;
     gap: 4px;
   }
 
@@ -2515,6 +2550,7 @@
     width: auto;
     height: auto;
     border-radius: 6px;
+    font-size: 12px;
   }
 
   .jupiter-x-booster-mixture ul li div span:not(:first-child) {
@@ -2522,14 +2558,18 @@
   }
 
   .jupiter-x-booster-mixture ul li.mixture div span {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .jupiter-x-booster-mixture ul li.effect div span {
     background-color: #a7c3d8;
   }
 
-  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
+  .jupiter-x-booster-mixture
+    ul
+    li.composition
+    div
+    span:not(:first-child):before {
     top: -10px;
     left: 0;
     right: 0;
