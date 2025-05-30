@@ -173,27 +173,27 @@
   background-position: center;
 }
 
-.pages-intro div {
+.pages-intro .txt {
   text-align: center;
   color: var(--color-white);
 }
 
-.pages-intro div h3 {
+.pages-intro .txt h3 {
   font-size: 60px;
   font-family: "Noto Serif";
 }
 
-.pages-intro div h3 span {
+.pages-intro .txt h3 span {
   color: #baa991;
 }
 
-.pages-intro div h4 {
+.pages-intro .txt h4 {
   margin: 5px 0 30px;
   font-size: 36px;
   font-weight: var(--font-weight-Light);
 }
 
-.pages-intro div p {
+.pages-intro .txt p {
   font-size: 20px;
   color: #d4ccc1;
 }
@@ -215,7 +215,7 @@
   z-index: -1;
 }
 
-.pages-intro-video div {
+.pages-intro-video .txt {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +224,7 @@
   color: var(--color-white);
 }
 
-.pages-intro-video div h4 {
+.pages-intro-video .txt h4 {
   font-size: 36px;
   font-weight: var(--font-weight-Light);
 }
@@ -239,10 +239,6 @@
   height: 45px;
   border-radius: 10px;
   border: 2px solid var(--color-white);
-}
-
-.scroll-down.black {
-  border-color: var(--color-primary);
 }
 
 .scroll-down:before,
@@ -262,10 +258,6 @@
   animation: loopCirWrap 1.5s linear infinite;
 }
 
-.scroll-down.black:before {
-  background: linear-gradient(180deg, rgba(238, 238, 238, 0) 0, rgba(238, 238, 238, 0.5) 60%, #eee 100%);
-}
-
 .scroll-down:after {
   width: 5px;
   height: 5px;
@@ -273,10 +265,6 @@
   border-radius: 100%;
   opacity: 0.909804;
   animation: loopCir 1.5s linear infinite;
-}
-
-.scroll-down.black:after {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @keyframes loopCirWrap {
@@ -323,28 +311,28 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .pages-intro div h3 {
+  .pages-intro .txt h3 {
     font-size: 35px;
   }
 
-  .pages-intro div h4 {
+  .pages-intro .txt h4 {
     margin: 5px 0 20px;
     font-size: 22px;
   }
 
-  .pages-intro div p {
+  .pages-intro .txt p {
     font-size: 16px;
   }
 
-  .pages-intro-video div {
+  .pages-intro-video .txt {
     gap: 20px;
   }
 
-  .pages-intro-video div img {
+  .pages-intro-video .txt img {
     width: 200px;
   }
 
-  .pages-intro-video div h4 {
+  .pages-intro-video .txt h4 {
     font-size: 18px;
   }
 }
@@ -485,8 +473,7 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg")
-    no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
 }
 
 .one-wrinkle-intro .txt {
@@ -531,6 +518,18 @@
   width: 1px;
   height: 79px;
   background-color: #707688;
+}
+
+.one-wrinkle-intro .scroll-down {
+  border-color: var(--color-primary);
+}
+
+.one-wrinkle-intro .scroll-down:before {
+  background: linear-gradient(180deg, rgba(33, 30, 60, 0) 0, rgba(33, 30, 60, 0.5) 60%, #eee 100%);
+}
+
+.one-wrinkle-intro .scroll-down:after {
+  background-color: var(--color-primary);
 }
 
 .one-wrinkle-section1 {
@@ -600,8 +599,7 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
   color: var(--color-primary);
 }
 
@@ -656,9 +654,7 @@
   .one-wrinkle-intro {
     display: flex;
     justify-content: center;
-    background: #edf0f2
-      url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat
-      top/cover;
+    background: #edf0f2 url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
   }
 
   .one-wrinkle-intro .txt {
@@ -1051,8 +1047,7 @@
   .equipment-intro-gallery-swiper {
     margin-bottom: 20px;
     border-radius: 7px;
-    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg")
-      no-repeat center/cover;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
   }
 
   .equipment-intro-gallery-swiper .txt {
@@ -1161,25 +1156,11 @@
   letter-spacing: 2px;
 }
 
-.contact-section1
-  .content
-  .left
-  dl.hours-wrap
-  ul
-  li
-  div.time
-  span:nth-child(odd) {
+.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
   width: 34px;
 }
 
-.contact-section1
-  .content
-  .left
-  dl.hours-wrap
-  ul
-  li
-  div.time
-  span:nth-child(even) {
+.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
   width: 60px;
 }
 
@@ -1310,25 +1291,11 @@
     gap: 2px;
   }
 
-  .contact-section1
-    .content
-    .left
-    dl.hours-wrap
-    ul
-    li
-    div.time
-    span:nth-child(odd) {
+  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
     width: 25px;
   }
 
-  .contact-section1
-    .content
-    .left
-    dl.hours-wrap
-    ul
-    li
-    div.time
-    span:nth-child(even) {
+  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
     width: 45px;
   }
 
@@ -1399,8 +1366,7 @@
 }
 
 .pages-jupiter-protocol {
-  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
 }
 
 .pages-jupiter-protocol .pages-inner {
@@ -1583,8 +1549,7 @@
   }
 
   .pages-jupiter-protocol {
-    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
-      top/cover;
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
   }
 
   .pages-jupiter-protocol .pages-inner {
@@ -1718,12 +1683,20 @@
 
 /************** JUPITER X - LIFTING **************/
 
-.jupiter-x-lifting-intro div {
+.jupiter-x-lifting-intro .txt {
   color: #f3e8bb;
 }
 
 .jupiter-x-lifting-intro .scroll-down {
   border-color: #f3e8bb;
+}
+
+.jupiter-x-lifting-intro .scroll-down:before {
+  background: linear-gradient(180deg, rgba(243, 232, 187, 0) 0, rgba(243, 232, 187, 0.5) 60%, #eee 100%);
+}
+
+.jupiter-x-lifting-intro .scroll-down:after {
+  background-color: #f3e8bb;
 }
 
 .jupiter-x-lifting-design {
@@ -1843,8 +1816,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
-    no-repeat top/cover;
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg") no-repeat top/cover;
 }
 
 .jupiter-x-lifting-synergy .pages-inner {
@@ -1966,9 +1938,7 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #d8be97
-    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
-    center;
+  background: #d8be97 url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat center;
 }
 
 .jupiter-x-lifting-synergy .guide ul li .line {
@@ -2565,11 +2535,7 @@
     background-color: #a7c3d8;
   }
 
-  .jupiter-x-booster-mixture
-    ul
-    li.composition
-    div
-    span:not(:first-child):before {
+  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
     top: -10px;
     left: 0;
     right: 0;
