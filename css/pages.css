@@ -2702,6 +2702,10 @@
   border-radius: 5px;
 }
 
+.reservation-section .form-list dl dd .form-box .control:focus {
+  border-color: #baa991;
+}
+
 .reservation-section .form-list dl dd .form-box input.control {
   height: 46px;
   padding: 0 10px;
