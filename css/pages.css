@@ -252,7 +252,12 @@
 .scroll-down:before {
   top: 5px;
   width: 5px;
-  background: linear-gradient(180deg, rgba(238, 238, 238, 0) 0, rgba(238, 238, 238, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(238, 238, 238, 0) 0,
+    rgba(238, 238, 238, 0.5) 60%,
+    #eee 100%
+  );
   border-radius: 60px;
   animation: loopCirWrap 1.5s linear infinite;
 }
@@ -472,7 +477,8 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg")
+    no-repeat top/cover;
 }
 
 .one-wrinkle-intro .txt {
@@ -522,7 +528,12 @@
 }
 
 .one-wrinkle-intro .scroll-down:before {
-  background: linear-gradient(180deg, rgba(33, 30, 60, 0) 0, rgba(33, 30, 60, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 30, 60, 0) 0,
+    rgba(33, 30, 60, 0.5) 60%,
+    #eee 100%
+  );
 }
 
 .one-wrinkle-intro .scroll-down:after {
@@ -591,7 +602,8 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat
+    top/cover;
 }
 
 .one-wrinkle-section3 .pages-inner {
@@ -645,7 +657,9 @@
   .one-wrinkle-intro {
     display: flex;
     justify-content: center;
-    background: #edf0f2 url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
+    background: #edf0f2
+      url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat
+      top/cover;
   }
 
   .one-wrinkle-intro .txt {
@@ -1036,7 +1050,8 @@
   .equipment-intro-gallery-swiper {
     margin-bottom: 20px;
     border-radius: 7px;
-    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg")
+      no-repeat center/cover;
   }
 
   .equipment-intro-gallery-swiper .txt {
@@ -1144,11 +1159,25 @@
   letter-spacing: 2px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(odd) {
   width: 34px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(even) {
   width: 60px;
 }
 
@@ -1275,11 +1304,25 @@
     gap: 2px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(odd) {
     width: 25px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(even) {
     width: 45px;
   }
 
@@ -1350,7 +1393,8 @@
 }
 
 .pages-jupiter-protocol {
-  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+    top/cover;
 }
 
 .pages-jupiter-protocol .pages-inner {
@@ -1529,7 +1573,8 @@
   }
 
   .pages-jupiter-protocol {
-    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+      top/cover;
   }
 
   .pages-jupiter-protocol .pages-inner {
@@ -1670,7 +1715,12 @@
 }
 
 .jupiter-x-lifting-intro .scroll-down:before {
-  background: linear-gradient(180deg, rgba(243, 232, 187, 0) 0, rgba(243, 232, 187, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(243, 232, 187, 0) 0,
+    rgba(243, 232, 187, 0.5) 60%,
+    #eee 100%
+  );
 }
 
 .jupiter-x-lifting-intro .scroll-down:after {
@@ -1793,7 +1843,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
+    no-repeat top/cover;
 }
 
 .jupiter-x-lifting-synergy .pages-inner {
@@ -1914,7 +1965,9 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #d8be97 url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat center;
+  background: #d8be97
+    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
+    center;
 }
 
 .jupiter-x-lifting-synergy .guide ul li .line {
@@ -2502,7 +2555,11 @@
     background-color: #a7c3d8;
   }
 
-  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
+  .jupiter-x-booster-mixture
+    ul
+    li.composition
+    div
+    span:not(:first-child):before {
     top: -10px;
     left: 0;
     right: 0;
@@ -2530,6 +2587,7 @@
 
 .reservation-section .noti {
   display: flex;
+  align-items: flex-start;
   gap: 170px;
   padding: 35px 60px;
   margin-bottom: 100px;
@@ -2546,11 +2604,409 @@
   gap: 5px;
 }
 
-.reservation-section .privacy {
+.reservation-section .form-list {
+  margin-bottom: 120px;
+}
+
+.reservation-section .form-list dl {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 50px;
+}
+
+.reservation-section .form-list dl:last-child {
+  padding-bottom: 0;
+}
+
+.reservation-section .form-list dl:not(:last-child):after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 68px;
+  bottom: -18px;
+  width: 2px;
+  background-color: #baa991;
+}
+
+.reservation-section .form-list dl dt {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 18px;
+}
+
+.reservation-section .form-list dl dt span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+  height: 51px;
+  border-radius: 100%;
+  border: 2px solid #baa991;
+  color: #baa991;
+  font-family: "Poppins";
+  font-weight: var(--font-weight-Bold);
+  transition: all 0.3s;
+}
+
+.reservation-section .form-list dl:hover dt span {
+  background-color: #baa991;
+  color: var(--color-white);
+}
+
+.reservation-section .form-list dl dt h4 {
+  font-size: 30px;
+}
+
+.reservation-section .form-list dl dd {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 33px 50px;
+  width: 930px;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+.reservation-section .form-list dl dd .form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.reservation-section .form-list dl dd .form-box .form-title {
+  margin-bottom: 10px;
+  font-weight: var(--font-weight-Bold);
+}
+
+.reservation-section .form-list dl dd .form-box .form-title.required {
+  position: relative;
+}
+
+.reservation-section .form-list dl dd .form-box .form-title.required:after {
+  content: "*";
+  color: #eb741d;
+}
+
+.reservation-section .form-list dl dd .form-box .form-title span {
+  font-size: 14px;
+  font-weight: var(--font-weight-Light);
+  color: #999;
+}
+
+.reservation-section .form-list dl dd .form-box .control {
+  width: 100%;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  border-radius: 5px;
+}
+
+.reservation-section .form-list dl dd .form-box input.control {
+  height: 46px;
+  padding: 0 10px;
+}
+
+.reservation-section .form-list dl dd .form-box textarea.control {
+  height: 90px;
+  padding: 10px;
+}
+
+.reservation-section .form-list dl dd .form-box .selection-list {
+  display: grid;
+  gap: 10px;
+}
+
+.reservation-section .form-list dl dd .form-box .selection-list.column2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.reservation-section .form-list dl dd .form-box .selection-list.column4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item {
+  position: relative;
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  padding: 0 15px;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  cursor: pointer;
+  color: #666;
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  input:checked
+  + label {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  label
+  img {
+  width: 15px;
+  margin-left: auto;
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  input {
+  position: absolute;
+  appearance: none;
+}
+
+.reservation-section .form-list dl dd .form-box .selection-doctor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item {
+  position: relative;
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  input {
+  position: absolute;
+  appearance: none;
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  border: 1px solid var(--color-white);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  input:checked
+  + label {
+  border-color: var(--color-primary);
+}
+
+.reservation-section .form-list dl dd .doctor-info {
+  height: 160px;
+}
+
+.reservation-section .form-list dl dd .doctor-info img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.reservation-section .form-list dl dd .doctor-info .txt {
+  padding-left: 164px;
+}
+
+.reservation-section .form-list dl dd .doctor-info .txt h5 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.reservation-section .form-list dl dd .doctor-info .txt div {
+  display: flex;
+  gap: 10px;
+}
+
+.reservation-section .form-list dl dd .doctor-info .txt div .btn {
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #999;
+  color: var(--color-white);
+}
+
+.reservation-section .form-list dl dd .doctor-none {
+  justify-content: space-between;
+  padding: 9px 12px;
+}
+
+.reservation-section .form-list dl dd .doctor-none p span {
+  font-size: 14px;
+  color: #999999;
+}
+
+.reservation-section .form-list dl dd .doctor-none > span {
+  width: 58px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  font-size: 16px;
+  color: var(--color-white);
+}
+
+.reservation-section .form-list dl dd .selection-doctor-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 160px;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+.reservation-section .form-list dl dd .datepicker-box {
+  position: relative;
+}
+
+.reservation-section .form-list dl dd .datepicker-box .disabled {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--color-white);
+}
+
+.ui-datepicker-header {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.ui-datepicker-header a {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.ui-datepicker-prev {
+  left: 130px;
+}
+
+.ui-datepicker-next {
+  right: 130px;
+}
+
+.ui-datepicker-header a span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid var(--color-primary);
+  border-right: 3px solid var(--color-primary);
+  text-indent: -9999px;
+}
+
+.ui-datepicker-prev span {
+  transform: rotate(225deg);
+}
+
+.ui-datepicker-next span {
+  transform: rotate(45deg);
+}
+
+.ui-datepicker-title {
+  text-align: center;
+}
+
+.ui-datepicker-calendar {
+  width: 100%;
+}
+
+.ui-datepicker-calendar th {
+  font-weight: var(--font-weight-Light);
+}
+
+.ui-datepicker-calendar td {
+  padding: 10px;
+  text-align: center;
+}
+
+.ui-datepicker-calendar td a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.ui-datepicker-calendar td.disabled-day span {
+  color: #999;
+}
+
+.ui-datepicker-calendar td a.ui-state-active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .reservation-section .privacy .txt {
   display: flex;
+  align-items: flex-start;
   gap: 170px;
   padding: 35px 60px;
   border: 1px solid #e4e4e4;
@@ -2616,7 +3072,8 @@
 
 .reservation-section .privacy .agree input:checked {
   border-color: var(--color-primary);
-  background: var(--color-primary) url("../img/pages/reservation/privacy-ico.png") no-repeat center/14px;
+  background: var(--color-primary)
+    url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
 }
 
 .reservation-section .privacy .agree label {
@@ -2650,26 +3107,233 @@
   color: var(--color-white);
 }
 
-.reservation-section .form-list {
-}
+@media screen and (max-width: 1200px) {
+  .reservation-section {
+    margin: 80px 0;
+  }
 
-.reservation-section .form-list dl {
-}
+  .reservation-section .noti {
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px 25px;
+    margin: 0 -25px;
+    margin-bottom: 50px;
+  }
 
-.reservation-section .form-list dl dt {
-}
+  .reservation-section .noti h4 {
+    font-size: 18px;
+  }
 
-.reservation-section .form-list dl dt span {
-}
+  .reservation-section .form-list {
+    margin-bottom: 80px;
+  }
 
-.reservation-section .form-list dl dt h4 {
-}
+  .reservation-section .form-list dl {
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
 
-.reservation-section .form-list dl dd {
-}
+  .reservation-section .form-list dl:not(:last-child):after {
+    left: 15px;
+    top: 30px;
+    bottom: 0;
+  }
 
-.reservation-section .form-list dl dd.form1 {
-}
+  .reservation-section .form-list dl dt {
+    gap: 10px;
+    padding-top: 0;
+  }
 
-.reservation-section .form-list dl dd .form-box {
+  .reservation-section .form-list dl dt span {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reservation-section .form-list dl dt h4 {
+    font-size: 18px;
+  }
+
+  .reservation-section .form-list dl dd {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    width: calc(100% - 40px);
+    padding: 20px;
+    margin-left: 40px;
+  }
+
+  .reservation-section .form-list dl dd .form-box .form-title {
+    margin-bottom: 7px;
+  }
+
+  .reservation-section .form-list dl dd .form-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+
+  .reservation-section .form-list dl dd .form-box input.control {
+    height: 38px;
+  }
+
+  .reservation-section
+    .form-list
+    dl
+    dd
+    .form-box
+    .selection-list
+    .selection-item
+    label {
+    height: 38px;
+    padding: 0 10px;
+  }
+
+  .reservation-section
+    .form-list
+    dl
+    dd
+    .form-box
+    .selection-list
+    .selection-item
+    label
+    img {
+    width: 10px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-info {
+    height: 110px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-info img {
+    height: 110px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-info .txt {
+    padding-left: 110px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-info .txt h5 {
+    margin-bottom: 7px;
+    font-size: 16px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-info .txt div {
+    gap: 5px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-info .txt div .btn {
+    width: 73px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-none {
+    justify-content: space-between;
+    padding: 9px 12px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-none p span {
+    display: block;
+    font-size: 12px;
+  }
+
+  .reservation-section .form-list dl dd .doctor-none > span {
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+  }
+
+  .reservation-section .form-list dl dd .selection-doctor-box {
+    height: 110px;
+  }
+
+  .ui-datepicker-header {
+    margin-bottom: 15px;
+  }
+
+  .ui-datepicker-header a {
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+  }
+
+  .ui-datepicker-prev {
+    left: 80px;
+  }
+
+  .ui-datepicker-next {
+    right: 80px;
+  }
+
+  .ui-datepicker-header a span {
+    width: 8px;
+    height: 8px;
+  }
+
+  .ui-datepicker-calendar td {
+    padding: 5px;
+  }
+
+  .ui-datepicker-calendar td a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .reservation-section .privacy .txt {
+    flex-direction: column;
+    gap: 15px;
+    padding: 18px 25px;
+  }
+
+  .reservation-section .privacy .txt h4 {
+    font-size: 18px;
+  }
+
+  .reservation-section .privacy .txt div {
+    font-size: 14px;
+  }
+
+  .reservation-section .privacy .txt div h5 {
+    font-size: 16px;
+  }
+
+  .reservation-section .privacy .txt div p {
+    margin: 15px 0;
+  }
+
+  .reservation-section .privacy .txt div table th {
+    padding: 10px;
+  }
+
+  .reservation-section .privacy .txt div table td {
+    padding: 10px;
+  }
+
+  .reservation-section .privacy .agree {
+    margin-top: 10px;
+  }
+
+  .reservation-section .privacy .agree input {
+    width: 16px;
+    height: 16px;
+  }
+
+  .reservation-section .privacy .agree input:checked {
+    background-size: 8px;
+  }
+
+  .reservation-section .privacy .agree label {
+    padding-left: 22px;
+  }
+
+  .reservation-section .form-btn {
+    gap: 5px;
+    margin-top: 40px;
+  }
+
+  .reservation-section .form-btn button {
+    width: 180px;
+    height: 38px;
+  }
 }
