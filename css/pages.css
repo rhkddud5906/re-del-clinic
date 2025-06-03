@@ -37,14 +37,53 @@
 }
 
 .pages-title.v2 {
-  margin-bottom: 40px;
+  text-align: left;
+}
+
+.pages-title.white.v2 {
+  color: var(--color-white);
+}
+
+.pages-title.v2 h5 {
+  margin-bottom: 20px;
+  padding-left: 1px;
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+}
+
+.pages-title.v2 h5 span {
+  font-family: "Poppins";
+  font-weight: var(--font-weight-Bold);
+}
+
+.pages-title.v2 h3 {
+  margin-bottom: 70px;
+  font-size: 60px;
+}
+
+.pages-title.v2 h3 span {
+  font-weight: var(--font-weight-Light);
 }
 
 .pages-title.v2 h4 {
+  font-size: 36px;
+}
+
+.pages-title.v2 div {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.pages-title.v3 {
+  margin-bottom: 40px;
+}
+
+.pages-title.v3 h4 {
   font-size: 50px;
 }
 
-.pages-title.v2 p {
+.pages-title.v3 p {
   margin-top: 18px;
 }
 
@@ -66,15 +105,33 @@
     margin-top: 20px;
   }
 
-  .pages-title.v2 {
+  .pages-title.v2 h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .pages-title.v2 h3 {
     margin-bottom: 20px;
+    font-size: 30px;
   }
 
   .pages-title.v2 h4 {
+    font-size: 18px;
+  }
+
+  .pages-title.v2 div {
+    gap: 15px;
+  }
+
+  .pages-title.v3 {
+    margin-bottom: 20px;
+  }
+
+  .pages-title.v3 h4 {
     font-size: 25px;
   }
 
-  .pages-title.v2 p {
+  .pages-title.v3 p {
     margin-top: 10px;
   }
 }
@@ -571,7 +628,7 @@
 
 .one-wrinkle-section2 {
   padding: 120px 0;
-  background-color: #f4f4f4;
+  background-color: var(--color-offWhite);
 }
 
 .one-wrinkle-section2 ul {
@@ -609,35 +666,6 @@
 .one-wrinkle-section3 .pages-inner {
   position: relative;
   padding: 140px 0 140px 100px;
-}
-
-.one-wrinkle-section3 .txt h5 {
-  padding-left: 3px;
-  font-size: 24px;
-  font-weight: var(--font-weight-Light);
-}
-
-.one-wrinkle-section3 .txt h5 span {
-  font-family: "Poppins";
-  font-weight: var(--font-weight-Bold);
-}
-
-.one-wrinkle-section3 .txt h3 {
-  margin: 20px 0 70px;
-  font-size: 60px;
-}
-
-.one-wrinkle-section3 .txt h3 span {
-  font-weight: var(--font-weight-Light);
-}
-
-.one-wrinkle-section3 .txt h4 {
-  margin: 24px 0 35px;
-  font-size: 36px;
-}
-
-.one-wrinkle-section3 .txt p {
-  font-size: 18px;
 }
 
 .one-wrinkle-section3 img {
@@ -739,28 +767,9 @@
     padding: 80px 25px;
   }
 
-  .one-wrinkle-section3 .txt {
+  .one-wrinkle-section3 .pages-title.v2 {
     position: relative;
     z-index: 1;
-  }
-
-  .one-wrinkle-section3 .txt h5 {
-    padding-left: 1px;
-    font-size: 16px;
-  }
-
-  .one-wrinkle-section3 .txt h3 {
-    margin: 15px 0 20px;
-    font-size: 30px;
-  }
-
-  .one-wrinkle-section3 .txt h4 {
-    margin: 15px 0 18px;
-    font-size: 18px;
-  }
-
-  .one-wrinkle-section3 .txt p {
-    font-size: 14px;
   }
 
   .one-wrinkle-section3 img {
@@ -797,7 +806,7 @@
   position: relative;
   width: 600px;
   height: 770px;
-  background-color: #f4f4f4;
+  background-color: var(--color-offWhite);
 }
 
 .medical-staff-section1 dl:first-child dt {
@@ -1384,6 +1393,7 @@
 .pages-jupiter-info {
   padding: 120px 0;
   background-color: var(--color-primary);
+  overflow: hidden;
 }
 
 .pages-jupiter-info .img {
@@ -1412,30 +1422,8 @@
   color: rgba(255, 255, 255, 0.07);
 }
 
-.pages-jupiter-protocol .content h5 {
-  font-size: 24px;
-  font-weight: var(--font-weight-Light);
+.pages-jupiter-protocol .pages-title.v2 h5 {
   color: #d8be97;
-}
-
-.pages-jupiter-protocol .content h5 span {
-  display: block;
-  font-family: "Poppins";
-  font-weight: var(--font-weight-Bold);
-}
-
-.pages-jupiter-protocol .content h3 {
-  margin: 20px 0 70px;
-  font-size: 60px;
-  color: var(--color-white);
-}
-
-.pages-jupiter-protocol .content h3 span {
-  font-weight: var(--font-weight-Light);
-}
-
-.pages-jupiter-protocol .content p {
-  color: var(--color-white);
 }
 
 .pages-jupiter-protocol img {
@@ -1447,6 +1435,7 @@
 .pages-jupiter-service {
   padding: 120px 0;
   background-color: var(--color-primary);
+  overflow: hidden;
 }
 
 .pages-jupiter-service .content {
@@ -1591,17 +1580,8 @@
     white-space: nowrap;
   }
 
-  .pages-jupiter-protocol .content {
+  .pages-jupiter-protocol .pages-title.v2 {
     margin-top: -30px;
-  }
-
-  .pages-jupiter-protocol .content h5 {
-    font-size: 16px;
-  }
-
-  .pages-jupiter-protocol .content h3 {
-    margin: 15px 0 20px;
-    font-size: 30px;
   }
 
   .pages-jupiter-protocol img {
@@ -1747,12 +1727,12 @@
 
 .jupiter-x-lifting-design:before {
   top: 0;
-  background-image: url("../img/pages/lifting/jupiter-x-lifting/section2-bg1.jpg");
+  background-image: url("../img/pages/lifting/jupiter-x-lifting/design-bg1.jpg");
 }
 
 .jupiter-x-lifting-design:after {
   bottom: 0;
-  background-image: url("../img/pages/lifting/jupiter-x-lifting/section2-bg2.jpg");
+  background-image: url("../img/pages/lifting/jupiter-x-lifting/design-bg2.jpg");
 }
 
 .jupiter-x-lifting-design .content {
@@ -2060,6 +2040,7 @@
 @media screen and (max-width: 1200px) {
   .jupiter-x-lifting-design {
     padding: 80px 0;
+    overflow: hidden;
   }
 
   .jupiter-x-lifting-design:before,
@@ -2922,6 +2903,7 @@
 
 .reservation-section .form-list dl dd .datepicker-box {
   position: relative;
+  overflow: hidden;
 }
 
 .reservation-section .form-list dl dd .datepicker-box .disabled {
@@ -3340,4 +3322,221 @@
     width: 180px;
     height: 38px;
   }
+}
+
+/************** 울쎄라 **************/
+
+.ulthera-guide1 {
+  position: relative;
+  padding: 120px 0;
+}
+
+.ulthera-guide1:before,
+.ulthera-guide1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 342px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ulthera-guide1:before {
+  top: 0;
+  background-image: url("../img/pages/lifting/ulthera/guide1-bg1.jpg");
+}
+
+.ulthera-guide1:after {
+  bottom: 0;
+  background-image: url("../img/pages/lifting/ulthera/guide1-bg2.jpg");
+}
+
+.ulthera-guide1 .pages-inner {
+  display: flex;
+  justify-content: center;
+  gap: 277px;
+}
+
+.ulthera-guide1 .img {
+  position: relative;
+}
+
+.ulthera-guide1 .img img:last-child {
+  position: absolute;
+  bottom: -90px;
+}
+
+.ulthera-guide1 .pages-title.v2 {
+  padding-top: 70px;
+}
+
+.ulthera-protocol {
+  position: relative;
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.ulthera-protocol:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 685px;
+  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat
+    top/cover;
+}
+
+.ulthera-protocol .pages-inner {
+  position: relative;
+}
+
+.ulthera-protocol ol {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.ulthera-protocol ol li h4 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.ulthera-protocol ol li img {
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 4px 18px 7px;
+}
+
+.ulthera-protocol ol li strong {
+  display: block;
+  margin: 24px 0 10px;
+}
+
+.ulthera-recommendation {
+  margin: 120px 0;
+}
+
+.ulthera-recommendation h3 {
+  position: relative;
+  margin-bottom: 60px;
+  font-size: 60px;
+}
+
+.ulthera-recommendation h3:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 578px;
+  right: 0;
+  height: 3px;
+  background-color: var(--color-primary);
+}
+
+.ulthera-recommendation ul {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.ulthera-recommendation ul li {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 35px;
+}
+
+.ulthera-system {
+  position: relative;
+  padding: 230px 0;
+  overflow: hidden;
+  background-color: var(--color-primary);
+}
+
+.ulthera-system .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ulthera-system .content .txt {
+  position: relative;
+  padding-top: 50px;
+  color: var(--color-white);
+}
+
+.ulthera-system .content .txt h4 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 35px;
+}
+
+.ulthera-system .content .txt h4 span:last-child {
+  padding-left: 275px;
+}
+
+.ulthera-system .content .txt h5 {
+  margin-top: 90px;
+  line-height: 1.5;
+  font-size: 26px;
+  font-weight: var(--font-weight-Light);
+}
+
+.ulthera-system .content .txt img {
+  position: absolute;
+  top: -154px;
+  left: 161px;
+}
+
+.ulthera-system .pages-jupiter-flow-txt span:first-child {
+  margin: 0 0 0 -115px;
+}
+
+.ulthera-system .pages-jupiter-flow-txt span:last-child {
+  margin: 0 -115px 0 0;
+}
+
+.ulthera-mixture {
+  position: relative;
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.ulthera-mixture:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 685px;
+  background: url("../img/pages/lifting/ulthera/mixture-bg.jpg") no-repeat
+    top/cover;
+}
+
+.ulthera-mixture .pages-inner {
+  position: relative;
+}
+
+.ulthera-guide2 {
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.ulthera-guide2 .pages-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ulthera-guide2 .img {
+  position: relative;
+}
+
+.ulthera-guide2 .img img:last-child {
+  position: absolute;
+  bottom: -90px;
+}
+
+.ulthera-guide2 .pages-title.v2 {
+  padding-top: 44px;
 }
