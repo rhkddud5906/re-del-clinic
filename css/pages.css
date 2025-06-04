@@ -3326,6 +3326,34 @@
 
 /************** 울쎄라 **************/
 
+.ulthera-intro {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+}
+
+.ulthera-intro .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: -80px;
+}
+
+.ulthera-intro .txt img:nth-child(2) {
+  margin-top: -80px;
+}
+
+.ulthera-intro .txt h4 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: var(--font-weight-Light);
+  color: var(--color-white);
+}
+
 .ulthera-guide1 {
   position: relative;
   padding: 120px 0;
@@ -3468,7 +3496,7 @@
 .ulthera-system .content .txt h4 {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 10px;
   font-size: 35px;
 }
 
@@ -3478,14 +3506,13 @@
 
 .ulthera-system .content .txt h5 {
   margin-top: 90px;
-  line-height: 1.5;
   font-size: 26px;
   font-weight: var(--font-weight-Light);
 }
 
 .ulthera-system .content .txt img {
   position: absolute;
-  top: -154px;
+  top: -149px;
   left: 161px;
 }
 
@@ -3516,6 +3543,142 @@
 
 .ulthera-mixture .pages-inner {
   position: relative;
+}
+
+.ulthera-mixture-gallery-swiper .box {
+  padding: 70px 100px;
+  background-color: var(--color-white);
+}
+
+.ulthera-mixture-gallery-swiper .box > h5 {
+  font-size: 28px;
+}
+
+.ulthera-mixture-gallery-swiper .box .content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.ulthera-mixture-gallery-swiper .box .content .mixture {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.ulthera-mixture-gallery-swiper .box .content .mixture dl dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 274px;
+  height: 274px;
+  border-radius: 100%;
+  border: 4px dashed var(--color-primary);
+}
+
+.ulthera-mixture-gallery-swiper .box .content .mixture dl dd {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.ulthera-mixture-gallery-swiper .box .content .mixture span {
+  padding-top: 80px;
+  font-size: 77px;
+  font-weight: var(--font-weight-Bold);
+}
+
+.ulthera-mixture-gallery-swiper .box .content .txt {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 22px;
+}
+
+.ulthera-mixture-gallery-swiper .box .content .txt span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 72px;
+  text-align: center;
+  background-color: var(--color-primary);
+  font-weight: var(--font-weight-Bold);
+  color: var(--color-white);
+}
+
+.ulthera-mixture .thumbnail {
+  position: relative;
+}
+
+.ulthera-mixture .thumbnail .swiper-button-next,
+.ulthera-mixture .thumbnail .swiper-button-prev {
+  color: #999999;
+}
+
+.ulthera-mixture .thumbnail .swiper-button-prev {
+  left: -40px;
+}
+
+.ulthera-mixture .thumbnail .swiper-button-next {
+  right: -40px;
+}
+
+.ulthera-mixture .thumbnail .swiper-button-next:after,
+.ulthera-mixture .thumbnail .swiper-button-prev:after {
+  font-size: 30px;
+}
+
+.ulthera-mixture-thumbnail-swiper {
+  margin-top: 30px;
+}
+
+.ulthera-mixture-thumbnail-swiper .mixture {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px 0;
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.ulthera-mixture-thumbnail-swiper .mixture:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #ddd;
+}
+
+.ulthera-mixture-thumbnail-swiper .swiper-slide-thumb-active .mixture:before {
+  opacity: 1;
+  border-width: 2px;
+  border-color: var(--color-primary);
+}
+
+.ulthera-mixture-thumbnail-swiper .mixture dl dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 116px;
+  height: 116px;
+  padding: 15px;
+  border-radius: 100%;
+  border: 2px dashed var(--color-primary);
+}
+
+.ulthera-mixture-thumbnail-swiper .mixture dl dd {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.ulthera-mixture-thumbnail-swiper .mixture span {
+  padding-top: 26px;
+  font-size: 40px;
+  font-weight: var(--font-weight-Bold);
 }
 
 .ulthera-guide2 {

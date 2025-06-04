@@ -385,24 +385,14 @@
 
       <!-- ST: container -->
       <div class="container">
-        <div class="pages-intro-video ulthera-intro">
-          <video autoplay muted loop>
-            <source
-              src="../../video/pages/lifting/jupiter-x-lifting/intro-video.mp4"
-              type="video/mp4"
-            />
-          </video>
+        <div class="ulthera-intro">
           <div class="txt" data-aos="fade-up">
-            <img
-              src="../../img/pages/lifting/jupiter-x-lifting/intro-img1.png"
-              alt=""
-            />
-            <img
-              src="../../img/pages/lifting/jupiter-x-lifting/intro-img2.png"
-              alt=""
-            />
+            <img src="../../img/pages/lifting/ulthera/intro-img1.png" alt="" />
+            <img src="../../img/pages/lifting/ulthera/intro-img2.png" alt="" />
+            <img src="../../img/pages/lifting/ulthera/intro-img3.png" alt="" />
             <h4>
-              내 피부과 얼굴에 딱 맞춘 리프팅<br />커스터마이징 레이저 리프팅
+              깊이를 설계하다.<br />
+              진짜 탄력은 깊은 층에서 나온다.
             </h4>
           </div>
 
@@ -534,29 +524,31 @@
                   src="../../img/pages/lifting/ulthera/recommendation-img.jpg"
                   alt=""
                 />
-                울쎄라 효과가 미미했거나 오래 가지 않았던 분
+                <span>울쎄라 효과가 미미했거나 오래 가지 않았던 분</span>
               </li>
               <li>
                 <img
                   src="../../img/pages/lifting/ulthera/recommendation-img.jpg"
                   alt=""
                 />
-                얼굴 라인, 눈가, 턱선 등 <strong>특정 부위만 집중</strong>적으로
-                올리고 싶은 분
+                <span
+                  >얼굴 라인, 눈가, 턱선 등
+                  <strong>특정 부위만 집중</strong>적으로 올리고 싶은 분</span
+                >
               </li>
               <li>
                 <img
                   src="../../img/pages/lifting/ulthera/recommendation-img.jpg"
                   alt=""
                 />
-                기존 울쎄라 통증이 부담스러웠던 분
+                <span>기존 울쎄라 통증이 부담스러웠던 분</span>
               </li>
               <li>
                 <img
                   src="../../img/pages/lifting/ulthera/recommendation-img.jpg"
                   alt=""
                 />
-                맞춤형 정밀 리프팅을 원하시는 30~50대 고객
+                <span>맞춤형 정밀 리프팅을 원하시는 30~50대 고객</span>
               </li>
             </ul>
           </div>
@@ -1254,22 +1246,22 @@
               },
             });
 
-            gsap.to("#jupiterInfoFlowTxt", {
+            gsap.to("#ultheraSystemFlowTxt", {
               x: "-150%",
               ease: "none",
               scrollTrigger: {
-                trigger: ".pages-jupiter-info",
+                trigger: ".ulthera-system",
                 start: "top 80%",
                 end: "bottom top",
                 scrub: true,
               },
             });
 
-            gsap.to("#ultheraSystemFlowTxt", {
+            gsap.to("#jupiterServiceFlowTxt", {
               x: "-150%",
               ease: "none",
               scrollTrigger: {
-                trigger: ".ulthera-system",
+                trigger: ".pages-jupiter-service",
                 start: "top 80%",
                 end: "bottom top",
                 scrub: true,
@@ -1286,7 +1278,7 @@
                 watchSlidesProgress: true,
                 breakpoints: {
                   1200: {
-                    slidesPerView: 5,
+                    slidesPerView: 4,
                     spaceBetween: 13,
                   },
                 },
