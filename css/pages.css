@@ -256,6 +256,13 @@
   align-items: center;
 }
 
+.pages-intro-video:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .pages-intro-video video {
   position: absolute;
   inset: 0;
@@ -266,6 +273,7 @@
 }
 
 .pages-intro-video .txt {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3330,19 +3338,8 @@
 
 /************** 울쎄라 **************/
 
-.ulthera-intro {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-primary);
-}
-
 .ulthera-intro .txt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 0;
   margin-top: -80px;
 }
 
@@ -3360,10 +3357,6 @@
 
 .ulthera-intro .txt h4 {
   margin-top: 35px;
-  text-align: center;
-  font-size: 36px;
-  font-weight: var(--font-weight-Light);
-  color: var(--color-white);
 }
 
 .ulthera-guide {
@@ -3718,7 +3711,6 @@
 
   .ulthera-intro .txt h4 {
     margin-top: 20px;
-    font-size: 18px;
   }
 
   .ulthera-guide {
