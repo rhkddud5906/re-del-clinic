@@ -311,12 +311,7 @@
 .scroll-down:before {
   top: 5px;
   width: 5px;
-  background: linear-gradient(
-    180deg,
-    rgba(238, 238, 238, 0) 0,
-    rgba(238, 238, 238, 0.5) 60%,
-    #eee 100%
-  );
+  background: linear-gradient(180deg, rgba(238, 238, 238, 0) 0, rgba(238, 238, 238, 0.5) 60%, #eee 100%);
   border-radius: 60px;
   animation: loopCirWrap 1.5s linear infinite;
 }
@@ -536,8 +531,7 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg")
-    no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
 }
 
 .one-wrinkle-intro .txt {
@@ -587,12 +581,7 @@
 }
 
 .one-wrinkle-intro .scroll-down:before {
-  background: linear-gradient(
-    180deg,
-    rgba(33, 30, 60, 0) 0,
-    rgba(33, 30, 60, 0.5) 60%,
-    #eee 100%
-  );
+  background: linear-gradient(180deg, rgba(33, 30, 60, 0) 0, rgba(33, 30, 60, 0.5) 60%, #eee 100%);
 }
 
 .one-wrinkle-intro .scroll-down:after {
@@ -661,8 +650,7 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
 }
 
 .one-wrinkle-section3 .pages-inner {
@@ -687,9 +675,7 @@
   .one-wrinkle-intro {
     display: flex;
     justify-content: center;
-    background: #edf0f2
-      url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat
-      top/cover;
+    background: #edf0f2 url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
   }
 
   .one-wrinkle-intro .txt {
@@ -1061,8 +1047,7 @@
   .equipment-intro-gallery-swiper {
     margin-bottom: 20px;
     border-radius: 7px;
-    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg")
-      no-repeat center/cover;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
   }
 
   .equipment-intro-gallery-swiper .txt {
@@ -1170,25 +1155,11 @@
   letter-spacing: 2px;
 }
 
-.contact-section1
-  .content
-  .left
-  dl.hours-wrap
-  ul
-  li
-  div.time
-  span:nth-child(odd) {
+.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
   width: 34px;
 }
 
-.contact-section1
-  .content
-  .left
-  dl.hours-wrap
-  ul
-  li
-  div.time
-  span:nth-child(even) {
+.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
   width: 60px;
 }
 
@@ -1315,25 +1286,11 @@
     gap: 2px;
   }
 
-  .contact-section1
-    .content
-    .left
-    dl.hours-wrap
-    ul
-    li
-    div.time
-    span:nth-child(odd) {
+  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
     width: 25px;
   }
 
-  .contact-section1
-    .content
-    .left
-    dl.hours-wrap
-    ul
-    li
-    div.time
-    span:nth-child(even) {
+  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
     width: 45px;
   }
 
@@ -1411,8 +1368,7 @@
 }
 
 .pages-jupiter-protocol {
-  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
 }
 
 .pages-jupiter-protocol .pages-inner {
@@ -1565,6 +1521,117 @@
   text-align: right;
 }
 
+.pages-jupiter-recommendation {
+  margin: 120px 0;
+}
+
+.pages-jupiter-recommendation h3 {
+  position: relative;
+  margin-bottom: 60px;
+  font-size: 60px;
+}
+
+.pages-jupiter-recommendation h3:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 578px;
+  right: 0;
+  height: 3px;
+  background-color: var(--color-primary);
+}
+
+.pages-jupiter-recommendation ul {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.pages-jupiter-recommendation ul li {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 36px;
+}
+
+.pages-jupiter-system {
+  position: relative;
+  padding: 230px 0;
+  overflow: hidden;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.pages-jupiter-system.white {
+  padding: 120px 0;
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.pages-jupiter-system.white:before,
+.pages-jupiter-system.white:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 342px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pages-jupiter-system.white:before {
+  top: 0;
+  background-image: url("../img/pages/jupiter/jupiter-system-bg1.jpg");
+}
+
+.pages-jupiter-system.white:after {
+  bottom: 0;
+  background-image: url("../img/pages/jupiter/jupiter-system-bg2.jpg");
+}
+
+.pages-jupiter-system .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages-jupiter-system .content .txt {
+  position: relative;
+  padding-top: 50px;
+}
+
+.pages-jupiter-system .content .txt h4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 36px;
+}
+
+.pages-jupiter-system .content .txt h4 span:last-child {
+  padding-left: 275px;
+}
+
+.pages-jupiter-system .content .txt h5 {
+  margin-top: 90px;
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+}
+
+.pages-jupiter-system .content .txt img {
+  position: absolute;
+  top: -145px;
+  left: 172px;
+}
+
+.pages-jupiter-system .pages-jupiter-flow-txt span:first-child {
+  margin: 0 0 0 -115px;
+}
+
+.pages-jupiter-system .pages-jupiter-flow-txt span:last-child {
+  margin: 0 -115px 0 0;
+}
+
 @media screen and (max-width: 1200px) {
   .pages-jupiter-info {
     padding: 80px 0;
@@ -1576,8 +1643,7 @@
   }
 
   .pages-jupiter-protocol {
-    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
-      top/cover;
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
   }
 
   .pages-jupiter-protocol .pages-inner {
@@ -1696,6 +1762,87 @@
   .pages-jupiter-flow-txt span:last-child {
     margin: 0px -20px -66px 0;
   }
+
+  .pages-jupiter-recommendation {
+    margin: 80px 0;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  .pages-jupiter-recommendation.white {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+  }
+
+  .pages-jupiter-recommendation h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .pages-jupiter-recommendation h3:after {
+    display: none;
+  }
+
+  .pages-jupiter-recommendation ul {
+    gap: 15px;
+  }
+
+  .pages-jupiter-recommendation ul li {
+    align-items: flex-start;
+    gap: 7px;
+    font-size: 14px;
+  }
+
+  .pages-jupiter-recommendation ul li img {
+    width: 15px;
+    margin-top: 3px;
+  }
+
+  .pages-jupiter-system {
+    padding: 100px 0;
+  }
+
+  .pages-jupiter-system .pages-title.v1 {
+    text-align: left;
+  }
+
+  .pages-jupiter-system .content {
+    position: relative;
+  }
+
+  .pages-jupiter-system .content .txt {
+    position: relative;
+    z-index: 1;
+    padding-top: 0;
+  }
+
+  .pages-jupiter-system .content .txt h4 {
+    gap: 0;
+    font-size: 18px;
+  }
+
+  .pages-jupiter-system .content .txt h4 span:last-child {
+    padding-left: 0;
+  }
+
+  .pages-jupiter-system .content .txt h5 {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .pages-jupiter-system .content .txt img {
+    position: absolute;
+    top: -149px;
+    left: 161px;
+  }
+
+  .pages-jupiter-system .content > img {
+    position: absolute;
+    right: -35px;
+    top: 0;
+    height: 240px;
+  }
 }
 
 /************** JUPITER X - LIFTING **************/
@@ -1709,12 +1856,7 @@
 }
 
 .jupiter-x-lifting-intro .scroll-down:before {
-  background: linear-gradient(
-    180deg,
-    rgba(243, 232, 187, 0) 0,
-    rgba(243, 232, 187, 0.5) 60%,
-    #eee 100%
-  );
+  background: linear-gradient(180deg, rgba(243, 232, 187, 0) 0, rgba(243, 232, 187, 0.5) 60%, #eee 100%);
 }
 
 .jupiter-x-lifting-intro .scroll-down:after {
@@ -1837,8 +1979,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
-    no-repeat top/cover;
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg") no-repeat top/cover;
 }
 
 .jupiter-x-lifting-synergy .pages-inner {
@@ -1959,9 +2100,7 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #d8be97
-    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
-    center;
+  background: #d8be97 url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat center;
 }
 
 .jupiter-x-lifting-synergy .guide ul li .line {
@@ -2550,11 +2689,7 @@
     background-color: #a7c3d8;
   }
 
-  .jupiter-x-booster-mixture
-    ul
-    li.composition
-    div
-    span:not(:first-child):before {
+  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
     top: -10px;
     left: 0;
     right: 0;
@@ -2724,24 +2859,11 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item {
   position: relative;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  label {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2753,40 +2875,17 @@
   color: #666;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  input:checked
-  + label {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item input:checked + label {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  label
-  img {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
   width: 15px;
   margin-left: auto;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  input {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item input {
   position: absolute;
   appearance: none;
 }
@@ -2797,36 +2896,16 @@
   gap: 10px;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item {
   position: relative;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item
-  input {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input {
   position: absolute;
   appearance: none;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item
-  label {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item label {
   position: relative;
   display: flex;
   align-items: center;
@@ -2837,15 +2916,7 @@
   cursor: pointer;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item
-  input:checked
-  + label {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input:checked + label {
   border-color: var(--color-primary);
 }
 
@@ -3075,8 +3146,7 @@
 
 .reservation-section .privacy .agree input:checked {
   border-color: var(--color-primary);
-  background: var(--color-primary)
-    url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
+  background: var(--color-primary) url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
 }
 
 .reservation-section .privacy .agree label {
@@ -3179,27 +3249,12 @@
     height: 38px;
   }
 
-  .reservation-section
-    .form-list
-    dl
-    dd
-    .form-box
-    .selection-list
-    .selection-item
-    label {
+  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
     height: 38px;
     padding: 0 10px;
   }
 
-  .reservation-section
-    .form-list
-    dl
-    dd
-    .form-box
-    .selection-list
-    .selection-item
-    label
-    img {
+  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
     width: 10px;
   }
 
@@ -3419,8 +3474,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat top/cover;
 }
 
 .ulthera-protocol .pages-inner {
@@ -3448,88 +3502,6 @@
   font-size: 24px;
 }
 
-.ulthera-recommendation {
-  margin: 120px 0;
-}
-
-.ulthera-recommendation h3 {
-  position: relative;
-  margin-bottom: 60px;
-  font-size: 60px;
-}
-
-.ulthera-recommendation h3:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 578px;
-  right: 0;
-  height: 3px;
-  background-color: var(--color-primary);
-}
-
-.ulthera-recommendation ul {
-  display: flex;
-  flex-direction: column;
-  gap: 45px;
-}
-
-.ulthera-recommendation ul li {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-  font-size: 36px;
-}
-
-.ulthera-system {
-  position: relative;
-  padding: 230px 0;
-  overflow: hidden;
-  background-color: var(--color-primary);
-}
-
-.ulthera-system .content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.ulthera-system .content .txt {
-  position: relative;
-  padding-top: 50px;
-  color: var(--color-white);
-}
-
-.ulthera-system .content .txt h4 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 36px;
-}
-
-.ulthera-system .content .txt h4 span:last-child {
-  padding-left: 275px;
-}
-
-.ulthera-system .content .txt h5 {
-  margin-top: 90px;
-  font-size: 24px;
-  font-weight: var(--font-weight-Light);
-}
-
-.ulthera-system .content .txt img {
-  position: absolute;
-  top: -148px;
-  left: 172px;
-}
-
-.ulthera-system .pages-jupiter-flow-txt span:first-child {
-  margin: 0 0 0 -115px;
-}
-
-.ulthera-system .pages-jupiter-flow-txt span:last-child {
-  margin: 0 -115px 0 0;
-}
-
 .ulthera-mixture {
   position: relative;
   padding: 120px 0;
@@ -3543,8 +3515,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/ulthera/mixture-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/lifting/ulthera/mixture-bg.jpg") no-repeat top/cover;
 }
 
 .ulthera-mixture .pages-inner {
@@ -3771,80 +3742,6 @@
   .ulthera-protocol ol li h5 {
     margin: 20px 0 10px;
     font-size: 16px;
-  }
-
-  .ulthera-recommendation {
-    margin: 80px 0;
-  }
-
-  .ulthera-recommendation h3 {
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .ulthera-recommendation h3:after {
-    display: none;
-  }
-
-  .ulthera-recommendation ul {
-    gap: 15px;
-  }
-
-  .ulthera-recommendation ul li {
-    align-items: flex-start;
-    gap: 7px;
-    font-size: 14px;
-  }
-
-  .ulthera-recommendation ul li img {
-    width: 15px;
-    margin-top: 3px;
-  }
-
-  .ulthera-system {
-    padding: 100px 0;
-  }
-
-  .ulthera-system .pages-title.v1 {
-    text-align: left;
-  }
-
-  .ulthera-system .content {
-    position: relative;
-  }
-
-  .ulthera-system .content .txt {
-    position: relative;
-    z-index: 1;
-    padding-top: 0;
-  }
-
-  .ulthera-system .content .txt h4 {
-    gap: 0;
-    font-size: 18px;
-  }
-
-  .ulthera-system .content .txt h4 span:last-child {
-    padding-left: 0;
-  }
-
-  .ulthera-system .content .txt h5 {
-    margin-top: 30px;
-    font-size: 14px;
-  }
-
-  .ulthera-system .content .txt img {
-    position: absolute;
-    top: -149px;
-    left: 161px;
-  }
-
-  .ulthera-system .content > img {
-    position: absolute;
-    right: -35px;
-    top: 0;
-    height: 240px;
   }
 
   .ulthera-mixture {
