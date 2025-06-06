@@ -170,7 +170,7 @@ textarea {
   font-weight: 700;
   font-display: swap;
   src: local("Pretendard Bold"),
-    url("./font/Pretendard-Bold.woff2") format("woff2");
+    url("../font/Pretendard-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -178,7 +178,7 @@ textarea {
   font-weight: 600;
   font-display: swap;
   src: local("Pretendard SemiBold"),
-    url("./font/Pretendard-SemiBold.woff2") format("woff2");
+    url("../font/Pretendard-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
@@ -186,7 +186,7 @@ textarea {
   font-weight: 500;
   font-display: swap;
   src: local("Pretendard Medium"),
-    url("./font/Pretendard-Medium.woff2") format("woff2");
+    url("../font/Pretendard-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -194,7 +194,7 @@ textarea {
   font-weight: 300;
   font-display: swap;
   src: local("Pretendard Light"),
-    url("./font/Pretendard-Light.woff2") format("woff2");
+    url("../font/Pretendard-Light.woff2") format("woff2");
 }
 
 .mobile-view {
@@ -991,36 +991,65 @@ textarea {
   }
 }
 
-/************** form **************/
+/************** 준비중 **************/
 
-/* .selection-list {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.selection-item {
+.preparing {
   position: relative;
-  display: inline-block;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/common/preparing-bg.jpg") no-repeat center/cover;
 }
 
-.selection-item input {
-  border: 1px solid #ccc;
-  @apply border-softGray checked:border-primary hover:border-primary disabled:bg-softGray disabled:border-softGray disabled:checked:border-primary absolute top-[0.5px] left-0 size-5 cursor-pointer appearance-none border bg-white transition-all duration-[0.3s] disabled:cursor-auto;
+.preparing .txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 700px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--color-white);
 }
 
-.selection-item input[type="checkbox"] {
-  @apply checked:bg-primary rounded-md bg-center bg-no-repeat checked:bg-[url(../assets/images/form/check-line.svg)];
+.preparing .txt div h3 {
+  font-size: 60px;
+  font-family: "Noto Serif";
 }
 
-.selection-item input[type="radio"] {
-  @apply rounded-full checked:border-5 disabled:checked:bg-white;
+.preparing .txt div h3 span {
+  color: #baa991;
 }
 
-.selection-item input:disabled + label {
-  @apply cursor-auto;
+.preparing .txt div h4 {
+  margin: 5px 0 30px;
+  font-size: 36px;
+  font-weight: var(--font-weight-Light);
 }
 
-.selection-item label {
-  @apply flex-1 cursor-pointer pl-7;
-} */
+.preparing .txt div p {
+  font-size: 20px;
+  color: #d4ccc1;
+}
+
+@media screen and (max-width: 1200px) {
+  .preparing .txt {
+    width: 360px;
+    height: 360px;
+  }
+
+  .preparing .txt div h3 {
+    font-size: 36px;
+  }
+
+  .preparing .txt div h4 {
+    margin: 5px 0 20px;
+    font-size: 22px;
+  }
+
+  .preparing .txt div p {
+    font-size: 16px;
+  }
+}
