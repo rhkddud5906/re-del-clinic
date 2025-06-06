@@ -2040,6 +2040,7 @@
 .jupiter-x-lifting-synergy .info {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .jupiter-x-lifting-synergy .info li {
@@ -2300,7 +2301,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
   }
 
   .jupiter-x-lifting-synergy .info li div {
@@ -3658,28 +3659,28 @@
   position: relative;
 }
 
-.ulthera-mixture-gallery-swiper .box {
+.pages-jupiter-mixture-gallery-swiper .box {
   padding: 70px 100px;
   background-color: var(--color-white);
 }
 
-.ulthera-mixture-gallery-swiper .box > h5 {
+.pages-jupiter-mixture-gallery-swiper .box > h5 {
   font-size: 28px;
 }
 
-.ulthera-mixture-gallery-swiper .box .content {
+.pages-jupiter-mixture-gallery-swiper .box .content {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-.ulthera-mixture-gallery-swiper .box .content .mixture {
+.pages-jupiter-mixture-gallery-swiper .box .content .mixture {
   display: flex;
   align-items: flex-start;
   gap: 10px;
 }
 
-.ulthera-mixture-gallery-swiper .box .content .mixture dl dt {
+.pages-jupiter-mixture-gallery-swiper .box .content .mixture dl dt {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3690,26 +3691,26 @@
   border: 4px dashed var(--color-primary);
 }
 
-.ulthera-mixture-gallery-swiper .box .content .mixture dl dd {
+.pages-jupiter-mixture-gallery-swiper .box .content .mixture dl dd {
   margin-top: 12px;
   text-align: center;
   font-size: 28px;
 }
 
-.ulthera-mixture-gallery-swiper .box .content .mixture span {
+.pages-jupiter-mixture-gallery-swiper .box .content .mixture span {
   padding-top: 80px;
   font-size: 77px;
   font-weight: var(--font-weight-Bold);
 }
 
-.ulthera-mixture-gallery-swiper .box .content .txt {
+.pages-jupiter-mixture-gallery-swiper .box .content .txt {
   display: flex;
   flex-direction: column;
   gap: 7px;
   margin-top: 22px;
 }
 
-.ulthera-mixture-gallery-swiper .box .content .txt span {
+.pages-jupiter-mixture-gallery-swiper .box .content .txt span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3721,33 +3722,33 @@
   color: var(--color-white);
 }
 
-.ulthera-mixture .thumbnail {
+.pages-jupiter-mixture-thumbnail {
   position: relative;
 }
 
-.ulthera-mixture .thumbnail .swiper-button-next,
-.ulthera-mixture .thumbnail .swiper-button-prev {
+.pages-jupiter-mixture-thumbnail .swiper-button-next,
+.pages-jupiter-mixture-thumbnail .swiper-button-prev {
   color: #999999;
 }
 
-.ulthera-mixture .thumbnail .swiper-button-prev {
+.pages-jupiter-mixture-thumbnail .swiper-button-prev {
   left: -40px;
 }
 
-.ulthera-mixture .thumbnail .swiper-button-next {
+.pages-jupiter-mixture-thumbnail .swiper-button-next {
   right: -40px;
 }
 
-.ulthera-mixture .thumbnail .swiper-button-next:after,
-.ulthera-mixture .thumbnail .swiper-button-prev:after {
+.pages-jupiter-mixture-thumbnail .swiper-button-next:after,
+.pages-jupiter-mixture-thumbnail .swiper-button-prev:after {
   font-size: 30px;
 }
 
-.ulthera-mixture-thumbnail-swiper {
+.pages-jupiter-mixture-thumbnail-swiper {
   margin-top: 30px;
 }
 
-.ulthera-mixture-thumbnail-swiper .mixture {
+.pages-jupiter-mixture-thumbnail-swiper .mixture {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -3757,20 +3758,22 @@
   cursor: pointer;
 }
 
-.ulthera-mixture-thumbnail-swiper .mixture:before {
+.pages-jupiter-mixture-thumbnail-swiper .mixture:before {
   content: "";
   position: absolute;
   inset: 0;
   border: 1px solid #ddd;
 }
 
-.ulthera-mixture-thumbnail-swiper .swiper-slide-thumb-active .mixture:before {
+.pages-jupiter-mixture-thumbnail-swiper
+  .swiper-slide-thumb-active
+  .mixture:before {
   opacity: 1;
   border-width: 2px;
   border-color: var(--color-primary);
 }
 
-.ulthera-mixture-thumbnail-swiper .mixture dl dt {
+.pages-jupiter-mixture-thumbnail-swiper .mixture dl dt {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3782,12 +3785,12 @@
   border: 2px dashed var(--color-primary);
 }
 
-.ulthera-mixture-thumbnail-swiper .mixture dl dd {
+.pages-jupiter-mixture-thumbnail-swiper .mixture dl dd {
   margin-top: 8px;
   text-align: center;
 }
 
-.ulthera-mixture-thumbnail-swiper .mixture span {
+.pages-jupiter-mixture-thumbnail-swiper .mixture span {
   padding-top: 26px;
   font-size: 40px;
   font-weight: var(--font-weight-Bold);
@@ -3888,88 +3891,88 @@
     height: 190px;
   }
 
-  .ulthera-mixture-gallery-swiper .box {
+  .pages-jupiter-mixture-gallery-swiper .box {
     padding: 30px;
   }
 
-  .ulthera-mixture-gallery-swiper .box > h5 {
+  .pages-jupiter-mixture-gallery-swiper .box > h5 {
     text-align: center;
     font-size: 18px;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content {
+  .pages-jupiter-mixture-gallery-swiper .box .content {
     flex-direction: column;
     align-items: center;
     gap: 20px;
     margin-top: 25px;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content .mixture {
+  .pages-jupiter-mixture-gallery-swiper .box .content .mixture {
     gap: 5px;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content .mixture dl dt {
+  .pages-jupiter-mixture-gallery-swiper .box .content .mixture dl dt {
     width: 120px;
     height: 120px;
     border-width: 2px;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content .mixture dl dt img {
+  .pages-jupiter-mixture-gallery-swiper .box .content .mixture dl dt img {
     width: 80px;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content .mixture dl dd {
+  .pages-jupiter-mixture-gallery-swiper .box .content .mixture dl dd {
     font-size: 16px;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content .mixture span {
+  .pages-jupiter-mixture-gallery-swiper .box .content .mixture span {
     padding-top: 30px;
     font-size: 40px;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content .txt {
+  .pages-jupiter-mixture-gallery-swiper .box .content .txt {
     gap: 7px;
     margin-top: 0;
   }
 
-  .ulthera-mixture-gallery-swiper .box .content .txt span {
+  .pages-jupiter-mixture-gallery-swiper .box .content .txt span {
     width: 260px;
     height: 50px;
   }
 
-  .ulthera-mixture .thumbnail .swiper-button-prev {
+  .pages-jupiter-mixture-thumbnail .swiper-button-prev {
     left: -25px;
   }
 
-  .ulthera-mixture .thumbnail .swiper-button-next {
+  .pages-jupiter-mixture-thumbnail .swiper-button-next {
     right: -25px;
   }
 
-  .ulthera-mixture .thumbnail .swiper-button-next:after,
-  .ulthera-mixture .thumbnail .swiper-button-prev:after {
+  .pages-jupiter-mixture-thumbnail .swiper-button-next:after,
+  .pages-jupiter-mixture-thumbnail .swiper-button-prev:after {
     font-size: 16px;
   }
 
-  .ulthera-mixture-thumbnail-swiper {
+  .pages-jupiter-mixture-thumbnail-swiper {
     margin-top: 20px;
   }
 
-  .ulthera-mixture-thumbnail-swiper .mixture {
+  .pages-jupiter-mixture-thumbnail-swiper .mixture {
     gap: 2px;
     padding: 10px;
   }
 
-  .ulthera-mixture-thumbnail-swiper .mixture dl dt {
+  .pages-jupiter-mixture-thumbnail-swiper .mixture dl dt {
     width: 50px;
     height: 50px;
     padding: 6px;
   }
 
-  .ulthera-mixture-thumbnail-swiper .mixture dl dd {
+  .pages-jupiter-mixture-thumbnail-swiper .mixture dl dd {
     font-size: 12px;
   }
 
-  .ulthera-mixture-thumbnail-swiper .mixture span {
+  .pages-jupiter-mixture-thumbnail-swiper .mixture span {
     padding-top: 13px;
     font-size: 16px;
   }
