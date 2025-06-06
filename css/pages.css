@@ -2335,15 +2335,15 @@
     margin-left: 0;
   }
 
-  .jupiter-x-lifting-synergy .guide .title strong:nth-child(2),
-  .jupiter-x-lifting-synergy .guide .title strong:nth-child(3) {
+  .jupiter-x-lifting-synergy .guide .title strong:nth-child(2) {
     text-align: center;
     margin-left: 0;
   }
 
-  .jupiter-x-lifting-synergy .guide .title strong:nth-child(2) span {
-    display: inline-block;
-    width: 117px;
+  .jupiter-x-lifting-synergy .guide .title strong:nth-child(3) {
+    width: 80px;
+    margin-left: auto;
+    text-align: center;
   }
 
   .jupiter-x-lifting-synergy .guide ul {
@@ -2368,7 +2368,7 @@
   .jupiter-x-lifting-synergy .guide ul li .type span {
     padding: 3px 10px;
     border-radius: 15px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .jupiter-x-lifting-synergy .guide ul li .type span:before {
@@ -2398,20 +2398,16 @@
     margin-left: -13px;
   }
 
-  .jupiter-x-lifting-synergy .guide ul li .mobile-view {
-    text-align: center;
-  }
-
-  .jupiter-x-lifting-synergy .guide ul li .mobile-view .effect {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 5px;
+  .jupiter-x-lifting-synergy .guide ul li .effect {
+    width: 80px;
+    margin: -5px 0 -5px auto;
   }
 
   .jupiter-x-lifting-synergy .guide ul li .effect span {
-    width: auto;
+    width: 100%;
     height: auto;
-    font-size: 10px;
+    margin: 5px 0;
+    font-size: 12px;
   }
 }
 
