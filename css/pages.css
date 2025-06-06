@@ -311,7 +311,12 @@
 .scroll-down:before {
   top: 5px;
   width: 5px;
-  background: linear-gradient(180deg, rgba(238, 238, 238, 0) 0, rgba(238, 238, 238, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(238, 238, 238, 0) 0,
+    rgba(238, 238, 238, 0.5) 60%,
+    #eee 100%
+  );
   border-radius: 60px;
   animation: loopCirWrap 1.5s linear infinite;
 }
@@ -531,7 +536,8 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg")
+    no-repeat top/cover;
 }
 
 .one-wrinkle-intro .txt {
@@ -581,7 +587,12 @@
 }
 
 .one-wrinkle-intro .scroll-down:before {
-  background: linear-gradient(180deg, rgba(33, 30, 60, 0) 0, rgba(33, 30, 60, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 30, 60, 0) 0,
+    rgba(33, 30, 60, 0.5) 60%,
+    #eee 100%
+  );
 }
 
 .one-wrinkle-intro .scroll-down:after {
@@ -650,7 +661,8 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat
+    top/cover;
 }
 
 .one-wrinkle-section3 .pages-inner {
@@ -675,7 +687,9 @@
   .one-wrinkle-intro {
     display: flex;
     justify-content: center;
-    background: #edf0f2 url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
+    background: #edf0f2
+      url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat
+      top/cover;
   }
 
   .one-wrinkle-intro .txt {
@@ -1047,7 +1061,8 @@
   .equipment-intro-gallery-swiper {
     margin-bottom: 20px;
     border-radius: 7px;
-    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg")
+      no-repeat center/cover;
   }
 
   .equipment-intro-gallery-swiper .txt {
@@ -1155,11 +1170,25 @@
   letter-spacing: 2px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(odd) {
   width: 34px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(even) {
   width: 60px;
 }
 
@@ -1286,11 +1315,25 @@
     gap: 2px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(odd) {
     width: 25px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(even) {
     width: 45px;
   }
 
@@ -1368,7 +1411,8 @@
 }
 
 .pages-jupiter-protocol {
-  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+    top/cover;
 }
 
 .pages-jupiter-protocol .pages-inner {
@@ -1643,7 +1687,8 @@
   }
 
   .pages-jupiter-protocol {
-    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+      top/cover;
   }
 
   .pages-jupiter-protocol .pages-inner {
@@ -1856,7 +1901,12 @@
 }
 
 .jupiter-x-lifting-intro .scroll-down:before {
-  background: linear-gradient(180deg, rgba(243, 232, 187, 0) 0, rgba(243, 232, 187, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(243, 232, 187, 0) 0,
+    rgba(243, 232, 187, 0.5) 60%,
+    #eee 100%
+  );
 }
 
 .jupiter-x-lifting-intro .scroll-down:after {
@@ -1979,7 +2029,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
+    no-repeat top/cover;
 }
 
 .jupiter-x-lifting-synergy .pages-inner {
@@ -2100,7 +2151,9 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #d8be97 url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat center;
+  background: #d8be97
+    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
+    center;
 }
 
 .jupiter-x-lifting-synergy .guide ul li .line {
@@ -2272,6 +2325,7 @@
   .jupiter-x-lifting-synergy .guide .title {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     margin-bottom: 10px;
     padding: 0 10px;
     font-size: 16px;
@@ -2289,7 +2343,7 @@
 
   .jupiter-x-lifting-synergy .guide .title strong:nth-child(2) span {
     display: inline-block;
-    width: 139px;
+    width: 117px;
   }
 
   .jupiter-x-lifting-synergy .guide ul {
@@ -2299,14 +2353,13 @@
   .jupiter-x-lifting-synergy .guide ul li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0;
+    gap: 10px;
     height: auto;
     padding: 10px;
     border-radius: 15px;
   }
 
   .jupiter-x-lifting-synergy .guide ul li .type {
-    flex-direction: column;
     align-items: flex-start;
     gap: 4px;
     width: auto;
@@ -2315,7 +2368,7 @@
   .jupiter-x-lifting-synergy .guide ul li .type span {
     padding: 3px 10px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .jupiter-x-lifting-synergy .guide ul li .type span:before {
@@ -2335,9 +2388,10 @@
   }
 
   .jupiter-x-lifting-synergy .guide ul li .mixture span {
-    width: 76px;
-    height: 76px;
-    line-height: 76px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 12px;
   }
 
   .jupiter-x-lifting-synergy .guide ul li .mixture span:last-child {
@@ -2357,7 +2411,7 @@
   .jupiter-x-lifting-synergy .guide ul li .effect span {
     width: auto;
     height: auto;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -2689,7 +2743,11 @@
     background-color: #a7c3d8;
   }
 
-  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
+  .jupiter-x-booster-mixture
+    ul
+    li.composition
+    div
+    span:not(:first-child):before {
     top: -10px;
     left: 0;
     right: 0;
@@ -2859,11 +2917,24 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item {
   position: relative;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2875,17 +2946,40 @@
   color: #666;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item input:checked + label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  input:checked
+  + label {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  label
+  img {
   width: 15px;
   margin-left: auto;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item input {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  input {
   position: absolute;
   appearance: none;
 }
@@ -2896,16 +2990,36 @@
   gap: 10px;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item {
   position: relative;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  input {
   position: absolute;
   appearance: none;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  label {
   position: relative;
   display: flex;
   align-items: center;
@@ -2916,7 +3030,15 @@
   cursor: pointer;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input:checked + label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  input:checked
+  + label {
   border-color: var(--color-primary);
 }
 
@@ -3146,7 +3268,8 @@
 
 .reservation-section .privacy .agree input:checked {
   border-color: var(--color-primary);
-  background: var(--color-primary) url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
+  background: var(--color-primary)
+    url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
 }
 
 .reservation-section .privacy .agree label {
@@ -3249,12 +3372,27 @@
     height: 38px;
   }
 
-  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
+  .reservation-section
+    .form-list
+    dl
+    dd
+    .form-box
+    .selection-list
+    .selection-item
+    label {
     height: 38px;
     padding: 0 10px;
   }
 
-  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
+  .reservation-section
+    .form-list
+    dl
+    dd
+    .form-box
+    .selection-list
+    .selection-item
+    label
+    img {
     width: 10px;
   }
 
@@ -3474,7 +3612,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat
+    top/cover;
 }
 
 .ulthera-protocol .pages-inner {
@@ -3515,7 +3654,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/ulthera/mixture-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/ulthera/mixture-bg.jpg") no-repeat
+    top/cover;
 }
 
 .ulthera-mixture .pages-inner {
