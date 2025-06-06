@@ -30,10 +30,15 @@
 
 .pages-title.v1 h3 {
   font-size: 60px;
+  letter-spacing: -1.5px;
 }
 
 .pages-title.v1 p {
   margin-top: 36px;
+}
+
+.pages-title.v1 a {
+  margin-top: 90px;
 }
 
 .pages-title.v2 {
@@ -46,17 +51,13 @@
 
 .pages-title.v2 h5 {
   margin-bottom: 20px;
-  padding-left: 1px;
   font-size: 24px;
 }
 
 .pages-title.v2 h3 {
   margin-bottom: 70px;
   font-size: 60px;
-}
-
-.pages-title.v2 h3 span {
-  font-weight: var(--font-weight-Light);
+  letter-spacing: -1.5px;
 }
 
 .pages-title.v2 h4 {
@@ -67,6 +68,23 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
+}
+
+.pages-title.v2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pages-title.v2 ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.pages-title.v2 ul li img {
+  width: 18px;
+  margin-top: 4px;
 }
 
 .pages-title.v3 {
@@ -83,7 +101,7 @@
 
 @media screen and (max-width: 1200px) {
   .pages-title.v1 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .pages-title.v1 h5 {
@@ -96,6 +114,10 @@
   }
 
   .pages-title.v1 p {
+    margin-top: 20px;
+  }
+
+  .pages-title.v1 a {
     margin-top: 20px;
   }
 
@@ -115,6 +137,15 @@
 
   .pages-title.v2 div {
     gap: 15px;
+  }
+
+  .pages-title.v2 ul li {
+    gap: 7px;
+  }
+
+  .pages-title.v2 ul li img {
+    width: 15px;
+    margin-top: 3px;
   }
 
   .pages-title.v3 {
@@ -602,23 +633,9 @@
   align-items: center;
 }
 
-.one-wrinkle-section1 .txt h5 {
-  margin-bottom: 30px;
-  padding-left: 3px;
-  font-size: 24px;
-  font-family: "Poppins";
-}
-
-.one-wrinkle-section1 .txt h3 {
-  font-size: 60px;
-}
-
-.one-wrinkle-section1 .txt h3 span {
-  font-family: "Poppins";
-}
-
-.one-wrinkle-section1 .txt p {
-  margin-top: 20px;
+.one-wrinkle-section1 .pages-title.v1 {
+  margin-bottom: 0;
+  text-align: left;
 }
 
 .one-wrinkle-section2 {
@@ -716,17 +733,7 @@
 
   .one-wrinkle-section1 .pages-inner {
     flex-direction: column;
-    gap: 20px;
-  }
-
-  .one-wrinkle-section1 .txt h5 {
-    margin-bottom: 15px;
-    padding-left: 1px;
-    font-size: 16px;
-  }
-
-  .one-wrinkle-section1 .txt h3 {
-    font-size: 30px;
+    gap: 40px;
   }
 
   .one-wrinkle-section2 {
@@ -1500,22 +1507,9 @@
   justify-content: space-between;
 }
 
-.pages-jupiter-story .txt {
+.pages-jupiter-story .pages-title.v1 {
+  text-align: left;
   padding-top: 50px;
-}
-
-.pages-jupiter-story .txt h5 {
-  font-size: 24px;
-  font-weight: var(--font-weight-Light);
-}
-
-.pages-jupiter-story .txt h3 {
-  margin: 30px 0 20px;
-  font-size: 60px;
-}
-
-.pages-jupiter-story .txt p {
-  margin-bottom: 90px;
 }
 
 .pages-jupiter-story .swiper {
@@ -1583,6 +1577,10 @@
   left: 578px;
   right: 0;
   height: 3px;
+  background-color: var(--color-white);
+}
+
+.pages-jupiter-recommendation.white h3:after {
   background-color: var(--color-primary);
 }
 
@@ -1924,22 +1922,8 @@
     flex-direction: column;
   }
 
-  .pages-jupiter-story .txt {
+  .pages-jupiter-story .pages-title.v1 {
     padding-top: 0;
-    margin-bottom: 20px;
-  }
-
-  .pages-jupiter-story .txt h5 {
-    font-size: 16px;
-  }
-
-  .pages-jupiter-story .txt h3 {
-    margin: 15px 0 20px;
-    font-size: 30px;
-  }
-
-  .pages-jupiter-story .txt p {
-    margin-bottom: 20px;
   }
 
   .pages-jupiter-story .swiper {
@@ -2766,6 +2750,7 @@
 }
 
 .jupiter-x-booster-list ol li .txt > strong {
+  font-family: "Poppins";
   color: #9dbcd4;
 }
 
@@ -3896,6 +3881,7 @@
 .ulthera-protocol ol li h4 {
   margin-bottom: 20px;
   font-size: 40px;
+  font-family: "Poppins";
 }
 
 .ulthera-protocol ol li div {
@@ -3918,7 +3904,7 @@
   }
 
   .ulthera-intro .txt img:nth-child(2) {
-    width: 260px;
+    width: 275px;
   }
 
   .ulthera-intro .txt img:nth-child(3) {
@@ -3927,7 +3913,7 @@
   }
 
   .ulthera-intro .txt img:nth-child(4) {
-    width: 200px;
+    width: 240px;
     margin-top: 20px;
   }
 
@@ -3943,7 +3929,7 @@
   .ulthera-guide .pages-inner {
     flex-direction: column-reverse;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
   }
 
   .ulthera-guide .img img:first-child {
@@ -4002,21 +3988,102 @@
   margin-top: -30px;
 }
 
-.thermage-intro .txt img:nth-child(3) {
-  margin-top: 20px;
-}
-
 .thermage-intro .txt img:nth-child(4) {
   margin-top: 40px;
 }
 
+.thermage-guide {
+  position: relative;
+  padding: 120px 0 350px;
+}
+
+.thermage-guide:before,
+.thermage-guide:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 342px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thermage-guide:before {
+  top: 0;
+  background-image: url("../img/pages/lifting/thermage/guide-bg1.jpg");
+}
+
+.thermage-guide:after {
+  bottom: 0;
+  background-image: url("../img/pages/lifting/thermage/guide-bg2.jpg");
+}
+
+.thermage-guide .pages-inner {
+  display: flex;
+  justify-content: center;
+  gap: 277px;
+}
+
+.thermage-guide .img {
+  position: relative;
+}
+
+.thermage-guide .img img:last-child {
+  position: absolute;
+  bottom: -90px;
+}
+
+.thermage-guide .pages-title.v2 {
+  padding-top: 70px;
+}
+
+.thermage-guide .txt {
+  position: absolute;
+  bottom: 120px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.thermage-offer {
+  position: relative;
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.thermage-offer:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 685px;
+  background: url("../img/pages/lifting/thermage/offer-bg.jpg") no-repeat
+    top/cover;
+}
+
+.thermage-offer .pages-inner {
+  position: relative;
+}
+
+.thermage-offer .content {
+  display: flex;
+  align-items: center;
+}
+
+.thermage-offer .content .img {
+  margin-right: 140px;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 4px 18px 7px;
+}
+
 @media screen and (max-width: 1200px) {
   .thermage-intro .txt {
-    margin-top: -50px;
+    margin-top: -85px;
   }
 
   .thermage-intro .txt img:nth-child(1) {
-    width: 260px;
+    width: 300px;
   }
 
   .thermage-intro .txt img:nth-child(2) {
@@ -4024,12 +4091,62 @@
   }
 
   .thermage-intro .txt img:nth-child(3) {
-    width: 260px;
-    margin-top: 15px;
+    width: 100px;
   }
 
   .thermage-intro .txt img:nth-child(4) {
-    width: 200px;
+    width: 110px;
     margin-top: 20px;
+  }
+
+  .thermage-guide {
+    padding: 80px 0 200px;
+  }
+
+  .thermage-guide:before,
+  .thermage-guide:after {
+    height: 170px;
+  }
+
+  .thermage-guide .pages-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .thermage-guide .img img:first-child {
+    width: 150px;
+  }
+
+  .thermage-guide .img img:last-child {
+    bottom: -60px;
+  }
+
+  .thermage-guide .pages-title.v2 {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .thermage-guide .txt {
+    bottom: 80px;
+    font-size: 18px;
+  }
+
+  .thermage-offer {
+    padding: 80px 0;
+  }
+
+  .thermage-offer:before {
+    height: 190px;
+  }
+
+  .thermage-offer .content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .thermage-offer .content .img {
+    margin-right: 0;
   }
 }
