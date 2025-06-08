@@ -1030,7 +1030,6 @@ textarea {
 }
 
 .preparing .txt div p {
-  font-size: 20px;
   color: #d4ccc1;
 }
 
@@ -1041,15 +1040,11 @@ textarea {
   }
 
   .preparing .txt div h3 {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .preparing .txt div h4 {
     margin: 5px 0 20px;
     font-size: 22px;
-  }
-
-  .preparing .txt div p {
-    font-size: 16px;
   }
 }
