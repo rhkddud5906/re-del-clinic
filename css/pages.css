@@ -3937,7 +3937,7 @@
 
 .ulthera-protocol ol li h4 {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 36px;
   font-family: "Poppins";
 }
 
@@ -4176,6 +4176,60 @@
   font-size: 24px;
 }
 
+.potenza-method {
+  position: relative;
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.potenza-method:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 685px;
+  background: url("../img/pages/lifting/potenza/method-bg.jpg") no-repeat
+    top/cover;
+}
+
+.potenza-method .pages-inner {
+  position: relative;
+}
+
+.potenza-method ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.potenza-method ul li {
+  text-align: center;
+}
+
+.potenza-method ul li h4 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: "Poppins";
+}
+
+.potenza-method ul li .img {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 4px 18px 7px;
+}
+
+.potenza-method ul li h5 {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+}
+
+.potenza-method .txt {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
 @media screen and (max-width: 1200px) {
   .potenza-intro .txt {
     margin-top: -55px;
@@ -4214,7 +4268,7 @@
 
   .potenza-principle ul li .txt h5 {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .potenza-principle ul li .txt ol {
@@ -4223,5 +4277,44 @@
 
   .potenza-principle ul li .txt ol li {
     font-size: 14px;
+  }
+
+  .potenza-method {
+    padding: 80px 0;
+  }
+
+  .potenza-method:before {
+    height: 190px;
+  }
+
+  .potenza-method ul {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .potenza-method ul li {
+    text-align: center;
+  }
+
+  .potenza-method ul li h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .potenza-method ul li .img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    box-shadow: none;
+  }
+
+  .potenza-method ul li h5 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .potenza-method .txt {
+    margin-top: 60px;
+    font-size: 16px;
   }
 }
