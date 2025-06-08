@@ -1667,6 +1667,18 @@
   left: 172px;
 }
 
+.pages-jupiter-system .img {
+  position: relative;
+}
+
+.pages-jupiter-system .img img.shadow {
+  position: absolute;
+  bottom: -90px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
 .pages-jupiter-system .pages-jupiter-flow-txt span:first-child {
   margin: 0 0 0 -115px;
 }
@@ -1831,6 +1843,59 @@
   padding-top: 26px;
   font-size: 40px;
   font-weight: var(--font-weight-Bold);
+}
+
+.pages-jupiter-guide {
+  position: relative;
+  padding: 120px 0;
+}
+
+.pages-jupiter-guide:before,
+.pages-jupiter-guide:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 342px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pages-jupiter-guide:before {
+  top: 0;
+  background-image: url("../img/pages/jupiter/jupiter-guide-bg1.jpg");
+}
+
+.pages-jupiter-guide:after {
+  bottom: 0;
+  background-image: url("../img/pages/jupiter/jupiter-guide-bg2.jpg");
+}
+
+.pages-jupiter-guide .pages-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.pages-jupiter-guide .img {
+  position: relative;
+}
+
+.pages-jupiter-guide .img img.shadow {
+  position: absolute;
+  bottom: -90px;
+}
+
+.pages-jupiter-guide .pages-title.v2 {
+  padding-top: 70px;
+}
+
+.pages-jupiter-guide .txt {
+  position: absolute;
+  bottom: 120px;
+  text-align: center;
+  font-size: 36px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -2028,11 +2093,18 @@
     width: 270px;
   }
 
-  .pages-jupiter-system .content > img {
+  .pages-jupiter-system .img {
     position: absolute;
     right: -35px;
     top: 0;
+  }
+
+  .pages-jupiter-system .img img:first-child {
     height: 240px;
+  }
+
+  .pages-jupiter-system .img img.shadow {
+    bottom: -40px;
   }
 
   .pages-jupiter-mixture {
@@ -2127,6 +2199,34 @@
   .pages-jupiter-mixture-thumbnail-swiper .mixture span {
     padding-top: 13px;
     font-size: 16px;
+  }
+
+  .pages-jupiter-guide {
+    padding: 80px 0;
+  }
+
+  .pages-jupiter-guide:before,
+  .pages-jupiter-guide:after {
+    height: 170px;
+  }
+
+  .pages-jupiter-guide .pages-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .pages-jupiter-guide .img img.shadow {
+    bottom: -60px;
+  }
+
+  .pages-jupiter-guide .pages-title.v2 {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .pages-jupiter-guide .txt {
+    bottom: 80px;
+    font-size: 18px;
   }
 }
 
@@ -2709,7 +2809,7 @@
   padding-top: 120px;
   margin-top: 84px;
   text-align: center;
-  font-size: 30px;
+  font-size: 36px;
 }
 
 .jupiter-x-booster-solution .txt:before {
@@ -3804,51 +3904,8 @@
   margin-top: 40px;
 }
 
-.ulthera-guide {
-  position: relative;
-  padding: 120px 0;
-}
-
-.ulthera-guide:before,
-.ulthera-guide:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 342px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.ulthera-guide:before {
-  top: 0;
-  background-image: url("../img/pages/lifting/ulthera/guide-bg1.jpg");
-}
-
-.ulthera-guide:after {
-  bottom: 0;
-  background-image: url("../img/pages/lifting/ulthera/guide-bg2.jpg");
-}
-
 .ulthera-guide .pages-inner {
-  display: flex;
-  justify-content: center;
   gap: 277px;
-}
-
-.ulthera-guide .img {
-  position: relative;
-}
-
-.ulthera-guide .img img:last-child {
-  position: absolute;
-  bottom: -90px;
-}
-
-.ulthera-guide .pages-title.v2 {
-  padding-top: 70px;
 }
 
 .ulthera-protocol {
@@ -3917,32 +3974,12 @@
     margin-top: 20px;
   }
 
-  .ulthera-guide {
-    padding: 80px 0;
-  }
-
-  .ulthera-guide:before,
-  .ulthera-guide:after {
-    height: 170px;
-  }
-
   .ulthera-guide .pages-inner {
-    flex-direction: column-reverse;
-    align-items: center;
     gap: 40px;
   }
 
   .ulthera-guide .img img:first-child {
     width: 150px;
-  }
-
-  .ulthera-guide .img img:last-child {
-    bottom: -60px;
-  }
-
-  .ulthera-guide .pages-title.v2 {
-    padding-top: 0;
-    text-align: center;
   }
 
   .ulthera-protocol {
@@ -3993,57 +4030,11 @@
 }
 
 .thermage-guide {
-  position: relative;
   padding: 120px 0 350px;
 }
 
-.thermage-guide:before,
-.thermage-guide:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 342px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.thermage-guide:before {
-  top: 0;
-  background-image: url("../img/pages/lifting/thermage/guide-bg1.jpg");
-}
-
-.thermage-guide:after {
-  bottom: 0;
-  background-image: url("../img/pages/lifting/thermage/guide-bg2.jpg");
-}
-
 .thermage-guide .pages-inner {
-  display: flex;
-  justify-content: center;
   gap: 277px;
-}
-
-.thermage-guide .img {
-  position: relative;
-}
-
-.thermage-guide .img img:last-child {
-  position: absolute;
-  bottom: -90px;
-}
-
-.thermage-guide .pages-title.v2 {
-  padding-top: 70px;
-}
-
-.thermage-guide .txt {
-  position: absolute;
-  bottom: 120px;
-  text-align: center;
-  font-size: 36px;
 }
 
 .thermage-offer {
@@ -4103,33 +4094,12 @@
     padding: 80px 0 200px;
   }
 
-  .thermage-guide:before,
-  .thermage-guide:after {
-    height: 170px;
-  }
-
   .thermage-guide .pages-inner {
-    flex-direction: column-reverse;
-    align-items: center;
     gap: 40px;
   }
 
   .thermage-guide .img img:first-child {
     width: 150px;
-  }
-
-  .thermage-guide .img img:last-child {
-    bottom: -60px;
-  }
-
-  .thermage-guide .pages-title.v2 {
-    padding-top: 0;
-    text-align: center;
-  }
-
-  .thermage-guide .txt {
-    bottom: 80px;
-    font-size: 18px;
   }
 
   .thermage-offer {
@@ -4148,5 +4118,110 @@
 
   .thermage-offer .content .img {
     margin-right: 0;
+  }
+}
+
+/************** 포텐자 **************/
+
+.potenza-intro .txt {
+  margin-top: -80px;
+}
+
+.potenza-intro .txt img:nth-child(3) {
+  margin-top: 40px;
+}
+
+.potenza-guide .pages-inner {
+  align-items: center;
+  gap: 200px;
+}
+
+.potenza-guide .pages-title.v2 {
+  padding-top: 0;
+}
+
+.potenza-principle {
+  padding: 120px 0;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.potenza-principle ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.potenza-principle ul li .img {
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 4px 18px 7px;
+}
+
+.potenza-principle ul li .txt {
+  padding: 40px 50px 0;
+}
+
+.potenza-principle ul li .txt h5 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: var(--font-weight-Light);
+}
+
+.potenza-principle ul li .txt ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.potenza-principle ul li .txt ol li {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  .potenza-intro .txt {
+    margin-top: -55px;
+  }
+
+  .potenza-intro .txt img:nth-child(1) {
+    width: 143px;
+  }
+
+  .potenza-intro .txt img:nth-child(2) {
+    width: 256px;
+    margin-top: 10px;
+  }
+
+  .potenza-intro .txt img:nth-child(3) {
+    width: 110px;
+    margin-top: 20px;
+  }
+
+  .potenza-guide .pages-inner {
+    gap: 40px;
+  }
+
+  .potenza-principle {
+    padding: 80px 0;
+  }
+
+  .potenza-principle ul {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .potenza-principle ul li .txt {
+    padding: 30px 40px 0;
+  }
+
+  .potenza-principle ul li .txt h5 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .potenza-principle ul li .txt ol {
+    gap: 5px;
+  }
+
+  .potenza-principle ul li .txt ol li {
+    font-size: 14px;
   }
 }
