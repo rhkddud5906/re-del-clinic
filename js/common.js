@@ -1,6 +1,6 @@
 $(document).ready(function () {
   AOS.init({
-    duration: 1100,
+    duration: 1400,
   });
 
   $(".mobile-sitemap-btn").on("click", function () {
