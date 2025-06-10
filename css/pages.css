@@ -311,7 +311,33 @@
   color: var(--color-white);
 }
 
+.pages-intro-video .txt h2 {
+  margin-top: -45px;
+  font-size: 100px;
+  color: #636363;
+  background-image: linear-gradient(180deg, #636363, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pages-intro-video .txt h3 {
+  margin-top: -60px;
+  font-size: 113px;
+  color: #636363;
+  background-image: linear-gradient(180deg, #636363, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .pages-intro-video .txt h4 {
+  font-size: 44px;
+  font-weight: var(--font-weight-Medium);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.pages-intro-video .txt h5 {
   margin-top: 35px;
   font-size: 36px;
   font-weight: var(--font-weight-Light);
@@ -341,12 +367,7 @@
 .scroll-down:before {
   top: 5px;
   width: 5px;
-  background: linear-gradient(
-    180deg,
-    rgba(238, 238, 238, 0) 0,
-    rgba(238, 238, 238, 0.5) 60%,
-    #eee 100%
-  );
+  background: linear-gradient(180deg, rgba(238, 238, 238, 0) 0, rgba(238, 238, 238, 0.5) 60%, #eee 100%);
   border-radius: 60px;
   animation: loopCirWrap 1.5s linear infinite;
 }
@@ -413,7 +434,25 @@
     font-size: 22px;
   }
 
+  .pages-intro-video .txt img {
+    height: 200px;
+  }
+
+  .pages-intro-video .txt h2 {
+    margin-top: -30px;
+    font-size: 50px;
+  }
+
+  .pages-intro-video .txt h3 {
+    margin-top: -25px;
+    font-size: 55px;
+  }
+
   .pages-intro-video .txt h4 {
+    font-size: 26px;
+  }
+
+  .pages-intro-video .txt h5 {
     margin-top: 20px;
     font-size: 22px;
   }
@@ -555,8 +594,7 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg")
-    no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
 }
 
 .one-wrinkle-intro .txt {
@@ -606,12 +644,7 @@
 }
 
 .one-wrinkle-intro .scroll-down:before {
-  background: linear-gradient(
-    180deg,
-    rgba(33, 30, 60, 0) 0,
-    rgba(33, 30, 60, 0.5) 60%,
-    #eee 100%
-  );
+  background: linear-gradient(180deg, rgba(33, 30, 60, 0) 0, rgba(33, 30, 60, 0.5) 60%, #eee 100%);
 }
 
 .one-wrinkle-intro .scroll-down:after {
@@ -666,8 +699,7 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
 }
 
 .one-wrinkle-section3 .pages-inner {
@@ -691,9 +723,7 @@
   .one-wrinkle-intro {
     display: flex;
     justify-content: center;
-    background: #edf0f2
-      url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat
-      top/cover;
+    background: #edf0f2 url("../img/pages/story/one-wrinkle/mobile/intro-img.jpg") no-repeat top/cover;
   }
 
   .one-wrinkle-intro .txt {
@@ -1053,8 +1083,7 @@
   .equipment-intro-gallery-swiper {
     margin-bottom: 20px;
     border-radius: 7px;
-    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg")
-      no-repeat center/cover;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
   }
 
   .equipment-intro-gallery-swiper .txt {
@@ -1163,25 +1192,11 @@
   letter-spacing: 2px;
 }
 
-.contact-section1
-  .content
-  .left
-  dl.hours-wrap
-  ul
-  li
-  div.time
-  span:nth-child(odd) {
+.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
   width: 34px;
 }
 
-.contact-section1
-  .content
-  .left
-  dl.hours-wrap
-  ul
-  li
-  div.time
-  span:nth-child(even) {
+.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
   width: 60px;
 }
 
@@ -1308,25 +1323,11 @@
     gap: 2px;
   }
 
-  .contact-section1
-    .content
-    .left
-    dl.hours-wrap
-    ul
-    li
-    div.time
-    span:nth-child(odd) {
+  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
     width: 25px;
   }
 
-  .contact-section1
-    .content
-    .left
-    dl.hours-wrap
-    ul
-    li
-    div.time
-    span:nth-child(even) {
+  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
     width: 45px;
   }
 
@@ -1410,8 +1411,7 @@
 }
 
 .pages-jupiter-protocol {
-  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
 }
 
 .pages-jupiter-protocol .pages-inner {
@@ -1698,8 +1698,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/jupiter/jupiter-mixture-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/jupiter/jupiter-mixture-bg.jpg") no-repeat top/cover;
 }
 
 .pages-jupiter-mixture .pages-inner {
@@ -1812,9 +1811,7 @@
   border: 1px solid #ddd;
 }
 
-.pages-jupiter-mixture-thumbnail-swiper
-  .swiper-slide-thumb-active
-  .mixture:before {
+.pages-jupiter-mixture-thumbnail-swiper .swiper-slide-thumb-active .mixture:before {
   opacity: 1;
   border-width: 2px;
   border-color: var(--color-primary);
@@ -1916,8 +1913,7 @@
   }
 
   .pages-jupiter-protocol {
-    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
-      top/cover;
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
   }
 
   .pages-jupiter-protocol .pages-inner {
@@ -2248,12 +2244,7 @@
 }
 
 .jupiter-x-lifting-intro .scroll-down:before {
-  background: linear-gradient(
-    180deg,
-    rgba(243, 232, 187, 0) 0,
-    rgba(243, 232, 187, 0.5) 60%,
-    #eee 100%
-  );
+  background: linear-gradient(180deg, rgba(243, 232, 187, 0) 0, rgba(243, 232, 187, 0.5) 60%, #eee 100%);
 }
 
 .jupiter-x-lifting-intro .scroll-down:after {
@@ -2375,8 +2366,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
-    no-repeat top/cover;
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg") no-repeat top/cover;
 }
 
 .jupiter-x-lifting-synergy .pages-inner {
@@ -2498,9 +2488,7 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #d8be97
-    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
-    center;
+  background: #d8be97 url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat center;
 }
 
 .jupiter-x-lifting-synergy .guide ul li .line {
@@ -3092,11 +3080,7 @@
     background-color: #a7c3d8;
   }
 
-  .jupiter-x-booster-mixture
-    ul
-    li.composition
-    div
-    span:not(:first-child):before {
+  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
     top: -10px;
     left: 0;
     right: 0;
@@ -3266,24 +3250,11 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item {
   position: relative;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  label {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3295,40 +3266,17 @@
   color: #666;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  input:checked
-  + label {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item input:checked + label {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  label
-  img {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
   width: 15px;
   margin-left: auto;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-list
-  .selection-item
-  input {
+.reservation-section .form-list dl dd .form-box .selection-list .selection-item input {
   position: absolute;
   appearance: none;
 }
@@ -3339,36 +3287,16 @@
   gap: 10px;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item {
   position: relative;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item
-  input {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input {
   position: absolute;
   appearance: none;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item
-  label {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item label {
   position: relative;
   display: flex;
   align-items: center;
@@ -3379,15 +3307,7 @@
   cursor: pointer;
 }
 
-.reservation-section
-  .form-list
-  dl
-  dd
-  .form-box
-  .selection-doctor
-  .selection-item
-  input:checked
-  + label {
+.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input:checked + label {
   border-color: var(--color-primary);
 }
 
@@ -3617,8 +3537,7 @@
 
 .reservation-section .privacy .agree input:checked {
   border-color: var(--color-primary);
-  background: var(--color-primary)
-    url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
+  background: var(--color-primary) url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
 }
 
 .reservation-section .privacy .agree label {
@@ -3721,27 +3640,12 @@
     height: 38px;
   }
 
-  .reservation-section
-    .form-list
-    dl
-    dd
-    .form-box
-    .selection-list
-    .selection-item
-    label {
+  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
     height: 38px;
     padding: 0 10px;
   }
 
-  .reservation-section
-    .form-list
-    dl
-    dd
-    .form-box
-    .selection-list
-    .selection-item
-    label
-    img {
+  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
     width: 10px;
   }
 
@@ -3884,16 +3788,12 @@
   margin-top: -80px;
 }
 
+.ulthera-intro .txt h2 {
+  margin-top: -10px;
+}
+
 .ulthera-intro .txt img:nth-child(2) {
   margin-top: -30px;
-}
-
-.ulthera-intro .txt img:nth-child(3) {
-  margin-top: 20px;
-}
-
-.ulthera-intro .txt img:nth-child(4) {
-  margin-top: 40px;
 }
 
 .ulthera-guide .pages-inner {
@@ -3913,8 +3813,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat top/cover;
 }
 
 .ulthera-protocol .pages-inner {
@@ -4009,18 +3908,6 @@
 
 /************** 써마지 **************/
 
-.thermage-intro .txt {
-  margin-top: -80px;
-}
-
-.thermage-intro .txt img:nth-child(2) {
-  margin-top: -30px;
-}
-
-.thermage-intro .txt img:nth-child(4) {
-  margin-top: 40px;
-}
-
 .thermage-info video {
   position: absolute;
   top: -2130px;
@@ -4048,8 +3935,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/thermage/offer-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/lifting/thermage/offer-bg.jpg") no-repeat top/cover;
 }
 
 .thermage-offer .pages-inner {
@@ -4067,27 +3953,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .thermage-intro .txt {
-    margin-top: -85px;
-  }
-
-  .thermage-intro .txt img:nth-child(1) {
-    width: 300px;
-  }
-
-  .thermage-intro .txt img:nth-child(2) {
-    width: 260px;
-  }
-
-  .thermage-intro .txt img:nth-child(3) {
-    width: 100px;
-  }
-
-  .thermage-intro .txt img:nth-child(4) {
-    width: 110px;
-    margin-top: 20px;
-  }
-
   .thermage-info .video video {
     top: -1200px;
     height: 1500px;
@@ -4125,14 +3990,6 @@
 }
 
 /************** 포텐자 **************/
-
-.potenza-intro .txt {
-  margin-top: -80px;
-}
-
-.potenza-intro .txt img:nth-child(3) {
-  margin-top: 40px;
-}
 
 .potenza-guide .pages-inner {
   align-items: center;
@@ -4192,8 +4049,7 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/potenza/method-bg.jpg") no-repeat
-    top/cover;
+  background: url("../img/pages/lifting/potenza/method-bg.jpg") no-repeat top/cover;
 }
 
 .potenza-method .pages-inner {
@@ -4234,24 +4090,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .potenza-intro .txt {
-    margin-top: -55px;
-  }
-
-  .potenza-intro .txt img:nth-child(1) {
-    width: 143px;
-  }
-
-  .potenza-intro .txt img:nth-child(2) {
-    width: 256px;
-    margin-top: 10px;
-  }
-
-  .potenza-intro .txt img:nth-child(3) {
-    width: 110px;
-    margin-top: 20px;
-  }
-
   .potenza-guide .pages-inner {
     gap: 40px;
   }

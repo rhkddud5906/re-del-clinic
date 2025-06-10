@@ -110,11 +110,6 @@ th {
   font-weight: var(--font-weight-Bold);
 }
 
-h2,
-h3 {
-  line-height: 1.2;
-}
-
 :focus {
   outline: none;
 }
@@ -169,32 +164,28 @@ textarea {
   font-family: "Pretendard";
   font-weight: 700;
   font-display: swap;
-  src: local("Pretendard Bold"),
-    url("../font/Pretendard-Bold.woff2") format("woff2");
+  src: local("Pretendard Bold"), url("../font/Pretendard-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 600;
   font-display: swap;
-  src: local("Pretendard SemiBold"),
-    url("../font/Pretendard-SemiBold.woff2") format("woff2");
+  src: local("Pretendard SemiBold"), url("../font/Pretendard-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 500;
   font-display: swap;
-  src: local("Pretendard Medium"),
-    url("../font/Pretendard-Medium.woff2") format("woff2");
+  src: local("Pretendard Medium"), url("../font/Pretendard-Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 300;
   font-display: swap;
-  src: local("Pretendard Light"),
-    url("../font/Pretendard-Light.woff2") format("woff2");
+  src: local("Pretendard Light"), url("../font/Pretendard-Light.woff2") format("woff2");
 }
 
 .mobile-view {
