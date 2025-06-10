@@ -665,7 +665,11 @@ textarea {
   flex: 1;
 }
 
-.footer .customer .left dl dd span {
+.footer .customer .left dl dd a {
+  color: var(--color-white);
+}
+
+.footer .customer .left dl dd a span {
   color: var(--color-mediumGray);
 }
 
