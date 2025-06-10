@@ -1288,7 +1288,7 @@
 
 @media screen and (max-width: 1200px) {
   .contact-section1 {
-    margin-top: 188px;
+    margin-top: 159px;
   }
 
   .contact-section1 .content {
@@ -2008,6 +2008,10 @@
   }
 
   .pages-jupiter-story .swiper {
+    width: 100%;
+  }
+
+  .pages-jupiter-story .swiper .swiper-slide img {
     width: 100%;
   }
 
@@ -3740,6 +3744,7 @@
   }
 
   .reservation-section .privacy .txt div {
+    width: 100%;
     font-size: 12px;
   }
 
@@ -3890,8 +3895,8 @@
 
 .thermage-info video {
   position: absolute;
-  top: -2130px;
-  height: 2700px;
+  top: -3800px;
+  height: 4500px;
 }
 
 .thermage-guide {
@@ -3973,11 +3978,21 @@
   }
 
   .thermage-offer .content .img {
+    width: 100%;
     margin-right: 0;
+  }
+
+  .thermage-offer .content .img img {
+    width: 100%;
   }
 }
 
 /************** 포텐자 **************/
+
+.potenza-info .video video {
+  position: absolute;
+  bottom: -1030px;
+}
 
 .potenza-guide .pages-inner {
   align-items: center;
@@ -4078,6 +4093,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .potenza-info .video video {
+    bottom: 0;
+  }
+
   .potenza-guide .pages-inner {
     gap: 40px;
   }
@@ -4089,6 +4108,10 @@
   .potenza-principle ul {
     flex-direction: column;
     gap: 50px;
+  }
+
+  .potenza-principle ul li .img img {
+    width: 100%;
   }
 
   .potenza-principle ul li .txt {

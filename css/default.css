@@ -253,6 +253,7 @@ textarea {
 }
 
 .mobile-header .top-banner {
+  display: none;
   background-color: var(--color-primary);
 }
 
@@ -328,7 +329,7 @@ textarea {
   display: none;
   position: fixed;
   inset: 0;
-  top: 108px;
+  top: 79px;
   z-index: 22;
   max-width: 768px;
   margin: 0 auto;
@@ -913,7 +914,7 @@ textarea {
 /************** layout **************/
 
 .wrapper {
-  min-width: 1880px;
+  min-width: 1600px;
 }
 
 .container {
@@ -1005,6 +1006,7 @@ textarea {
 }
 
 .preparing .txt div h3 {
+  line-height: 1.2;
   font-size: 60px;
   font-family: "Noto Serif";
 }
