@@ -3,12 +3,14 @@ $(document).ready(function () {
     duration: 1400,
   });
 
+  // 모바일 메뉴
   $(".mobile-sitemap-btn").on("click", function () {
     $(this).toggleClass("active");
+    $("body").toggleClass("hidden");
     $(".mobile-header .gnb").fadeToggle();
   });
 
-  // mobile gnb
+  // 모바일 하위 메뉴
   $(".mobile-header .gnb .depth1 > li").first().find(".depth2").show();
   $(".mobile-header .gnb .depth1 > li button").on("click", function () {
     $(".mobile-header .gnb .depth2").hide();
@@ -21,6 +23,7 @@ $(document).ready(function () {
     return false;
   });
 
+  // 자주 묻는 질문
   $(".pages-faq ul li").on("click", function () {
     $(".pages-faq .answer").slideUp();
     $(".pages-faq ul li").removeClass("active");
