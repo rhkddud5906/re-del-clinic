@@ -17,6 +17,17 @@ $(document).ready(function () {
     $(this).siblings(".depth2").show();
   });
 
+  // PC 사이트맵
+  $(".sitemap-btn").on("click", function () {
+    $("body").addClass("hidden");
+    $(".sitemap-modal").css({ display: "flex" });
+  });
+
+  $(".sitemap-modal .close-btn").on("click", function () {
+    $("body").removeClass("hidden");
+    $(".sitemap-modal").hide();
+  });
+
   // 상담신청하기
   $(".consultation-request-btn").on("click", function () {
     $(".consultation-request").fadeIn();
