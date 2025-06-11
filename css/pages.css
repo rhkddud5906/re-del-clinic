@@ -3660,33 +3660,7 @@
 }
 
 .reservation-section .privacy .agree {
-  position: relative;
-  display: inline-flex;
   margin-top: 15px;
-}
-
-.reservation-section .privacy .agree input {
-  position: absolute;
-  top: 3px;
-  left: 0;
-  width: 22px;
-  height: 22px;
-  cursor: pointer;
-  appearance: none;
-  background-color: var(--color-white);
-  border: 1px solid #ddd;
-}
-
-.reservation-section .privacy .agree input:checked {
-  border-color: var(--color-primary);
-  background: var(--color-primary)
-    url("../img/pages/reservation/selection-ico.png") no-repeat center/14px;
-}
-
-.reservation-section .privacy .agree label {
-  flex: 1;
-  padding-left: 30px;
-  cursor: pointer;
 }
 
 .reservation-section .form-btn {
@@ -3915,19 +3889,6 @@
 
   .reservation-section .privacy .agree {
     margin-top: 10px;
-  }
-
-  .reservation-section .privacy .agree input {
-    width: 16px;
-    height: 16px;
-  }
-
-  .reservation-section .privacy .agree input:checked {
-    background-size: 8px;
-  }
-
-  .reservation-section .privacy .agree label {
-    padding-left: 22px;
   }
 
   .reservation-section .form-btn {

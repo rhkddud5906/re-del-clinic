@@ -956,6 +956,53 @@ textarea {
   }
 }
 
+/************** 체크박스 **************/
+
+.input-selection {
+  position: relative;
+  display: inline-flex;
+}
+
+.input-selection input {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  appearance: none;
+  background-color: var(--color-white);
+  border: 1px solid #ddd;
+}
+
+.input-selection input:checked {
+  border-color: var(--color-primary);
+  background: var(--color-primary) url("../img/common/selection-ico.png")
+    no-repeat center/14px;
+}
+
+.input-selection label {
+  flex: 1;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .input-selection input {
+    top: 2px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .input-selection input:checked {
+    background-size: 8px;
+  }
+
+  .input-selection label {
+    padding-left: 22px;
+  }
+}
+
 /************** 준비중 **************/
 
 .preparing {
