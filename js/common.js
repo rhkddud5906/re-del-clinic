@@ -17,6 +17,15 @@ $(document).ready(function () {
     $(this).siblings(".depth2").show();
   });
 
+  // 상담신청하기
+  $(".consultation-request-btn").on("click", function () {
+    $(".consultation-request").fadeIn();
+  });
+
+  $(".consultation-request .close-btn").on("click", function () {
+    $(".consultation-request").fadeOut();
+  });
+
   // 상단 이동
   $(".quick-banner button, .mobile-quick-banner .top-btn").on(
     "click",
