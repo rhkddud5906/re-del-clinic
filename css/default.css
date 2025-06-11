@@ -249,6 +249,7 @@ textarea {
 }
 
 /************** mobile header **************/
+
 .mobile-header {
   position: fixed;
   top: 0;
@@ -556,7 +557,6 @@ textarea {
 
 /************** sitemap **************/
 
-/* sitemap btn */
 .sitemap-btn {
   position: fixed;
   top: 60px;
@@ -595,46 +595,6 @@ textarea {
 @media screen and (max-width: 1200px) {
   .sitemap-btn {
     display: none;
-  }
-}
-
-/************** top btn **************/
-
-.top-btn {
-  position: fixed;
-  bottom: 36px;
-  right: 70px;
-  z-index: 21;
-  width: 60px;
-  height: 60px;
-  background-color: var(--color-white);
-}
-
-.top-btn:after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: "";
-  width: 16px;
-  height: 16px;
-  margin: -4px 0 0 -8px;
-  border-right: 1px solid var(--color-black);
-  border-top: 1px solid var(--color-black);
-  transform: rotate(-45deg);
-}
-
-@media screen and (max-width: 1200px) {
-  .top-btn {
-    bottom: 20px;
-    right: 20px;
-    width: 35px;
-    height: 35px;
-  }
-
-  .top-btn:after {
-    width: 10px;
-    height: 10px;
-    margin: -3px 0 0 -5px;
   }
 }
 
@@ -1052,5 +1012,168 @@ textarea {
   .preparing .txt div h4 {
     margin: 5px 0 20px;
     font-size: 22px;
+  }
+}
+
+/************** 퀵배너 **************/
+
+.quick-banner {
+  position: fixed;
+  right: 70px;
+  bottom: 100px;
+  z-index: 21;
+  text-align: center;
+  background-color: #d4ccc1;
+  font-weight: var(--font-weight-SemiBold);
+  font-size: 16px;
+}
+
+.quick-banner ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  gap: 5px;
+  color: var(--color-white);
+}
+
+.quick-banner > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  font-family: "Poppins";
+  color: var(--color-white);
+}
+
+.quick-banner button {
+  width: 100%;
+  padding: 5px 0;
+  background-color: #b8afa2;
+  font-family: "Poppins";
+  color: var(--color-white);
+}
+
+.mobile-quick-banner {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 21;
+  font-weight: var(--font-weight-Bold);
+}
+
+.mobile-quick-banner.active {
+  z-index: 23;
+}
+
+.mobile-quick-banner:before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.mobile-quick-banner.active:before {
+  display: block;
+}
+
+.mobile-quick-banner .control-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile-quick-banner .control-btn button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+
+.mobile-quick-banner .control-btn button.menu-btn {
+  background-color: #dabb8c;
+}
+
+.mobile-quick-banner .control-btn button.menu-btn img {
+  width: 20px;
+}
+
+.mobile-quick-banner .control-btn button.top-btn {
+  font-size: 12px;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.mobile-quick-banner .control-btn button.top-btn img {
+  width: 12px;
+}
+
+.mobile-quick-banner .menu {
+  position: absolute;
+  bottom: 65px;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.mobile-quick-banner .menu.active {
+  display: flex;
+}
+
+.mobile-quick-banner .menu a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobile-quick-banner .menu a strong {
+  color: var(--color-white);
+}
+
+.mobile-quick-banner .menu a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background-color: var(--color-primary);
+}
+
+.mobile-quick-banner .menu a span img {
+  height: 20px;
+}
+
+.mobile-quick-banner .menu button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background-color: var(--color-white);
+}
+
+.mobile-quick-banner .menu button img {
+  width: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .quick-banner {
+    display: none;
+  }
+
+  .mobile-quick-banner {
+    display: block;
   }
 }

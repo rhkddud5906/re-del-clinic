@@ -18,9 +18,23 @@ $(document).ready(function () {
   });
 
   // 상단 이동
-  $(".top-btn").on("click", function () {
-    $("html, body").animate({ scrollTop: 0 }, "500");
-    return false;
+  $(".quick-banner button, .mobile-quick-banner .top-btn").on(
+    "click",
+    function () {
+      $("html, body").animate({ scrollTop: 0 }, "500");
+      return false;
+    }
+  );
+
+  // 모바일 퀵배너
+  $(".mobile-quick-banner .menu-btn").on("click", function () {
+    $(".mobile-quick-banner").addClass("active");
+    $(".mobile-quick-banner .menu").addClass("active");
+  });
+
+  $(".mobile-quick-banner .menu button").on("click", function () {
+    $(".mobile-quick-banner").removeClass("active");
+    $(".mobile-quick-banner .menu").removeClass("active");
   });
 
   // 자주 묻는 질문
