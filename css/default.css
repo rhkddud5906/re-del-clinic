@@ -168,28 +168,32 @@ textarea {
   font-family: "Pretendard";
   font-weight: 700;
   font-display: swap;
-  src: local("Pretendard Bold"), url("../font/Pretendard-Bold.woff2") format("woff2");
+  src: local("Pretendard Bold"),
+    url("../font/Pretendard-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 600;
   font-display: swap;
-  src: local("Pretendard SemiBold"), url("../font/Pretendard-SemiBold.woff2") format("woff2");
+  src: local("Pretendard SemiBold"),
+    url("../font/Pretendard-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 500;
   font-display: swap;
-  src: local("Pretendard Medium"), url("../font/Pretendard-Medium.woff2") format("woff2");
+  src: local("Pretendard Medium"),
+    url("../font/Pretendard-Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 300;
   font-display: swap;
-  src: local("Pretendard Light"), url("../font/Pretendard-Light.woff2") format("woff2");
+  src: local("Pretendard Light"),
+    url("../font/Pretendard-Light.woff2") format("woff2");
 }
 
 .mobile-view {
@@ -716,30 +720,25 @@ textarea {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
   .sitemap-modal .pages-inner {
-    width: 1000px;
+    width: 970px;
   }
 
   .sitemap-modal dl dt a {
-    width: 500px;
-    height: 648px;
-  }
-
-  .sitemap-modal dl dd {
-    width: 500px;
+    width: 400px;
+    height: 570px;
   }
 
   .sitemap-modal dl dd ul li a {
-    width: 500px;
-    height: 156px;
+    height: 130px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .sitemap-btn,
   .sitemap-modal {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -1122,7 +1121,8 @@ textarea {
 
 .input-selection input:checked {
   border-color: var(--color-primary);
-  background: var(--color-primary) url("../img/common/selection-ico.png") no-repeat center/14px;
+  background: var(--color-primary) url("../img/common/selection-ico.png")
+    no-repeat center/14px;
 }
 
 .input-selection label {
