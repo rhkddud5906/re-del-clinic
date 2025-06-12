@@ -593,7 +593,7 @@ textarea {
   inset: 0;
   z-index: 22;
   overflow: auto;
-  display: flex;
+  display: none;
   align-items: center;
   padding-left: 200px;
   background-color: rgba(0, 0, 0, 0.7);
