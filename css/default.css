@@ -593,7 +593,7 @@ textarea {
   inset: 0;
   z-index: 22;
   overflow: auto;
-  display: none;
+  display: flex;
   align-items: center;
   padding-left: 200px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -608,19 +608,22 @@ textarea {
   justify-content: space-between;
 }
 
-.sitemap-modal dl dt {
-  overflow: hidden;
+.sitemap-modal dl dt a {
+  position: relative;
+  display: block;
   width: 610px;
   height: 750px;
+  overflow: hidden;
+  background-color: var(--color-white);
 }
 
-.sitemap-modal dl dt a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.sitemap-modal dl dt a img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--color-white);
+  object-fit: cover;
 }
 
 .sitemap-modal dl dd {
@@ -649,18 +652,22 @@ textarea {
   gap: 20px;
 }
 
-.sitemap-modal dl dd ul li {
+.sitemap-modal dl dd ul li a {
+  position: relative;
+  display: block;
   width: 600px;
   height: 190px;
+  overflow: hidden;
+  background-color: var(--color-white);
 }
 
-.sitemap-modal dl dd ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.sitemap-modal dl dd ul li a img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--color-white);
+  object-fit: cover;
 }
 
 .sitemap-modal .close-btn {
@@ -687,6 +694,46 @@ textarea {
 .sitemap-modal .close-btn span:nth-of-type(2) {
   bottom: 16.5px;
   transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1800px) {
+  .sitemap-modal .pages-inner {
+    width: 1080px;
+  }
+
+  .sitemap-modal dl dt a {
+    width: 500px;
+    height: 648px;
+  }
+
+  .sitemap-modal dl dd {
+    width: 500px;
+  }
+
+  .sitemap-modal dl dd ul li a {
+    width: 500px;
+    height: 156px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .sitemap-modal .pages-inner {
+    width: 1000px;
+  }
+
+  .sitemap-modal dl dt a {
+    width: 500px;
+    height: 648px;
+  }
+
+  .sitemap-modal dl dd {
+    width: 500px;
+  }
+
+  .sitemap-modal dl dd ul li a {
+    width: 500px;
+    height: 156px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
