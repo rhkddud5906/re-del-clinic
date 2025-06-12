@@ -4155,16 +4155,17 @@
 }
 
 .promotion-section .title h3 {
+  line-height: 1.2;
   font-size: 60px;
 }
 
-.promotion-list {
+.promotion-section .list {
   display: grid;
   grid-template-columns: repeat(3, 370px);
   gap: 95px;
 }
 
-.promotion-list a {
+.promotion-section .list a {
   position: relative;
   display: flex;
   align-items: center;
@@ -4174,7 +4175,7 @@
   background-color: #ddd;
 }
 
-.promotion-list a img {
+.promotion-section .list a img {
   position: absolute;
   top: 0;
   left: 0;
@@ -4183,7 +4184,7 @@
   object-fit: cover;
 }
 
-.promotion-list a div {
+.promotion-section .list a div {
   position: absolute;
   inset: 0;
   display: flex;
@@ -4198,20 +4199,38 @@
   opacity: 0;
 }
 
-.promotion-list a:hover div {
+.promotion-section .list a:hover div {
   opacity: 1;
 }
 
-.promotion-list a div h4 {
+.promotion-section .list a div h4 {
   font-size: 36px;
   word-break: break-all;
 }
 
-.promotion-list a div span {
+.promotion-section .list a div span {
   width: 145px;
   height: 50px;
   line-height: 50px;
   background-color: #9dbcd4;
+}
+
+.promotion-section .tail {
+  margin-top: 95px;
+  padding-top: 50px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.promotion-section .tail a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 50px;
+  background-color: var(--color-primary);
+  font-weight: var(--font-weight-Bold);
+  color: var(--color-white);
 }
 
 @media screen and (max-width: 1200px) {
@@ -4228,28 +4247,38 @@
     font-size: 30px;
   }
 
-  .promotion-list {
+  .promotion-section .list {
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
   }
 
-  .promotion-list a {
+  .promotion-section .list a {
     width: 100%;
     height: 100vw;
   }
 
-  .promotion-list a div {
+  .promotion-section .list a div {
     gap: 15px;
     padding: 25px;
   }
 
-  .promotion-list a div h4 {
+  .promotion-section .list a div h4 {
     font-size: 22px;
   }
 
-  .promotion-list a div span {
+  .promotion-section .list a div span {
     width: 100px;
     height: 40px;
     line-height: 40px;
+  }
+
+  .promotion-section .tail {
+    margin-top: 40px;
+    padding-top: 30px;
+  }
+
+  .promotion-section .tail a {
+    width: 180px;
+    height: 38px;
   }
 }

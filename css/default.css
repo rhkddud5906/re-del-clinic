@@ -168,32 +168,28 @@ textarea {
   font-family: "Pretendard";
   font-weight: 700;
   font-display: swap;
-  src: local("Pretendard Bold"),
-    url("../font/Pretendard-Bold.woff2") format("woff2");
+  src: local("Pretendard Bold"), url("../font/Pretendard-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 600;
   font-display: swap;
-  src: local("Pretendard SemiBold"),
-    url("../font/Pretendard-SemiBold.woff2") format("woff2");
+  src: local("Pretendard SemiBold"), url("../font/Pretendard-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 500;
   font-display: swap;
-  src: local("Pretendard Medium"),
-    url("../font/Pretendard-Medium.woff2") format("woff2");
+  src: local("Pretendard Medium"), url("../font/Pretendard-Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Pretendard";
   font-weight: 300;
   font-display: swap;
-  src: local("Pretendard Light"),
-    url("../font/Pretendard-Light.woff2") format("woff2");
+  src: local("Pretendard Light"), url("../font/Pretendard-Light.woff2") format("woff2");
 }
 
 .mobile-view {
@@ -1079,8 +1075,7 @@ textarea {
 
 .input-selection input:checked {
   border-color: var(--color-primary);
-  background: var(--color-primary) url("../img/common/selection-ico.png")
-    no-repeat center/14px;
+  background: var(--color-primary) url("../img/common/selection-ico.png") no-repeat center/14px;
 }
 
 .input-selection label {
@@ -1520,5 +1515,71 @@ textarea {
     height: 45px;
     margin-top: 40px;
     font-size: 16px;
+  }
+}
+
+/************** 페이지네이션 **************/
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 95px;
+}
+
+.pagination .num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-primary);
+  font-family: "Poppins";
+  font-weight: var(--font-weight-Bold);
+  transition: all 0.3s;
+}
+
+.pagination .num:hover {
+  background-color: #f4f4f4;
+}
+
+.pagination .num.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.pagination .prev {
+  margin-right: 10px;
+}
+
+.pagination .next {
+  margin-left: 10px;
+}
+
+.pagination .num img {
+  height: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .pagination {
+    gap: 5px;
+    margin-top: 40px;
+  }
+
+  .pagination .num {
+    width: 30px;
+    height: 30px;
+  }
+
+  .pagination .prev {
+    margin-right: 5px;
+  }
+
+  .pagination .next {
+    margin-left: 5px;
+  }
+
+  .pagination .num img {
+    height: 10px;
   }
 }
