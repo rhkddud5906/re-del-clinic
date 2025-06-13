@@ -900,12 +900,7 @@
           <div class="pages-inner">
             <div class="pages-title v1">
               <h5 class="font-weight-light">리쥬베룩부터 아쿠아밤까지</h5>
-              <h3>
-                <span class="font-weight-light">지금 가장 인기 있는</span
-                ><br /><span class="font-poppins"
-                  >JUPITER X - BOOSTER 조합</span
-                >
-              </h3>
+              <h3><span class="font-weight-light">지금 가장 인기 있는</span><br /><span class="font-poppins">JUPITER X - BOOSTER 조합</span></h3>
             </div>
 
             <ul>
@@ -1301,6 +1296,27 @@
                 start: "top 80%",
                 end: "bottom top",
                 scrub: true,
+              },
+            });
+
+            var pagesJupiterMixtureThumbnailSwiper2 = new Swiper(".pages-jupiter-mixture-thumbnail-swiper2", {
+              loop: true,
+              spaceBetween: 5,
+              slidesPerView: 2,
+              freeMode: true,
+              watchSlidesProgress: true,
+            });
+
+            var pagesJupiterMixtureGallerySwiper2 = new Swiper(".pages-jupiter-mixture-gallery-swiper2", {
+              loop: true,
+              spaceBetween: 10,
+              autoHeight: true,
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              thumbs: {
+                swiper: pagesJupiterMixtureThumbnailSwiper2,
               },
             });
 
