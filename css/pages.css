@@ -257,6 +257,12 @@
   background-position: center;
 }
 
+/* ST 3차 소스 */
+.pages-intro.short {
+  min-height: 400px;
+}
+/* EN 3차 소스 */
+
 .pages-intro .txt {
   text-align: center;
   color: var(--color-white);
@@ -467,6 +473,13 @@
 }
 
 @media screen and (max-width: 1200px) {
+  /* ST 3차 소스 */
+  .pages-intro.short {
+    min-height: 300px;
+    padding-top: 79px;
+  }
+  /* EN 3차 소스 */
+
   .pages-intro .txt h3 {
     font-size: 30px;
   }
@@ -1932,10 +1945,11 @@
 }
 
 .pages-jupiter-mixture2 .item > h5 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .pages-jupiter-mixture2 .item > h5 span {
+  font-size: 24px;
   font-weight: var(--font-weight-Light);
 }
 
@@ -2379,6 +2393,17 @@
 
   .pages-jupiter-mixture-gallery-swiper2 .item > h5 {
     text-align: center;
+    font-size: 22px;
+    opacity: 0;
+    transition: all 2s ease 0.2s;
+  }
+
+  .pages-jupiter-mixture-gallery-swiper2 .swiper-slide-active .item > h5 {
+    opacity: 1;
+  }
+
+  .pages-jupiter-mixture-gallery-swiper2 .item > h5 span {
+    display: block;
     font-size: 16px;
   }
 
@@ -2396,11 +2421,20 @@
   .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt {
     width: 75px;
     height: 75px;
+    padding: 5px;
     border-width: 2px;
   }
 
-  .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt img {
-    width: 80px;
+  .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt img.dewy {
+    width: 25px;
+  }
+
+  .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt img.skin-botox {
+    width: 35px;
+  }
+
+  .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt img.skin-revive {
+    width: 46px;
   }
 
   .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dd {
@@ -2481,21 +2515,33 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 50px;
-    height: 50px;
-    padding: 6px;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
     border-radius: 100%;
     border: 2px dashed var(--color-primary);
+  }
+
+  .pages-jupiter-mixture-thumbnail-swiper2 .mixture dl dt img.dewy {
+    width: 16px;
+  }
+
+  .pages-jupiter-mixture-thumbnail-swiper2 .mixture dl dt img.skin-botox {
+    width: 20px;
+  }
+
+  .pages-jupiter-mixture-thumbnail-swiper2 .mixture dl dt img.skin-revive {
+    width: 26px;
   }
 
   .pages-jupiter-mixture-thumbnail-swiper2 .mixture dl dd {
     margin-top: 8px;
     white-space: nowrap;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .pages-jupiter-mixture-thumbnail-swiper2 .mixture span {
-    padding-top: 13px;
+    padding-top: 8px;
     font-size: 16px;
     font-weight: var(--font-weight-Bold);
   }
