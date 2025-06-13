@@ -2014,6 +2014,63 @@
   font-weight: var(--font-weight-Bold);
   color: var(--color-white);
 }
+
+.pages-jupiter-solution {
+  margin: 120px 0;
+}
+
+.pages-jupiter-solution .content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pages-jupiter-solution .content li {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #9dbcd4;
+}
+
+.pages-jupiter-solution .content li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 100%;
+  border: 1px solid var(--color-white);
+  border-radius: 100%;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.pages-jupiter-solution .content li div span {
+  display: inline-block;
+}
+
+.pages-jupiter-solution .content li div p {
+  font-weight: var(--font-weight-SemiBold);
+}
+
+.pages-jupiter-solution .txt {
+  position: relative;
+  padding-top: 120px;
+  margin-top: 84px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.pages-jupiter-solution .txt:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 90px;
+  background-color: var(--color-primary);
+}
 /* EN 3차 소스 */
 
 .pages-jupiter-guide {
@@ -2545,6 +2602,41 @@
     font-size: 16px;
     font-weight: var(--font-weight-Bold);
   }
+
+  .pages-jupiter-solution {
+    margin: 80px 0;
+  }
+
+  .pages-jupiter-solution .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .pages-jupiter-solution .content li {
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+  }
+
+  .pages-jupiter-solution .content li div {
+    gap: 10px;
+  }
+
+  .pages-jupiter-solution .content li div span img {
+    width: 14px;
+  }
+
+  .pages-jupiter-solution .txt {
+    padding-top: 60px;
+    margin-top: 50px;
+    font-size: 22px;
+  }
+
+  .pages-jupiter-solution .txt:before {
+    height: 45px;
+  }
   /* EN 3차 소스 */
 
   .pages-jupiter-guide {
@@ -3069,6 +3161,7 @@
 
 /************** JUPITER X - Booster **************/
 
+/* ST 삭제 소스 */
 .jupiter-x-booster-solution {
   margin: 120px 0;
 }
@@ -3125,6 +3218,7 @@
   height: 90px;
   background-color: var(--color-primary);
 }
+/* EN 삭제 소스 */
 
 .jupiter-x-booster-list {
   padding: 120px 0;
@@ -3271,6 +3365,7 @@
 }
 
 @media screen and (max-width: 1200px) {
+  /* ST 삭제 소스 */
   .jupiter-x-booster-solution {
     margin: 80px 0;
   }
@@ -3305,6 +3400,7 @@
   .jupiter-x-booster-solution .txt:before {
     height: 45px;
   }
+  /* EN 삭제 소스 */
 
   .jupiter-x-booster-list {
     padding: 80px 0;
