@@ -353,7 +353,12 @@
 .lifting-intro .txt h3,
 .lifting-intro .txt h4 {
   color: #b8a272;
-  background-image: linear-gradient(180deg, #b8a272 30%, #ffffff 50%, #b8a272 70%);
+  background-image: linear-gradient(
+    180deg,
+    #b8a272 30%,
+    #ffffff 50%,
+    #b8a272 70%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -363,7 +368,12 @@
 .skin-intro .txt h3,
 .skin-intro .txt h4 {
   color: #dbdbdb;
-  background-image: linear-gradient(180deg, #dbdbdb 30%, #ffffff 50%, #dbdbdb 70%);
+  background-image: linear-gradient(
+    180deg,
+    #dbdbdb 30%,
+    #ffffff 50%,
+    #dbdbdb 70%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -407,13 +417,23 @@
 .scroll-down:before {
   top: 5px;
   width: 5px;
-  background: linear-gradient(180deg, rgba(238, 238, 238, 0) 0, rgba(238, 238, 238, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(238, 238, 238, 0) 0,
+    rgba(238, 238, 238, 0.5) 60%,
+    #eee 100%
+  );
   border-radius: 60px;
   animation: loopCirWrap 1.5s linear infinite;
 }
 
 .lifting-intro .scroll-down:before {
-  background: linear-gradient(180deg, rgba(243, 232, 187, 0) 0, rgba(243, 232, 187, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(243, 232, 187, 0) 0,
+    rgba(243, 232, 187, 0.5) 60%,
+    #eee 100%
+  );
 }
 
 .scroll-down:after {
@@ -647,7 +667,8 @@
 .one-wrinkle-intro {
   position: relative;
   min-height: 100vh;
-  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg") no-repeat top/cover;
+  background: #edf0f2 url("../img/pages/story/one-wrinkle/intro-img.jpg")
+    no-repeat top/cover;
 }
 
 .one-wrinkle-intro .txt {
@@ -698,7 +719,12 @@
 }
 
 .one-wrinkle-intro .scroll-down:before {
-  background: linear-gradient(180deg, rgba(33, 30, 60, 0) 0, rgba(33, 30, 60, 0.5) 60%, #eee 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 30, 60, 0) 0,
+    rgba(33, 30, 60, 0.5) 60%,
+    #eee 100%
+  );
 }
 
 .one-wrinkle-intro .scroll-down:after {
@@ -753,7 +779,8 @@
 }
 
 .one-wrinkle-section3 {
-  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/story/one-wrinkle/section3-bg.jpg") no-repeat
+    top/cover;
 }
 
 .one-wrinkle-section3 .pages-inner {
@@ -778,7 +805,13 @@
     display: flex;
     justify-content: center;
     background: #e9eaec;
-    background: linear-gradient(180deg, rgba(233, 234, 236, 1) 0%, rgba(238, 239, 241, 1) 22%, rgba(242, 243, 245, 1) 52%, rgba(242, 244, 245, 1) 88%);
+    background: linear-gradient(
+      180deg,
+      rgba(233, 234, 236, 1) 0%,
+      rgba(238, 239, 241, 1) 22%,
+      rgba(242, 243, 245, 1) 52%,
+      rgba(242, 244, 245, 1) 88%
+    );
   }
 
   .one-wrinkle-intro .img {
@@ -1154,7 +1187,8 @@
   .equipment-intro-gallery-swiper {
     margin-bottom: 20px;
     border-radius: 7px;
-    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg") no-repeat center/cover;
+    background: url("../img/pages/story/equipment-intro/mobile/gallery-bg.jpg")
+      no-repeat center/cover;
   }
 
   .equipment-intro-gallery-swiper .txt {
@@ -1263,11 +1297,25 @@
   letter-spacing: 2px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(odd) {
   width: 34px;
 }
 
-.contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+.contact-section1
+  .content
+  .left
+  dl.hours-wrap
+  ul
+  li
+  div.time
+  span:nth-child(even) {
   width: 60px;
 }
 
@@ -1394,11 +1442,25 @@
     gap: 2px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(odd) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(odd) {
     width: 25px;
   }
 
-  .contact-section1 .content .left dl.hours-wrap ul li div.time span:nth-child(even) {
+  .contact-section1
+    .content
+    .left
+    dl.hours-wrap
+    ul
+    li
+    div.time
+    span:nth-child(even) {
     width: 45px;
   }
 
@@ -1482,7 +1544,8 @@
 }
 
 .pages-jupiter-protocol {
-  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+    top/cover;
 }
 
 .pages-jupiter-protocol .pages-inner {
@@ -1749,7 +1812,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/jupiter/jupiter-mixture-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/jupiter/jupiter-mixture-bg.jpg") no-repeat
+    top/cover;
 }
 
 .pages-jupiter-mixture .pages-inner {
@@ -1862,7 +1926,9 @@
   border: 1px solid #ddd;
 }
 
-.pages-jupiter-mixture-thumbnail-swiper .swiper-slide-thumb-active .mixture:before {
+.pages-jupiter-mixture-thumbnail-swiper
+  .swiper-slide-thumb-active
+  .mixture:before {
   opacity: 1;
   border-width: 2px;
   border-color: var(--color-primary);
@@ -1905,7 +1971,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/jupiter/jupiter-mixture-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/jupiter/jupiter-mixture-bg.jpg") no-repeat
+    top/cover;
 }
 
 .pages-jupiter-mixture2 .pages-inner {
@@ -2146,7 +2213,8 @@
   }
 
   .pages-jupiter-protocol {
-    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat top/cover;
+    background: url("../img/pages/jupiter/jupiter-protocol-bg.jpg") no-repeat
+      top/cover;
   }
 
   .pages-jupiter-protocol .pages-inner {
@@ -2482,15 +2550,33 @@
     border-width: 2px;
   }
 
-  .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt img.dewy {
+  .pages-jupiter-mixture-gallery-swiper2
+    .item
+    .content
+    .mixture
+    dl
+    dt
+    img.dewy {
     width: 25px;
   }
 
-  .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt img.skin-botox {
+  .pages-jupiter-mixture-gallery-swiper2
+    .item
+    .content
+    .mixture
+    dl
+    dt
+    img.skin-botox {
     width: 35px;
   }
 
-  .pages-jupiter-mixture-gallery-swiper2 .item .content .mixture dl dt img.skin-revive {
+  .pages-jupiter-mixture-gallery-swiper2
+    .item
+    .content
+    .mixture
+    dl
+    dt
+    img.skin-revive {
     width: 46px;
   }
 
@@ -2557,7 +2643,9 @@
     border: 1px solid #ddd;
   }
 
-  .pages-jupiter-mixture-thumbnail-swiper2 .swiper-slide-thumb-active .mixture:before {
+  .pages-jupiter-mixture-thumbnail-swiper2
+    .swiper-slide-thumb-active
+    .mixture:before {
     opacity: 1;
     border-width: 2px;
     border-color: var(--color-primary);
@@ -2785,7 +2873,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/jupiter-x-lifting/synergy-bg.jpg")
+    no-repeat top/cover;
 }
 
 .jupiter-x-lifting-synergy .pages-inner {
@@ -2907,7 +2996,9 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #d8be97 url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat center;
+  background: #d8be97
+    url("../img/pages/lifting/jupiter-x-lifting/synergy-ico.png") no-repeat
+    center;
 }
 
 .jupiter-x-lifting-synergy .guide ul li .line {
@@ -3488,7 +3579,11 @@
     background-color: #a7c3d8;
   }
 
-  .jupiter-x-booster-mixture ul li.composition div span:not(:first-child):before {
+  .jupiter-x-booster-mixture
+    ul
+    li.composition
+    div
+    span:not(:first-child):before {
     top: -10px;
     left: 0;
     right: 0;
@@ -3658,11 +3753,24 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item {
   position: relative;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3674,17 +3782,40 @@
   color: #666;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item input:checked + label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  input:checked
+  + label {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  label
+  img {
   width: 15px;
   margin-left: auto;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-list .selection-item input {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-list
+  .selection-item
+  input {
   position: absolute;
   appearance: none;
 }
@@ -3695,16 +3826,36 @@
   gap: 10px;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item {
   position: relative;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  input {
   position: absolute;
   appearance: none;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  label {
   position: relative;
   display: flex;
   align-items: center;
@@ -3715,7 +3866,15 @@
   cursor: pointer;
 }
 
-.reservation-section .form-list dl dd .form-box .selection-doctor .selection-item input:checked + label {
+.reservation-section
+  .form-list
+  dl
+  dd
+  .form-box
+  .selection-doctor
+  .selection-item
+  input:checked
+  + label {
   border-color: var(--color-primary);
 }
 
@@ -4023,12 +4182,27 @@
     height: 38px;
   }
 
-  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label {
+  .reservation-section
+    .form-list
+    dl
+    dd
+    .form-box
+    .selection-list
+    .selection-item
+    label {
     height: 38px;
     padding: 0 10px;
   }
 
-  .reservation-section .form-list dl dd .form-box .selection-list .selection-item label img {
+  .reservation-section
+    .form-list
+    dl
+    dd
+    .form-box
+    .selection-list
+    .selection-item
+    label
+    img {
     width: 10px;
   }
 
@@ -4172,7 +4346,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/ulthera/protocol-bg.jpg") no-repeat
+    top/cover;
 }
 
 .ulthera-protocol .pages-inner {
@@ -4281,7 +4456,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/thermage/offer-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/thermage/offer-bg.jpg") no-repeat
+    top/cover;
 }
 
 .thermage-offer .pages-inner {
@@ -4413,7 +4589,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/lifting/potenza/method-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/lifting/potenza/method-bg.jpg") no-repeat
+    top/cover;
 }
 
 .potenza-method .pages-inner {
@@ -4714,7 +4891,8 @@
   left: 0;
   right: 0;
   height: 685px;
-  background: url("../img/pages/skin/juvelook-skin/principle-bg.jpg") no-repeat top/cover;
+  background: url("../img/pages/skin/juvelook-skin/principle-bg.jpg") no-repeat
+    top/cover;
 }
 
 .juvelook-skin-principle .pages-inner {
@@ -4777,107 +4955,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.juvelook-skin-notice .content {
-  padding: 60px 50px;
-  border-radius: 104px;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-}
-
-.juvelook-skin-notice .content {
-  display: flex;
-  align-items: flex-start;
-  gap: 50px;
-}
-
-.juvelook-skin-notice .content li .title {
-  width: 205px;
-  height: 45px;
-  margin-bottom: 43px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 30px;
-}
-
-.juvelook-skin-notice .content li:first-child .title {
-  background-color: #347b8a;
-}
-
-.juvelook-skin-notice .content li:last-child .title {
-  background-color: #313945;
-}
-
-.juvelook-skin-notice .content li dl {
-  display: flex;
-  align-items: flex-end;
-}
-
-.juvelook-skin-notice .content li dl dt {
-  position: relative;
-}
-
-.juvelook-skin-notice .content li dl dt span {
-  position: absolute;
-  left: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 115px;
-  height: 60px;
-  text-align: center;
-  line-height: 1;
-  font-size: 30px;
-  border-radius: 10px;
-}
-
-.juvelook-skin-notice .content li:first-child dl dt span:nth-child(2) {
-  bottom: 75px;
-  background-color: #347b8a;
-}
-
-.juvelook-skin-notice .content li:first-child dl dt span:nth-child(3) {
-  bottom: 10px;
-  background-color: var(--color-primary);
-}
-
-.juvelook-skin-notice .content li:last-child dl dt span:nth-child(2) {
-  bottom: 75px;
-  height: 120px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  background-color: #6ca4a7;
-}
-
-.juvelook-skin-notice .content li:last-child dl dt span:nth-child(3) {
-  bottom: 10px;
-  background-color: #313945;
-}
-
-.juvelook-skin-notice .content li dl dd {
-  position: relative;
-  margin: 0 0 20px 10px;
-  padding: 20px 0 20px 10px;
-  font-size: 30px;
-}
-
-.juvelook-skin-notice .content li dl dd:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 2px;
-  background-color: var(--color-white);
-}
-
-.juvelook-skin-notice .content li div {
-  margin-top: 50px;
-}
-
-.juvelook-skin-notice .content li div p {
-  font-size: 30px;
 }
 
 .juvelook-skin-notice .txt h3 {
@@ -4957,75 +5034,6 @@
 
   .juvelook-skin-notice .pages-inner {
     flex-direction: column;
-  }
-
-  .juvelook-skin-notice .content {
-    padding: 20px;
-    border-radius: 40px;
-  }
-
-  .juvelook-skin-notice .content {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  .juvelook-skin-notice .content li .title {
-    width: 110px;
-    height: 30px;
-    line-height: 30px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-
-  .juvelook-skin-notice .content li dl dt img {
-    max-width: 70px;
-  }
-
-  .juvelook-skin-notice .content li dl dt span {
-    left: 5px;
-    width: 60px;
-    height: 36px;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-
-  .juvelook-skin-notice .content li:first-child dl dt span:nth-child(2) {
-    bottom: 44px;
-  }
-
-  .juvelook-skin-notice .content li:first-child dl dt span:nth-child(3) {
-    bottom: 5px;
-  }
-
-  .juvelook-skin-notice .content li:last-child dl dt span:nth-child(2) {
-    bottom: 44px;
-    height: 56px;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-  }
-
-  .juvelook-skin-notice .content li:last-child dl dt span:nth-child(3) {
-    bottom: 5px;
-  }
-
-  .juvelook-skin-notice .content li dl dd {
-    margin: 0 0 10px 5px;
-    padding: 10px 0 10px 5px;
-    font-size: 16px;
-  }
-
-  .juvelook-skin-notice .content li dl dd:before {
-    width: 1px;
-  }
-
-  .juvelook-skin-notice .content li div {
-    margin-top: 20px;
-  }
-
-  .juvelook-skin-notice .content li div p {
-    font-size: 16px;
   }
 
   .juvelook-skin-notice .txt h3 {
