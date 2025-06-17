@@ -5094,3 +5094,188 @@
     margin-top: 40px;
   }
 }
+
+/* ST 3차 소스 */
+/************** 코레지 **************/
+
+.corage-handpiece {
+  position: relative;
+  padding: 120px 0;
+}
+
+.corage-handpiece:before,
+.corage-handpiece:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 342px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.corage-handpiece:before {
+  top: 0;
+  background-image: url("../img/pages/lifting/corage/handpiece-bg1.jpg");
+}
+
+.corage-handpiece:after {
+  bottom: 0;
+  background-image: url("../img/pages/lifting/corage/handpiece-bg2.jpg");
+}
+
+.corage-handpiece ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px 0;
+}
+
+.corage-handpiece ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.corage-handpiece ul li .img {
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 4px 18px 7px;
+}
+
+.corage-handpiece ul li .txt h4 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.corage-handpiece ul li .txt h5 {
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+}
+
+.corage-cell-guide {
+  position: relative;
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.corage-cell-guide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 685px;
+  background: url("../img/pages/lifting/corage/cell-guide-bg.jpg") no-repeat
+    top/cover;
+}
+
+.corage-cell-guide .pages-inner {
+  position: relative;
+}
+
+.corage-cell-guide ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.corage-cell-guide ul li {
+  text-align: center;
+}
+
+.corage-cell-guide ul li .img {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 4px 18px 7px;
+}
+
+.corage-cell-guide ul li h5 {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: var(--font-weight-Light);
+}
+
+.corage-system .content {
+  justify-content: flex-start;
+  gap: 300px;
+}
+
+.corage-system .img img.shadow {
+  bottom: -30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .corage-handpiece {
+    padding: 80px 0;
+  }
+
+  .corage-handpiece:before,
+  .corage-handpiece:after {
+    height: 170px;
+  }
+
+  .corage-handpiece ul {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px 0;
+  }
+
+  .corage-handpiece ul li .img img {
+    width: 150px;
+  }
+
+  .corage-handpiece ul li .txt {
+    flex: 1;
+  }
+
+  .corage-handpiece ul li .txt h4 {
+    font-size: 16px;
+  }
+
+  .corage-handpiece ul li .txt h5 {
+    font-size: 14px;
+  }
+
+  .corage-cell-guide {
+    padding: 80px 0;
+  }
+
+  .corage-cell-guide:before {
+    height: 190px;
+  }
+
+  .corage-cell-guide ul {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .corage-cell-guide ul li {
+    text-align: center;
+  }
+
+  .corage-cell-guide ul li .img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    box-shadow: none;
+  }
+
+  .corage-cell-guide ul li h5 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .corage-system .content {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .corage-system .img {
+    right: 0;
+    top: 20px;
+  }
+
+  .corage-system .img img:first-child {
+    height: 180px;
+  }
+}
+/* EN 3차 소스 */
