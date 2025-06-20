@@ -28,6 +28,13 @@
   font-size: 24px;
 }
 
+/* ST 4차 소스 */
+.pages-title.v1 h4 {
+  font-size: 30px;
+  font-weight: var(--font-weight-Light);
+}
+/* EN 4차 소스 */
+
 .pages-title.v1 h3 {
   line-height: 1.2;
   font-size: 60px;
@@ -111,6 +118,12 @@
     margin-bottom: 15px;
     font-size: 16px;
   }
+
+  /* ST 4차 소스 */
+  .pages-title.v1 h4 {
+    font-size: 18px;
+  }
+  /* EN 4차 소스 */
 
   .pages-title.v1 h3 {
     font-size: 30px;
@@ -5095,7 +5108,7 @@
   }
 }
 
-/* ST 3차 소스 */
+/* ST 4차 소스 */
 /************** 코레지 **************/
 
 .corage-handpiece {
@@ -5278,4 +5291,212 @@
     height: 180px;
   }
 }
-/* EN 3차 소스 */
+
+/************** 트리코어 **************/
+
+.tricore-info .txt {
+  margin-top: 70px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.tricore-cooling-system {
+  position: relative;
+  padding: 120px 0;
+  background-color: var(--color-offWhite);
+}
+
+.tricore-cooling-system:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 685px;
+  background: url("../img/pages/lifting/tricore/cooling-system-bg.jpg")
+    no-repeat top/cover;
+}
+
+.tricore-cooling-system .pages-inner {
+  position: relative;
+}
+
+.tricore-cooling-system .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tricore-cooling-system .content .txt {
+  font-size: 30px;
+}
+
+.tricore-lifting {
+  position: relative;
+  padding: 120px 0;
+}
+
+.tricore-lifting:before,
+.tricore-lifting:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 342px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tricore-lifting:before {
+  top: 0;
+  background-image: url("../img/pages/lifting/tricore/lifting-bg1.jpg");
+}
+
+.tricore-lifting:after {
+  bottom: 0;
+  background-image: url("../img/pages/lifting/tricore/lifting-bg2.jpg");
+}
+
+.tricore-lifting .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.tricore-lifting .content dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tricore-lifting .content dl dt {
+  width: 375px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 24px;
+  font-weight: var(--font-weight-Bold);
+  color: var(--color-white);
+}
+
+.tricore-lifting .content dl:nth-child(1) dt {
+  background-color: rgba(188, 143, 79, 0.7);
+}
+
+.tricore-lifting .content dl:nth-child(2) dt {
+  background-color: rgba(162, 179, 214, 0.7);
+}
+
+.tricore-lifting .content dl:nth-child(3) dt {
+  background-color: rgba(210, 155, 194, 0.7);
+}
+
+.tricore-lifting .content dl dd {
+  flex: 1;
+  padding-left: 200px;
+}
+
+.tricore-lifting .content dl dd h5 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.tricore-lifting .content dl dd p {
+  font-size: 24px;
+}
+
+.tricore-system .content {
+  justify-content: flex-start;
+  gap: 300px;
+}
+
+.tricore-system .img img.shadow {
+  bottom: -30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .tricore-info .txt {
+    margin-top: 40px;
+  }
+
+  .tricore-cooling-system {
+    padding: 80px 0;
+  }
+
+  .tricore-cooling-system:before {
+    height: 190px;
+  }
+
+  .tricore-cooling-system .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .tricore-cooling-system .content .txt {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .tricore-lifting {
+    padding: 80px 0;
+  }
+
+  .tricore-lifting:before,
+  .tricore-lifting:after {
+    height: 170px;
+  }
+
+  .tricore-lifting .content {
+    align-items: center;
+    gap: 40px;
+    width: auto;
+  }
+
+  .tricore-lifting .content dl {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .tricore-lifting .content dl dt {
+    width: 260px;
+    height: 120px;
+    font-size: 14px;
+  }
+
+  .tricore-lifting .content dl dd {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .tricore-lifting .content dl dd h5 {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .tricore-lifting .content dl dd p {
+    font-size: 14px;
+  }
+
+  .tricore-system .content {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .tricore-system .img {
+    right: 0;
+    top: 20px;
+  }
+
+  .tricore-system .img img:first-child {
+    height: 180px;
+  }
+}
+/* EN 4차 소스 */
